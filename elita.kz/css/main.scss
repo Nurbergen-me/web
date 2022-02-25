@@ -1,8 +1,26 @@
 $main: #81b7e4;
 $green: #36bbb2;
 
+@font-face {font-family: "Opinion Pro Regular";
+  src: url("../fonts/e9fbd19ace1c6ff2ff95b701602e32d2.eot"); /* IE9*/
+  src: url("../fonts/e9fbd19ace1c6ff2ff95b701602e32d2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/e9fbd19ace1c6ff2ff95b701602e32d2.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/e9fbd19ace1c6ff2ff95b701602e32d2.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/e9fbd19ace1c6ff2ff95b701602e32d2.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/e9fbd19ace1c6ff2ff95b701602e32d2.svg#Opinion Pro Regular") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Opinion Pro Bold";
+  src: url("../fonts/2a703c00ea851365026ddfc049dbc0d7.eot"); /* IE9*/
+  src: url("../fonts/2a703c00ea851365026ddfc049dbc0d7.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/2a703c00ea851365026ddfc049dbc0d7.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/2a703c00ea851365026ddfc049dbc0d7.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/2a703c00ea851365026ddfc049dbc0d7.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/2a703c00ea851365026ddfc049dbc0d7.svg#Opinion Pro Bold") format("svg"); /* iOS 4.1- */
+}
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Opinion Pro Regular";
   font-size: 17px;
   color: #333333;
   line-height: 1.25em;
@@ -30,19 +48,19 @@ select {
 }
 
 h1 {
+  font-family: "Opinion Pro Bold", sans-serif;
   font-size: 38px;
-  font-weight: 500;
 }
 
 h2 {
-  font-weight: 600;
+  font-family: "Opinion Pro Bold", sans-serif;
   font-size: 33px;
   margin-bottom: 28px;
 }
 
 h3 {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h4 {
@@ -51,7 +69,6 @@ h4 {
 
 a {
   text-decoration: none;
-  font-weight: 600;
 }
 
 li {
@@ -296,7 +313,7 @@ section {
   &__item {
     display: block;
     color: inherit;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
 
   &__news {
