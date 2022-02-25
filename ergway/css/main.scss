@@ -15,6 +15,23 @@ select {
   }
 }
 
+select {
+    background-image:url('../img/caret-down.svg') !important;
+    background-position: calc(100% - 14px) 8px, 100% 0 !important;
+    background-size: 14px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px !important;
+
+    &:hover {
+        background-color: #fff !important;
+        color: #212529 !important;
+        filter: invert(100) !important;
+    }
+
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -69,7 +86,7 @@ section {
 }
 
 .btn {
-  background: #fff;
+  background-color: #fff;
   padding: 7px 19px;
   border-radius: 30px;
   text-align: center;
@@ -84,7 +101,7 @@ section {
   }
 
   &:hover {
-    background: #282828;
+    background-color: #282828;
     color: #fff;
   }
 }
@@ -93,6 +110,10 @@ section {
   background: #5e5e5e;
   padding: 10px 0;
   font-weight: 700;
+
+    &__logo {
+        height: 40px;
+    }
 
   &__wrap {
     display: flex;
@@ -162,22 +183,59 @@ section {
 }
 
 .offer {
-  background: url("../img/bg-main.jpg") no-repeat center / cover;
   padding: 65px 0 56px;
   color: #fff;
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background: rgb(0, 0, 0, 0.5);
+        background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 0, 0, 0.8)), color-stop(80%, rgb(255, 255, 250, 0)));
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 250, 0) 80%)
+    }
+
+    &__status {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 10px;
+        background: transparent;
+        opacity: 0.8;
+        z-index: 2;
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        transform: translateY(-40%);
+    }
 
   &__title {
     text-transform: uppercase;
     margin-bottom: 9px;
+      position: relative;
+      z-index: 5;
   }
 
   &__news {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+      position: relative;
+      z-index: 5;
 
     .date {
       font-size: 14px;
       color: #fff;
+        margin-top: 3px;
     }
 
     &-text {
@@ -186,13 +244,34 @@ section {
       margin-bottom: 0;
       margin-left: 14px;
       margin-right: 9px;
-      max-width: 730px;
+      max-width: 90%;
+
+        br {
+            display: none;
+        }
+
+        p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin: 0;
+
+            & + p {
+                display: none;
+            }
+        }
     }
 
     &-btn {
       color: #fff;
-      font-weight: 700;
-      text-decoration: underline;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        max-width: 1900px;
+
+        &:hover {
+            color: #fff;
+        }
     }
   }
 }
@@ -247,10 +326,21 @@ section {
 
     span {
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 1.3em;
-      max-width: 150px;
+      max-width: 90%;
       display: block;
+
+    background: inherit;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter:
+        sepia(5)      /* add some color to grey so the rest works */
+        saturate(100) /* increase strength of color channels */
+        invert(1)     /* invert the color */
+        grayscale(1)  /* make it grey */
+        contrast(9);  /* make it black/white */
     }
 
     &.orange {
@@ -302,6 +392,17 @@ section {
     font-weight: 700;
   }
 
+    &__see {
+        display: flex;
+        margin-left: 30px;
+        margin-right: auto;
+        color: #fff;
+
+        img {
+            filter: invert(1);
+        }
+    }
+
   &__wrap {
     display: flex;
     align-items: center;
@@ -312,6 +413,10 @@ section {
 .obhod {
   overflow: hidden;
   padding-bottom: 0;
+
+    &__video iframe {
+        margin-bottom: 100px;
+    }
 
   &__title {
     font-weight: 400;
@@ -328,9 +433,11 @@ section {
     display: flex;
     align-items: center;
     margin-bottom: 44px;
+      padding-top: 42px;
 
     &-name {
       font-size: 18px;
+        height: 120px;
 
       span {
         font-weight: 700;
@@ -341,7 +448,6 @@ section {
   }
 
   &__photo {
-    margin-top: 42px;
     background: #dbdbdb;
     width: 164px;
     height: 181px;
@@ -379,6 +485,7 @@ section {
       padding-bottom: 3px;
       margin-left: 8px;
       border-bottom: 1px solid;
+        white-space: nowrap;
     }
   }
 
@@ -392,6 +499,21 @@ section {
     margin: auto;
     position: relative;
   }
+
+    .carousel {
+
+        .is-next, .is-prev {
+            background: rgba(225, 225, 225, 0.8)
+        }
+
+        .is-next {
+            right: 40px;
+        }
+
+        .is-prev {
+            left: 40px;
+        }
+    }
 
   &__bottom {
     position: absolute;
@@ -430,7 +552,16 @@ section {
 
   &__date {
     margin-bottom: 44px;
+      display: flex;
+      width: 100%;
+      align-items: center;
   }
+
+    &__eye {
+        width: 16px;
+        margin-left: 20px;
+        margin-right: 5px;
+    }
 }
 
 .slider {
@@ -507,6 +638,7 @@ section {
   &__title {
     margin-bottom: 16px;
   }
+
 
   &__item {
     position: relative;
@@ -594,6 +726,7 @@ section {
 
   &__top {
     display: flex;
+      align-items: center;
     margin-bottom: 13px;
     margin-top: 8px;
     flex-wrap: wrap;
@@ -603,6 +736,10 @@ section {
     }
   }
 
+    &__date {
+        margin-left: auto;
+    }
+
   &__author {
     font-weight: 700;
   }
@@ -610,6 +747,7 @@ section {
 
 .practices {
   padding-top: 0;
+    min-height: calc(100vh - 378px);
 
   &__top {
     margin-bottom: 40px;
@@ -618,16 +756,17 @@ section {
   &__wrap {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
 
   &__item {
-    width: calc(25% - 23px);
+    width: calc(25% - 30px);
     position: relative;
-    margin-bottom: 30px;
+    margin: 0 15px 30px;
     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.2));
     transition: 0.3s ease;
+      height: 260px;
+      overflow: hidden;
 
     &:hover {
       filter: drop-shadow(6px 6px 12px rgba(0, 0, 0, 0.4));
@@ -710,16 +849,19 @@ section {
 }
 
 .news-all {
-  &__title {
-    margin-bottom: 47px;
-  }
+    min-height: calc(100vh - 170px);
 
   &__wrap {
     margin-bottom: 45px;
   }
 
+    &__info {
+        width: 100%;
+    }
+
   &__img {
     width: 360px;
+    min-width: 360px;
     height: 280px;
     object-fit: cover;
     margin-right: 30px;
@@ -737,6 +879,8 @@ section {
   &__text {
     font-size: 20px;
     margin-bottom: 55px;
+      max-height: 85px;
+      overflow: hidden;
   }
 
   &__btn {
@@ -794,7 +938,7 @@ section {
     width: 100%;
     border: 1px solid rgba(40, 40, 40, 0.2);
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-top: 15px;
     padding: 12px 14px;
   }
 

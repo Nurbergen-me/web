@@ -1,0 +1,320 @@
+@media (max-width: 1200px) {
+  .nav__link {
+    padding: 12px 2px;
+  }
+  .nav__lan {
+    margin-right: 5px;
+    margin-left: 21px;
+  }
+  .project.events .project__item {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  .nav__logo {
+    height: 55px;
+  }
+  .nav__link {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .description.main__title,
+  .description__title {
+    margin-bottom: 20px;
+  }
+  .description.main__text,
+  .description__text {
+    font-size: 20px;
+  }
+  .partners__flags {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .partners__flag {
+    width: 20%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+  }
+  .partners__flag-icon {
+    width: 100%;
+  }
+  .partner-countries__item {
+    margin-bottom: 25px;
+    width: calc(90%);
+  }
+  .news__item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+  }
+  .news__btn {
+    margin-top: 10px;
+  }
+  .news__img {
+    width: 300px;
+    height: 220px;
+  }
+  .news__img-wrap {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__companies {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .nav__companies-item {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 20px;
+    width: 49%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav__companies-item .nav__logo {
+    margin: auto;
+    height: 50px;
+  }
+  .nav__companies-item:nth-child(2) {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .nav__companies-item:nth-child(2) .nav__logo {
+    margin: auto;
+    height: 55px;
+  }
+  .nav__controls {
+    display: none !important;
+  }
+  .nav__helper-div {
+    width: 40px;
+  }
+  .offer {
+    height: 400px;
+  }
+  .offer h1 {
+    font-size: 30px;
+  }
+  .offer h2 {
+    font-size: 28px;
+  }
+  .offer__glass {
+    margin-top: 50px;
+  }
+  .description.main .description__title,
+  .description__title {
+    margin-bottom: 15px;
+  }
+  .description.main .description__text,
+  .description__text {
+    font-size: 20px;
+  }
+  .partners {
+    margin-top: 0;
+    padding-bottom: 40px;
+  }
+  .partners__flag {
+    width: 28%;
+    margin-bottom: 15px;
+  }
+  .slick-prev {
+    width: 25px;
+    left: -25px;
+  }
+  .slick-next {
+    width: 25px;
+    right: -25px;
+  }
+  .project.events .project__img,
+  .project.gallery .project__img {
+    height: 130px;
+  }
+  .footer__item_last {
+    margin-top: 30px;
+  }
+  .side-bar__wrap {
+    width: 70%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .about .news__img {
+    width: 250px;
+    height: 170px;
+  }
+  .about .about__img {
+    margin-bottom: 13px;
+    margin-right: 20px;
+  }
+  .partner-countries__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .partner-countries__flag {
+    margin-bottom: 20px;
+  }
+  .team {
+    margin-top: 0;
+  }
+  .team__left {
+    max-width: 155px;
+  }
+  .team__img {
+    width: 100%;
+  }
+  .news__search {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .news .search__search {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .news__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .news__img {
+    margin-bottom: 15px;
+  }
+  .news__info {
+    width: 90%;
+  }
+  .news__country {
+    margin-bottom: 10px;
+  }
+  .news__text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .gallery__item {
+    width: 100%;
+  }
+  .gallery__img {
+    height: 260px;
+  }
+}
+
+@media (max-width: 578px) {
+  h2 {
+    font-size: 26px;
+  }
+  .nav__companies-item {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .offer h1 {
+    font-size: 28px;
+  }
+  .offer__glass {
+    margin-top: 10px;
+  }
+  .partners__title {
+    margin-bottom: 40px;
+  }
+  .partners__flag {
+    width: 44%;
+  }
+  .projects__slider {
+    width: 90%;
+    margin: auto;
+    max-width: 360px;
+  }
+  .projects__all-btn {
+    margin-top: 10px;
+  }
+  .footer__item {
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+  .about .news__img {
+    width: 250px;
+    height: 170px;
+  }
+  .about .about__img {
+    margin-right: 100%;
+    margin-bottom: 20px;
+  }
+  .team__about.active {
+    max-height: 1000px;
+  }
+  .team__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .team__left {
+    max-width: none;
+    margin-bottom: 20px;
+  }
+  .news .search__input {
+    width: 100%;
+  }
+  .news__top {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .news__search {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .links__top {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .links .search__input {
+    width: 100%;
+  }
+  .links__name {
+    max-width: 180px;
+    padding-right: 5px;
+  }
+  .links__item:after {
+    bottom: 24px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
