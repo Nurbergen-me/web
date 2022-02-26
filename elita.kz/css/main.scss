@@ -48,7 +48,7 @@ select {
 }
 
 h1 {
-  font-family: "Opinion Pro Bold", sans-serif;
+  font-family: "Opinion Pro Regular", sans-serif;
   font-size: 38px;
 }
 
@@ -56,6 +56,7 @@ h2 {
   font-family: "Opinion Pro Bold", sans-serif;
   font-size: 33px;
   margin-bottom: 28px;
+  font-weight: 700;
 }
 
 h3 {
@@ -160,7 +161,9 @@ section {
 
 .nav {
   background: #013766;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 1;
   filter: drop-shadow(2px 3px 5px rgba(40, 50, 78, 0.2));
 
@@ -270,6 +273,7 @@ section {
 }
 
 .offer {
+  margin-top: 90px;
 
   &__wrap {
     position: relative;
@@ -289,8 +293,9 @@ section {
       padding: 3px 5px;
     }
     &-bottom {
-      background: linear-gradient(94.83deg, #BCC4DC 15.9%, rgba(229, 229, 229, 0.3) 88.99%);
+      background: linear-gradient(94.83deg, #fff 15.9%, rgba(229, 229, 229, 0.3) 88.99%) !important;
       box-shadow: 2px 3px 5px 3px rgba(40, 50, 78, 0.2);
+      display: block;
       backdrop-filter: blur(8px);
       border-radius: 2px;
       padding: 10px 20px;
@@ -305,6 +310,12 @@ section {
 }
 
 .side-bar {
+
+  &__wrap {
+    height: 450px;
+    overflow-y: scroll;
+  }
+
   &__title {
     font-size: 24px;
     margin-bottom: 20px;
@@ -361,6 +372,7 @@ section {
   }
 
   &__img {
+    object-fit: cover;
     height: 300px;
     width: 100%;
     margin-bottom: 10px;
@@ -405,6 +417,39 @@ section {
   &__item {
     margin-right: 15px;
   }
+}
+
+.projects__left,
+.projects__right {
+  width: 98%;
+}
+
+.slick-prev,
+.slick-next {
+  background: transparent;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: none;
+  filter: invert(1);
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  z-index: 1;
+  padding: 0;
+  transition: 0.5s ease;
+
+  &:hover {
+    .projects__left,
+    .projects__right {
+      //opacity: 25%;
+    }
+  }
+}
+
+.slick-next {
+  left: auto;
+  right: 12px;
 }
 
 
