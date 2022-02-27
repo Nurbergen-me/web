@@ -21,9 +21,64 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/main.css">
-    <!--    <link rel="stylesheet" href="css/media.css">-->
+        <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+<div class="side-bar">
+    <div class="side-bar__wrap">
+        <div class="side-bar__langs">
+        <span class="active">
+            Ru
+        </span>
+        <span> |
+            En
+        </span> |
+        <span>
+            kz
+        </span>
+        </div>
+        <ul class="side-bar__menu">
+            <li>
+                <a href="#tasks" class="side-bar__item">
+                    Решение задач
+                </a>
+            </li>
+            <li>
+                <a href="#business" class="side-bar__item">
+                    Как использовать
+                </a>
+            </li>
+            <li>
+                <a href="#table" class="side-bar__item">
+                    Сравнение редакций
+                </a>
+            </li>
+            <li>
+                <a href="#trust" class="side-bar__item">
+                    О нас
+                </a>
+            </li>
+        </ul>
+        <div class="offer__media media side-bar__media">
+            <a href="#" class="media__link">
+                <img src="img/insta-icon-blue.svg" alt="instagram" class="media__icon">
+            </a>
+            <a href="#" class="media__link">
+                <img src="img/in-icon-blue.svg" alt="linkedIn" class="media__icon">
+            </a>
+            <a href="#" class="media__link">
+                <img src="img/fb-icon-blue.svg" alt="facebook" class="media__icon">
+            </a>
+            <a href="#" class="media__link">
+                <img src="img/tg-icon-blue.svg" alt="telegram" class="media__icon">
+            </a>
+        </div>
+        <form action="" class="header__form side-bar__form active">
+            <input type="text" class="header__search" placeholder="искать">
+            <img src="img/search-icon.svg" alt="search" class="search_icon">
+        </form>
+    </div>
+</div>
     <header class="header" id="header">
         <div class="container">
             <div class="header__wrap d-flex">
@@ -38,36 +93,109 @@
                         <a href="#" class="header__link">
                             О нас
                         </a>
+                        <div class="header-sub">
+                            <a href="#" class="header-sub__item">
+                                Команда
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Партнеры
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Карьера
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Контакты
+                            </a>
+                        </div>
                     </li>
                     <li>
                         <a href="#" class="header__link">
                             Деятельность
                         </a>
+                        <div class="header-sub">
+                            <a href="#" class="header-sub__item">
+                                Econtech
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Suptech
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Fintech
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Цифровой тенге
+                            </a>
+                        </div>
                     </li>
                     <li>
                         <a href="#" class="header__link">
                             Медиа
                         </a>
+                        <div class="header-sub">
+                            <a href="#" class="header-sub__item">
+                                Пресс-релизы
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Аналитика
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Новости
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Мероприятия
+                            </a>
+                        </div>
                     </li>
                     <li>
                         <a href="#" class="header__link">
                             Карьера
                         </a>
+                        <div class="header-sub">
+                            <a href="#" class="header-sub__item">
+                                Законы
+                            </a>
+                            <a href="#" class="header-sub__item">
+                                Прочие документы
+                            </a>
+                        </div>
                     </li>
                 </ul>
                 <div class="header__langs d-flex">
-                    <span class="active">
+                    <div class="offer__media media">
+                        <a href="#" class="media__link">
+                            <img src="img/insta-icon-blue.svg" alt="instagram" class="media__icon">
+                        </a>
+                        <a href="#" class="media__link">
+                            <img src="img/in-icon-blue.svg" alt="linkedIn" class="media__icon">
+                        </a>
+                        <a href="#" class="media__link">
+                            <img src="img/fb-icon-blue.svg" alt="facebook" class="media__icon">
+                        </a>
+                        <a href="#" class="media__link">
+                            <img src="img/tg-icon-blue.svg" alt="telegram" class="media__icon">
+                        </a>
+                    </div>
+                    <span>
                         Ru
+                        <div class="header__langs_hidden">
+                            <span class="">
+                                En
+                            </span> |
+                            <span class="">
+                                kz
+                            </span>
+                        </div>
                     </span> |
-                    <span class="">
-                        En
-                    </span> |
-                    <span class="">
-                        kz
-                    </span>
-                    <button class="btn header__search">
+                    <form action="" class="header__form">
+                        <input type="text" class="header__search" placeholder="искать">
                         <img src="img/search-icon.svg" alt="search" class="search_icon">
-                    </button>
+                    </form>
+                </div>
+                <div class="ham d-lg-none">
+                    <div class="ham__item"></div>
+                    <div class="ham__item"></div>
+                    <div class="ham__item"></div>
+                    <div class="ham__item"></div>
                 </div>
             </div>
         </div>
@@ -82,20 +210,6 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna donec nulla eu purus sed pharetra posuere ut massa ut.
                 </p>
             </div>
-            <div class="offer__media media">
-                <a href="#" class="media__link">
-                    <img src="img/insta-icon.svg" alt="instagram" class="media__icon">
-                </a>
-                <a href="#" class="media__link">
-                    <img src="img/in-icon.svg" alt="linkedIn" class="media__icon">
-                </a>
-                <a href="#" class="media__link">
-                    <img src="img/fb-icon.svg" alt="facebook" class="media__icon">
-                </a>
-                <a href="#" class="media__link">
-                    <img src="img/tg-icon.svg" alt="telegram" class="media__icon">
-                </a>
-            </div>
         </div>
     </section>
     <section class="resent" id="resent">
@@ -107,9 +221,9 @@
                  <div class="resent__item">
                      <img src="img/news-5.jpg" alt="info" class="resent__img">
                      <div class="resent__info">
-                         <h5 class="resent__name">
+                         <a href="#" class="resent__name">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </h5>
+                         </a>
                          <p class="resent__text">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
                          </p>
@@ -122,9 +236,9 @@
                  <div class="resent__item">
                      <img src="img/news-2.jpg" alt="info" class="resent__img">
                      <div class="resent__info">
-                         <h5 class="resent__name">
+                         <a href="#" class="resent__name">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </h5>
+                         </a>
                          <p class="resent__text">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
                          </p>
@@ -137,9 +251,9 @@
                  <div class="resent__item">
                      <img src="img/news-4.jpg" alt="info" class="resent__img">
                      <div class="resent__info">
-                         <h5 class="resent__name">
+                         <a href="#" class="resent__name">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </h5>
+                         </a>
                          <p class="resent__text">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
                          </p>
@@ -152,9 +266,9 @@
                  <div class="resent__item">
                      <img src="img/news-3.jpg" alt="info" class="resent__img">
                      <div class="resent__info">
-                         <h5 class="resent__name">
+                         <a href="#" class="resent__name">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </h5>
+                         </a>
                          <p class="resent__text">
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
                          </p>
@@ -191,7 +305,7 @@
                 <span class="shadow-text">Новости</span>
             </h2>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-12 col-lg-5 col-xl-6">
                     <div class="news__main">
                         <img src="img/news-1.jpg" alt="news" class="news__img">
                         <div class="news__info">
@@ -208,7 +322,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-12 col-lg-7 col-xl-6">
                     <div class="news__slider">
                         <div class="news__item">
                             <img src="img/news-2.jpg" alt="news" class="news__img">
@@ -459,7 +573,7 @@
     <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__wrap">
-                <div class="footer__item">
+                <div class="footer__item first">
                     <img src="img/logo-white.svg" alt="logo" class="footer__logo">
                     <div class="footer__info">
                         <div class="footer__info_item">
