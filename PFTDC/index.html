@@ -21,8 +21,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
+<style>
+    .all-links a {
+        display: inline-block;
+        margin-bottom: 5px;
+
+    }
+    .all-links a:hover {
+        color: #00A99D;
+    }
+</style>
 <body>
 <div class="side-bar">
     <div class="side-bar__wrap">
@@ -30,33 +40,88 @@
         <span class="active">
             Ru
         </span>
-        <span> |
+            <span> |
             En
         </span> |
-        <span>
+            <span>
             kz
         </span>
         </div>
         <ul class="side-bar__menu">
-            <li>
-                <a href="#tasks" class="side-bar__item">
-                    Решение задач
+            <li class="single">
+                <a href="#" class="side-bar__item">
+                    Главная
                 </a>
             </li>
             <li>
-                <a href="#business" class="side-bar__item">
-                    Как использовать
-                </a>
-            </li>
-            <li>
-                <a href="#table" class="side-bar__item">
-                    Сравнение редакций
-                </a>
-            </li>
-            <li>
-                <a href="#trust" class="side-bar__item">
+                <a href="#" class="side-bar__item">
                     О нас
                 </a>
+                <div class="header-sub">
+                    <a href="#" class="header-sub__item">
+                        Команда
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Партнеры
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Карьера
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Контакты
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="side-bar__item">
+                    Деятельность
+                </a>
+                <div class="header-sub">
+                    <a href="#" class="header-sub__item">
+                        Econtech
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Suptech
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Fintech
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Цифровой тенге
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="side-bar__item">
+                    Медиа
+                </a>
+                <div class="header-sub">
+                    <a href="#" class="header-sub__item">
+                        Пресс-релизы
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Аналитика
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Новости
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Карьера
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="side-bar__item">
+                    Карьера
+                </a>
+                <div class="header-sub">
+                    <a href="#" class="header-sub__item">
+                        Законы
+                    </a>
+                    <a href="#" class="header-sub__item">
+                        Прочие документы
+                    </a>
+                </div>
             </li>
         </ul>
         <div class="offer__media media side-bar__media">
@@ -79,103 +144,103 @@
         </form>
     </div>
 </div>
-    <header class="header" id="header">
-        <div class="container">
-            <div class="header__wrap d-flex">
-                <img src="img/logo.svg" alt="PFTDC" class="header__logo">
-                <ul class="header__menu d-flex">
-                    <li>
-                        <a href="#" class="header__link active">
-                            Главная
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__wrap d-flex">
+            <img src="img/logo.svg" alt="PFTDC" class="header__logo">
+            <ul class="header__menu d-flex">
+                <li>
+                    <a href="#" class="header__link active">
+                        Главная
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="header__link">
+                        О нас
+                    </a>
+                    <div class="header-sub">
+                        <a href="#" class="header-sub__item">
+                            Команда
                         </a>
-                    </li>
-                    <li>
-                        <a href="#" class="header__link">
-                            О нас
+                        <a href="#" class="header-sub__item">
+                            Партнеры
                         </a>
-                        <div class="header-sub">
-                            <a href="#" class="header-sub__item">
-                                Команда
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Партнеры
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Карьера
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Контакты
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#" class="header__link">
-                            Деятельность
-                        </a>
-                        <div class="header-sub">
-                            <a href="#" class="header-sub__item">
-                                Econtech
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Suptech
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Fintech
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Цифровой тенге
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#" class="header__link">
-                            Медиа
-                        </a>
-                        <div class="header-sub">
-                            <a href="#" class="header-sub__item">
-                                Пресс-релизы
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Аналитика
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Новости
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Мероприятия
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#" class="header__link">
+                        <a href="#" class="header-sub__item">
                             Карьера
                         </a>
-                        <div class="header-sub">
-                            <a href="#" class="header-sub__item">
-                                Законы
-                            </a>
-                            <a href="#" class="header-sub__item">
-                                Прочие документы
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-                <div class="header__langs d-flex">
-                    <div class="offer__media media">
-                        <a href="#" class="media__link">
-                            <img src="img/insta-icon-blue.svg" alt="instagram" class="media__icon">
-                        </a>
-                        <a href="#" class="media__link">
-                            <img src="img/in-icon-blue.svg" alt="linkedIn" class="media__icon">
-                        </a>
-                        <a href="#" class="media__link">
-                            <img src="img/fb-icon-blue.svg" alt="facebook" class="media__icon">
-                        </a>
-                        <a href="#" class="media__link">
-                            <img src="img/tg-icon-blue.svg" alt="telegram" class="media__icon">
+                        <a href="#" class="header-sub__item">
+                            Контакты
                         </a>
                     </div>
-                    <span>
+                </li>
+                <li>
+                    <a href="#" class="header__link">
+                        Деятельность
+                    </a>
+                    <div class="header-sub">
+                        <a href="#" class="header-sub__item">
+                            Econtech
+                        </a>
+                        <a href="#" class="header-sub__item">
+                            Suptech
+                        </a>
+                        <a href="#" class="header-sub__item">
+                            Fintech
+                        </a>
+                        <a href="#" class="header-sub__item">
+                            Цифровой тенге
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="header__link">
+                        Медиа
+                    </a>
+                    <div class="header-sub">
+                        <a href="#" class="header-sub__item">
+                            Пресс-релизы
+                        </a>
+                        <a href="#" class="header-sub__item">
+                            Аналитика
+                        </a>
+                        <a href="#" class="header-sub__item">
+                            Новости
+                        </a>
+                        <a href="#" class="header-sub__item">
+                            Мероприятия
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="header__link">
+                        Карьера
+                    </a>
+                    <div class="header-sub">
+                        <a href="#" class="header-sub__item">
+                            Законы
+                        </a>
+                        <a href="#" class="header-sub__item">
+                            Прочие документы
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="header__langs d-flex">
+                <div class="offer__media media">
+                    <a href="#" class="media__link">
+                        <img src="img/insta-icon-blue.svg" alt="instagram" class="media__icon">
+                    </a>
+                    <a href="#" class="media__link">
+                        <img src="img/in-icon-blue.svg" alt="linkedIn" class="media__icon">
+                    </a>
+                    <a href="#" class="media__link">
+                        <img src="img/fb-icon-blue.svg" alt="facebook" class="media__icon">
+                    </a>
+                    <a href="#" class="media__link">
+                        <img src="img/tg-icon-blue.svg" alt="telegram" class="media__icon">
+                    </a>
+                </div>
+                <span>
                         Ru
                         <div class="header__langs_hidden">
                             <span class="">
@@ -186,509 +251,165 @@
                             </span>
                         </div>
                     </span> |
-                    <form action="" class="header__form">
-                        <input type="text" class="header__search" placeholder="искать">
-                        <img src="img/search-icon.svg" alt="search" class="search_icon">
-                    </form>
-                </div>
-                <div class="ham d-lg-none">
-                    <div class="ham__item"></div>
-                    <div class="ham__item"></div>
-                    <div class="ham__item"></div>
-                    <div class="ham__item"></div>
-                </div>
+                <form action="" class="header__form">
+                    <input type="text" class="header__search" placeholder="искать">
+                    <img src="img/search-icon.svg" alt="search" class="search_icon">
+                </form>
+            </div>
+            <div class="ham d-lg-none">
+                <div class="ham__item"></div>
+                <div class="ham__item"></div>
+                <div class="ham__item"></div>
+                <div class="ham__item"></div>
             </div>
         </div>
-    </header>
-    <section class="offer" id="offer">
-        <div class="container">
-            <h1 class="offer__title">
-                Payment <br> & Financial tehnologies Development Center
-            </h1>
-            <div class="offer__box">
-                <p class="offer__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna donec nulla eu purus sed pharetra posuere ut massa ut.
-                </p>
-            </div>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2>
+            All Links
+        </h2>
+        <div class="all-links">
+            <a href="indexx.html" >
+                Home
+            </a>
+            <a href="news.html">News</a>
+            <a href="news-single.html">News single</a>
+            <br>
+            <a href="analytics.html">Analytics</a>
+            <a href="analytics-single.html">Analytics single</a>
+            <br>
+            <a href="events.html">Events</a>
+            <a href="events-single.html">Events single</a>
+            <br>
+            <a href="release.html">Releases</a>
+            <a href="release.html">Releases single</a>
+            <br>
+            <a href="contacts.html">Contacts</a>
         </div>
-    </section>
-    <section class="resent" id="resent">
-        <div class="container">
-            <h3 class="resent__title">
-                Последняя информация
-            </h3>
-             <div class="resent__wrap resent__slider">
-                 <div class="resent__item">
-                     <img src="img/news-5.jpg" alt="info" class="resent__img">
-                     <div class="resent__info">
-                         <a href="#" class="resent__name">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </a>
-                         <p class="resent__text">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
-                         </p>
-                         <button class="btn resent__btn">
-                             Подробнее
-                             <img src="img/btn-arrow.svg" alt="arrow" class="btn__arrow">
-                         </button>
-                     </div>
-                 </div>
-                 <div class="resent__item">
-                     <img src="img/news-2.jpg" alt="info" class="resent__img">
-                     <div class="resent__info">
-                         <a href="#" class="resent__name">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </a>
-                         <p class="resent__text">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
-                         </p>
-                         <button class="btn resent__btn">
-                             Подробнее
-                             <img src="img/btn-arrow.svg" alt="arrow" class="btn__arrow">
-                         </button>
-                     </div>
-                 </div>
-                 <div class="resent__item">
-                     <img src="img/news-4.jpg" alt="info" class="resent__img">
-                     <div class="resent__info">
-                         <a href="#" class="resent__name">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </a>
-                         <p class="resent__text">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
-                         </p>
-                         <button class="btn resent__btn">
-                             Подробнее
-                             <img src="img/btn-arrow.svg" alt="arrow" class="btn__arrow">
-                         </button>
-                     </div>
-                 </div>
-                 <div class="resent__item">
-                     <img src="img/news-3.jpg" alt="info" class="resent__img">
-                     <div class="resent__info">
-                         <a href="#" class="resent__name">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </a>
-                         <p class="resent__text">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
-                         </p>
-                         <button class="btn resent__btn">
-                             Подробнее
-                             <img src="img/arrow-right-small.svg" alt="arrow" class="btn__arrow">
-                         </button>
-                     </div>
-                 </div>
-                 <div class="resent__item">
-                     <img src="img/news-3.jpg" alt="info" class="resent__img">
-                     <div class="resent__info">
-                         <h5 class="resent__name">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                         </h5>
-                         <p class="resent__text">
-                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Magna donec nulla eu purus sed consectetur posuere ut massa ...
-                         </p>
-                         <button class="btn resent__btn">
-                             Подробнее
-                             <img src="img/arrow-right-small.svg" alt="arrow" class="btn__arrow">
-                         </button>
-                     </div>
-                 </div>
-             </div>
-        </div>
-    </section>
-    <section class="news" id="news">
-        <img src="img/news-scheme-1.png" alt="" class="news-scheme first">
-        <img src="img/news-sheme-2.png" alt="" class="news-scheme second">
-        <div class="container">
-            <h2 class="news__title">
-                Новости
-                <span class="shadow-text">Новости</span>
-            </h2>
-            <div class="row">
-                <div class="col-12 col-lg-5 col-xl-6">
-                    <div class="news__main">
-                        <img src="img/news-1.jpg" alt="news" class="news__img">
-                        <div class="news__info">
-                            <h4 class="news__name">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam purus sit amet
-                            </h4>
-                            <p class="news__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus ...
-                            </p>
-                            <a href="#" class="btn news__btn">
-                                Читать
-                                <img src="img/arrow-right-small.svg" alt="arrow" class="btn__arrow">
-                            </a>
+    </div>
+</section>
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__wrap">
+            <div class="footer__item first">
+                <img src="img/logo-white.svg" alt="logo" class="footer__logo">
+                <div class="footer__info">
+                    <div class="footer__info_item">
+                        <img src="img/home-icon.svg" alt="home" class="footer__icon">
+                        <div class="footer__info_text">
+                            Нур-Султан <br>
+                            Маңгілік Ел 57А, 010000
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-lg-7 col-xl-6">
-                    <div class="news__slider">
-                        <div class="news__item">
-                            <img src="img/news-2.jpg" alt="news" class="news__img">
-                            <div class="news__box">
-                                <h4 class="news__name text-truncate">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam purus sit amet
-                                </h4>
-                                <p class="news__text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus ...
-                                </p>
-                                <a href="#" class="btn news__btn">
-                                    Читать
-                                    <img src="img/arrow-right-small.svg" alt="arrow" class="btn__arrow white">
-                                    <img src="img/arrow-right-sm-green.svg" alt="arrow" class="btn__arrow">
-                                </a>
-                            </div>
+                    <div class="footer__info_item">
+                        <img src="img/phone-icon.svg" alt="phone" class="footer__icon">
+                        <div class="footer__info_text">
+                            +7 7172 77 55 77
                         </div>
-                        <div class="news__item">
-                            <img src="img/news-3.jpg" alt="news" class="news__img">
-                            <div class="news__box">
-                                <h4 class="news__name text-truncate">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam purus sit amet
-                                </h4>
-                                <p class="news__text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus ...
-                                </p>
-                                <a href="#" class="btn news__btn">
-                                    Читать
-                                    <img src="img/arrow-right-small.svg" alt="arrow" class="btn__arrow white">
-                                    <img src="img/arrow-right-sm-green.svg" alt="arrow" class="btn__arrow">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="news__item">
-                            <img src="img/news-4.jpg" alt="news" class="news__img">
-                            <div class="news__box">
-                                <h4 class="news__name text-truncate">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam purus sit amet
-                                </h4>
-                                <p class="news__text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus ...
-                                </p>
-                                <a href="#" class="btn news__btn">
-                                    Читать
-                                    <img src="img/arrow-right-small.svg" alt="arrow" class="btn__arrow white">
-                                    <img src="img/arrow-right-sm-green.svg" alt="arrow" class="btn__arrow">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="news__item">
-                            <img src="img/news-5.jpg" alt="news" class="news__img">
-                            <div class="news__box">
-                                <h4 class="news__name text-truncate">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam purus sit amet
-                                </h4>
-                                <p class="news__text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus ...
-                                </p>
-                                <a href="#" class="btn news__btn">
-                                    Читать
-                                    <img src="img/arrow-right-small.svg" alt="arrow" class="btn__arrow white">
-                                    <img src="img/arrow-right-sm-green.svg" alt="arrow" class="btn__arrow">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="news__item">
-                            <img src="img/news-5.jpg" alt="news" class="news__img">
-                            <div class="news__box">
-                                <h4 class="news__name text-truncate">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam purus sit amet
-                                </h4>
-                                <p class="news__text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus ...
-                                </p>
-                                <a href="#" class="btn news__btn">
-                                    Читать
-                                    <img src="img/arrow-right-small.svg" alt="arrow" class="btn__arrow white">
-                                    <img src="img/arrow-right-sm-green.svg" alt="arrow" class="btn__arrow">
-                                </a>
-                            </div>
+                    </div>
+                    <div class="footer__info_item">
+                        <img src="img/email-icon.svg" alt="email" class="footer__icon">
+                        <div class="footer__info_text">
+                            info@payfintech.kz
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="projects" id="projects">
-        <img src="img/project-dots-1.png" alt="dots" class="projects-dots first">
-        <img src="img/project-dots-2.png" alt="dots" class="projects-dots second">
-        <div class="container">
-            <h2 class="projects__title">
-                Проекты
-                <span class="shadow-text">Проекты</span>
-            </h2>
-            <div class="projects__slider main__slider">
-                <div class="projects__item">
-                    <img src="img/project-1.jpg" alt="Project" class="projects__img">
-                    <div class="projects__info">
-                        <h4 class="projects__name">
-                            Lorem ipsum dolor sit amet
-                        </h4>
-                        <p class="projects__text">
-                            Lorem ipsum dolor sit amet, aliquam consectetur adipiscing elit ut
-                        </p>
-                        <button class="projects__btn btn">
-                            <img src="img/btn-arrow.svg" alt="arrow" class="projects__btn-icon">
-                        </button>
-                    </div>
-                </div>
-                <div class="projects__item">
-                    <img src="img/project-1.jpg" alt="Project" class="projects__img">
-                    <div class="projects__info">
-                        <h4 class="projects__name">
-                            Lorem ipsum dolor sit amet
-                        </h4>
-                        <p class="projects__text">
-                            Lorem ipsum dolor sit amet, aliquam consectetur adipiscing elit ut
-                        </p>
-                        <button class="projects__btn btn">
-                            <img src="img/btn-arrow.svg" alt="arrow" class="projects__btn-icon">
-                        </button>
-                    </div>
-                </div>
-                <div class="projects__item">
-                    <img src="img/project-1.jpg" alt="Project" class="projects__img">
-                    <div class="projects__info">
-                        <h4 class="projects__name">
-                            Lorem ipsum dolor sit amet
-                        </h4>
-                        <p class="projects__text">
-                            Lorem ipsum dolor sit amet, aliquam consectetur adipiscing elit ut
-                        </p>
-                        <button class="projects__btn btn">
-                            <img src="img/btn-arrow.svg" alt="arrow" class="projects__btn-icon">
-                        </button>
-                    </div>
-                </div>
-                <div class="projects__item">
-                    <img src="img/project-1.jpg" alt="Project" class="projects__img">
-                    <div class="projects__info">
-                        <h4 class="projects__name">
-                            Lorem ipsum dolor sit amet
-                        </h4>
-                        <p class="projects__text">
-                            Lorem ipsum dolor sit amet, aliquam consectetur adipiscing elit ut
-                        </p>
-                        <button class="projects__btn btn">
-                            <img src="img/btn-arrow.svg" alt="arrow" class="projects__btn-icon">
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="team" id="team">
-        <img src="img/team-sheme-1.png" alt="" class="team-scheme first">
-        <img src="img/team-sheme-2.png" alt="" class="team-scheme second">
-        <div class="container">
-            <div class="team__top">
-                <h2 class="team__title">
+            <div class="footer__item">
+                <h5 class="footer__name">
+                    О нас
+                </h5>
+                <a href="#" class="footer__link">
                     Команда
-                    <div class="shadow-text">Команда</div>
-                </h2>
-                <a href="#" class="team__btn btn">
-                    Подробнее
-                    <img src="img/arrow-right-sm-green.svg" alt="arrow" class="btn__arrow">
+                </a>
+                <a href="#" class="footer__link">
+                    Партнеры
+                </a>
+                <a href="#" class="footer__link">
+                    Контакты
                 </a>
             </div>
-            <div class="team__wrap main__slider">
-                <div class="team__item">
-                    <img src="img/team-1.jpg" alt="team" class="team__img">
-                    <h4 class="team__name">
-                        Lorem ipsum
-                    </h4>
-                    <div class="team__text">
-                        Amet luctus
-                    </div>
-                </div>
-                <div class="team__item">
-                    <img src="img/team-1.jpg" alt="team" class="team__img">
-                    <h4 class="team__name">
-                        Lorem ipsum
-                    </h4>
-                    <div class="team__text">
-                        Amet luctus
-                    </div>
-                </div>
-                <div class="team__item">
-                    <img src="img/team-1.jpg" alt="team" class="team__img">
-                    <h4 class="team__name">
-                        Lorem ipsum
-                    </h4>
-                    <div class="team__text">
-                        Amet luctus
-                    </div>
-                </div>
-                <div class="team__item">
-                    <img src="img/team-1.jpg" alt="team" class="team__img">
-                    <h4 class="team__name">
-                        Lorem ipsum
-                    </h4>
-                    <div class="team__text">
-                        Amet luctus
-                    </div>
-                </div>
+            <div class="footer__item">
+                <h5 class="footer__name">
+                    Деятельность
+                </h5>
+                <a href="#" class="footer__link">
+                    Направление
+                </a>
+                <a href="#" class="footer__link">
+                    Econ Tech
+                </a>
+                <a href="#" class="footer__link">
+                    Fin Tech
+                </a>
+                <a href="#" class="footer__link">
+                    Sup Tech
+                </a>
+                <a href="#" class="footer__link">
+                    Цифровой тенге
+                </a>
             </div>
-            <div class="logo__wrap team__wrap resent__slider">
-                <div>
-                    <img src="img/logo-1.svg" alt="Logo" class="logo__img">
-                </div>
-                <div>
-                    <img src="img/logo-2.svg" alt="Logo" class="logo__img">
-                </div>
-                <div>
-                    <img src="img/logo-3.svg" alt="Logo" class="logo__img">
-                </div>
-                <div>
-                    <img src="img/logo-4.svg" alt="Logo" class="logo__img">
-                </div>
-                <div>
-                    <img src="img/logo-4.svg" alt="Logo" class="logo__img">
-                </div>
+            <div class="footer__item">
+                <h5 class="footer__name">
+                    Медиа
+                </h5>
+                <a href="#" class="footer__link">
+                    Пресс-релизы
+                </a>
+                <a href="#" class="footer__link">
+                    Аналитика
+                </a>
+                <a href="#" class="footer__link">
+                    Новости
+                </a>
+                <a href="#" class="footer__link">
+                    Мероприятия
+                </a>
+            </div>
+            <div class="footer__item">
+                <h5 class="footer__name">
+                    Карьера
+                </h5>
+                <a href="#" class="footer__link">
+                    Законы
+                </a>
+                <a href="#" class="footer__link">
+                    Прочие документы
+                </a>
             </div>
         </div>
-    </section>
-    <section class="subscribe" id="subscribe">
-        <div class="container">
-            <div class="subscribe__wrap">
-                <div class="subscribe__item">
-                    <h3 class="subscribe__title">
-                        Подпишитесь на нашу рассылку
-                    </h3>
-                    <p class="subscribe__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
-                    </p>
-                </div>
-                <div class="subscribe__item">
-                    <form action="#" class="form subscribe__form">
-                        <input type="text" class="form__input" placeholder="E-mail">
-                        <button type="submit" class="btn form__btn">
-                            Подписаться
-                        </button>
-                    </form>
-                </div>
+        <div class="footer__media media">
+            <a href="#" class="media__link">
+                <img src="img/insta-icon.svg" alt="instagram" class="media__icon">
+            </a>
+            <a href="#" class="media__link">
+                <img src="img/in-icon.svg" alt="linkedIn" class="media__icon">
+            </a>
+            <a href="#" class="media__link">
+                <img src="img/fb-icon.svg" alt="facebook" class="media__icon">
+            </a>
+            <a href="#" class="media__link">
+                <img src="img/tg-icon.svg" alt="telegram" class="media__icon">
+            </a>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__bottom-text">
+                Национальный Банк Казахстана
+            </div>
+            <div class="footer__bottom-credits">
+                @2022 Все права защищены
             </div>
         </div>
-    </section>
-    <footer class="footer" id="footer">
-        <div class="container">
-            <div class="footer__wrap">
-                <div class="footer__item first">
-                    <img src="img/logo-white.svg" alt="logo" class="footer__logo">
-                    <div class="footer__info">
-                        <div class="footer__info_item">
-                            <img src="img/home-icon.svg" alt="home" class="footer__icon">
-                            <div class="footer__info_text">
-                                Нур-Султан <br>
-                                Маңгілік Ел 57А, 010000
-                            </div>
-                        </div>
-                        <div class="footer__info_item">
-                            <img src="img/phone-icon.svg" alt="phone" class="footer__icon">
-                            <div class="footer__info_text">
-                                +7 7172 77 55 77
-                            </div>
-                        </div>
-                        <div class="footer__info_item">
-                            <img src="img/email-icon.svg" alt="email" class="footer__icon">
-                            <div class="footer__info_text">
-                                info@payfintech.kz
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__item">
-                    <h5 class="footer__name">
-                        О нас
-                    </h5>
-                    <a href="#" class="footer__link">
-                        Команда
-                    </a>
-                    <a href="#" class="footer__link">
-                        Партнеры
-                    </a>
-                    <a href="#" class="footer__link">
-                        Контакты
-                    </a>
-                </div>
-                <div class="footer__item">
-                    <h5 class="footer__name">
-                        Деятельность
-                    </h5>
-                    <a href="#" class="footer__link">
-                        Направление
-                    </a>
-                    <a href="#" class="footer__link">
-                        Econ Tech
-                    </a>
-                    <a href="#" class="footer__link">
-                        Fin Tech
-                    </a>
-                    <a href="#" class="footer__link">
-                        Sup Tech
-                    </a>
-                    <a href="#" class="footer__link">
-                        Цифровой тенге
-                    </a>
-                </div>
-                <div class="footer__item">
-                    <h5 class="footer__name">
-                        Медиа
-                    </h5>
-                    <a href="#" class="footer__link">
-                        Пресс-релизы
-                    </a>
-                    <a href="#" class="footer__link">
-                        Аналитика
-                    </a>
-                    <a href="#" class="footer__link">
-                        Новости
-                    </a>
-                    <a href="#" class="footer__link">
-                        Мероприятия
-                    </a>
-                </div>
-                <div class="footer__item">
-                    <h5 class="footer__name">
-                        Карьера
-                    </h5>
-                    <a href="#" class="footer__link">
-                        Законы
-                    </a>
-                    <a href="#" class="footer__link">
-                        Прочие документы
-                    </a>
-                </div>
-            </div>
-            <div class="footer__media media">
-                <a href="#" class="media__link">
-                    <img src="img/insta-icon.svg" alt="instagram" class="media__icon">
-                </a>
-                <a href="#" class="media__link">
-                    <img src="img/in-icon.svg" alt="linkedIn" class="media__icon">
-                </a>
-                <a href="#" class="media__link">
-                    <img src="img/fb-icon.svg" alt="facebook" class="media__icon">
-                </a>
-                <a href="#" class="media__link">
-                    <img src="img/tg-icon.svg" alt="telegram" class="media__icon">
-                </a>
-            </div>
-            <div class="footer__bottom">
-                <div class="footer__bottom-text">
-                    Национальный Банк Казахстана
-                </div>
-                <div class="footer__bottom-credits">
-                    @2022 Все права защищены
-                </div>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
