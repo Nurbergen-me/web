@@ -352,7 +352,7 @@ section {
 
     }
 
-    &.active {
+    &.active, &.fixed {
 
       width: 100%;
 
@@ -1313,7 +1313,7 @@ section {
 
     &__btn {
       height: 50px;
-      width: 280px;
+      width: 260px;
     }
   }
 
@@ -1354,7 +1354,6 @@ section {
 
     &_label {
       font-size: 14px;
-      white-space: nowrap;
       margin-left: 12px;
     }
   }

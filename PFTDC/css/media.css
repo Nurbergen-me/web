@@ -23,7 +23,7 @@
     max-width: 30%;
   }
 
-  .team-scheme {
+  .team-scheme, .posts-scheme {
     max-width: 40%;
   }
 
@@ -89,8 +89,49 @@
   .subscribe__wrap .form__input, .subscribe__wrap .form__btn {
     width: 50%;
   }
+
+  .post__info {
+    justify-content: center;
+  }
+  .post__info .date {
+    margin-right: 0;
+  }
+  .post__info .media {
+    width: 70%;
+    margin: 40px 0 20px;
+  }
+  .post__download {
+    margin: 40px 0 20px;
+  }
+  .post__content p.bold {
+    font-size: 16px;
+  }
+
+  .release {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .release__info {
+    width: auto;
+    margin-top: 30px;
+  }
+
+  .contacts__text {
+    max-width: 90%;
+  }
+  .contacts .form {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 578px) {
+  h2, .pages__title {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
   .news__img {
     width: 130px;
   }
@@ -106,9 +147,16 @@
   .posts__top .pagination {
     display: none;
   }
+  .posts__img_bottom {
+    font-size: 12px;
+  }
 
   .post__img_wrap {
     height: 350px;
+  }
+
+  .form__input {
+    width: 100%;
   }
 }
 

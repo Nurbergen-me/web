@@ -305,18 +305,18 @@ section {
   cursor: pointer;
   display: none;
 }
-.header__form.active {
+.header__form.active, .header__form.fixed {
   width: 100%;
 }
-.header__form.active .header__search {
+.header__form.active .header__search, .header__form.fixed .header__search {
   width: 100%;
   padding: 2px 12px 2px 30px;
   border: 1px solid #00A99D;
 }
-.header__form.active:after {
+.header__form.active:after, .header__form.fixed:after {
   display: block;
 }
-.header__form.active .search_icon {
+.header__form.active .search_icon, .header__form.fixed .search_icon {
   right: calc(100% - 22px);
 }
 .header__form .search_icon {
@@ -1083,7 +1083,7 @@ section {
 }
 .contacts .form__btn {
   height: 50px;
-  width: 280px;
+  width: 260px;
 }
 .contacts__map {
   margin-top: 72px;
@@ -1118,7 +1118,6 @@ section {
 }
 .form__check_label {
   font-size: 14px;
-  white-space: nowrap;
   margin-left: 12px;
 }
 .form__btn {
