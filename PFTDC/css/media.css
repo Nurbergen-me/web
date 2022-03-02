@@ -60,6 +60,19 @@
   .footer__item.first {
     display: block;
   }
+
+  .post__info {
+    flex-wrap: wrap;
+    color: #fff;
+  }
+  .post__info .tags {
+    color: #000;
+    order: 5;
+    margin-top: 20px;
+  }
+  .post__info .tags__wrap {
+    max-width: 90%;
+  }
 }
 @media (max-width: 768px) {
   h2 {
@@ -88,6 +101,14 @@
   }
   .news__text {
     display: none;
+  }
+
+  .posts__top .pagination {
+    display: none;
+  }
+
+  .post__img_wrap {
+    height: 350px;
   }
 }
 

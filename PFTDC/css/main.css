@@ -413,8 +413,16 @@ section {
 .date {
   color: rgba(0, 0, 0, 0.6);
   margin-left: 8px;
+  white-space: nowrap;
 }
 
+.tags {
+  display: flex;
+  align-items: center;
+}
+.tags__wrap {
+  max-width: 500px;
+}
 .tags__text {
   margin-right: 12px;
   font-weight: 600;
@@ -430,7 +438,7 @@ section {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   line-height: 30px;
-  margin-right: 12px;
+  margin: 5px;
 }
 
 .resent {
@@ -982,6 +990,9 @@ section {
   display: flex;
   align-items: center;
 }
+.post__info .posts__img_icon {
+  margin-left: 0;
+}
 .post__info .date {
   margin-right: 66px;
 }
@@ -990,6 +1001,9 @@ section {
 }
 .post__info .media {
   margin-left: auto;
+}
+.post__img {
+  height: 100%;
 }
 .post__img_wrap {
   margin-top: 23px;
@@ -1144,6 +1158,12 @@ section {
 }
 .release__btn {
   padding-left: 0;
+}
+.release__posts .posts__img_wrap {
+  text-align: center;
+}
+.release__posts .release__name {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
