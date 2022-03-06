@@ -122,6 +122,10 @@
   .contacts .form {
     margin-top: 50px;
   }
+
+  .team-page .team__item {
+    margin: 0 0 50px;
+  }
 }
 @media (max-width: 578px) {
   h2, .pages__title {
