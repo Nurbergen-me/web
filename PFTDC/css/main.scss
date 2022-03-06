@@ -436,6 +436,7 @@ section {
   &__title {
     text-transform: uppercase;
     max-width: 680px;
+    margin-bottom: 30px;
   }
 
   &__box {
@@ -1414,7 +1415,21 @@ section {
   }
 }
 
+.team-page {
 
+  &__title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .team__wrap {
+    justify-content: center;
+  }
+
+  .team__item {
+    margin: 0 50px 70px;
+  }
+}
 
 
 
