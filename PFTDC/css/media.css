@@ -126,6 +126,11 @@
   .team-page .team__item {
     margin: 0 0 50px;
   }
+
+  .partners {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 @media (max-width: 578px) {
   h2, .pages__title {

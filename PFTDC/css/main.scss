@@ -1431,6 +1431,53 @@ section {
   }
 }
 
+.partners {
+  display: flex;
+  align-items: center;
+  margin-bottom: 34px;
+
+  &__info {
+    width: fit-content;
+  }
+
+  &__img {
+    max-width: 86%;
+
+    &-wrap {
+      min-width: 172px;
+      width: 172px;
+      height: 162px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-right: 25px;
+
+      &:before, &:after {
+        content: '';
+        background: url('../img/divider.png') no-repeat center;
+        width: 1px;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      &:after {
+        left: auto;
+        right: 0;
+      }
+    }
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 
 
 
