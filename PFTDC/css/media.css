@@ -90,6 +90,9 @@
     width: 50%;
   }
 
+  .post__title {
+    max-width: 100%;
+  }
   .post__info {
     justify-content: center;
   }

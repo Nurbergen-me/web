@@ -107,6 +107,9 @@
     }
   }
   .post {
+    &__title {
+      max-width: 100%;
+    }
     &__info {
       justify-content: center;
 

@@ -152,6 +152,41 @@ $(document).ready(function(){
     ]
   });
 
+  $('.post__posts-wrap').slick({
+    infinite: true,
+    arrows: false,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 460,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
+
 
   $('.ham').click(function() {
     $('.side-bar').toggleClass("show")
