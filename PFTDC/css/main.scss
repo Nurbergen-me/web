@@ -987,6 +987,9 @@ section {
   }
 
   &__name {
+    display: block;
+    font-size: 20px;
+    color: #fff;
     font-weight: 700;
     margin-bottom: 24px;
   }
@@ -1006,6 +1009,7 @@ section {
 
     &_text {
       margin-left: 16px;
+      color: #fff;
     }
   }
 

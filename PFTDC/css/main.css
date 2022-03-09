@@ -825,6 +825,9 @@ section {
   margin-bottom: 46px;
 }
 .footer__name {
+  display: block;
+  font-size: 20px;
+  color: #fff;
   font-weight: 700;
   margin-bottom: 24px;
 }
@@ -840,6 +843,7 @@ section {
 }
 .footer__info_text {
   margin-left: 16px;
+  color: #fff;
 }
 .footer__link {
   display: block;
