@@ -812,6 +812,9 @@ section {
   line-height: 1.5em;
   margin-bottom: 32px;
 }
+.form__sub-title.second {
+  margin-top: 16px;
+}
 .form__input {
   height: 52px;
   padding-left: 19px;

@@ -970,6 +970,10 @@ section {
     font-weight: 600;
     line-height: 1.5em;
     margin-bottom: 32px;
+
+    &.second {
+      margin-top: 16px;
+    }
   }
 
   &__input {
