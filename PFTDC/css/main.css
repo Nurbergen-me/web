@@ -805,10 +805,55 @@ section {
   border-radius: 0 !important;
 }
 
+.form__sub-title {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: 32px;
+}
 .form__input {
   height: 52px;
   padding-left: 19px;
   line-height: 52px;
+}
+.form__file {
+  width: 100% !important;
+  position: relative;
+  padding: 0 0 0 16px;
+  color: #9A9CA5;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+.form__file_input {
+  opacity: 0;
+  cursor: pointer !important;
+  width: 100% !important;
+}
+.form__file label {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  color: #9A9CA5;
+}
+.form__file:before {
+  content: "";
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+.form__file:after {
+  content: "";
+  background: url("../img/download-icon-gray.svg") no-repeat center;
+  height: 100%;
+  width: 48px;
+  border-left: 1px solid #D7DADD;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .form__btn {
   background: #00A99D;
@@ -1271,6 +1316,93 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.vacancy__title {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.vacancy__title.second {
+  margin: 60px 0 70px;
+}
+.vacancy__sub-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.vacancy__img {
+  max-width: 100%;
+  width: 510px;
+  display: block;
+  margin-left: auto;
+}
+.vacancy__item .vacancy__text {
+  max-width: 370px;
+}
+.vacancy__pros {
+  margin-bottom: 18px;
+}
+.vacancy__pros_item {
+  display: block;
+  font-weight: 600;
+  line-height: 1.6em;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 13px;
+}
+.vacancy__pros_item:before {
+  content: "";
+  background: url("../img/check-icon.svg") no-repeat center;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.vacancy__text {
+  margin-bottom: 16px;
+  line-height: 1.5em;
+}
+.vacancy .accordion-item {
+  padding-left: 40px;
+  border: none;
+}
+.vacancy .accordion-header {
+  padding: 12px 0;
+}
+.vacancy .accordion-header button {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: 700;
+  color: #1E212C;
+  position: relative;
+}
+.vacancy .accordion-header button:before, .vacancy .accordion-header button:after {
+  content: "";
+  background: #00A99D;
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+  position: absolute;
+  left: -40px;
+  top: 16px;
+  transition: 0.5s ease-in-out;
+}
+.vacancy .accordion-header button.collapsed:before {
+  transform: rotate(-360deg);
+}
+.vacancy .accordion-header button.collapsed:after {
+  transform: rotate(-270deg);
+}
+.vacancy .accordion-header button:hover {
+  background: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */
