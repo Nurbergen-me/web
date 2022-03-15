@@ -101,6 +101,24 @@
     }
   }
 
+  .tech {
+    &__desk {
+      margin-bottom: 30px;
+    }
+  }
+
+  .person {
+    &__img {
+      margin-bottom: 30px;
+    }
+  }
+
+  .offer_partners {
+    .second {
+      display: none;
+    }
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -185,6 +203,20 @@
       &:first-child {
         margin-top: 0;
       }
+    }
+  }
+  .person {
+    &__name {
+      text-align: left;
+    }
+    &__img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .posts {
+    &-scheme {
+      display: none;
     }
   }
 }

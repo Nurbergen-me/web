@@ -84,6 +84,18 @@
   .vacancy__img {
     display: none;
   }
+
+  .tech__desk {
+    margin-bottom: 30px;
+  }
+
+  .person__img {
+    margin-bottom: 30px;
+  }
+
+  .offer_partners .second {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   h2 {
@@ -155,6 +167,18 @@
   }
   .form__sub-title:first-child {
     margin-top: 0;
+  }
+
+  .person__name {
+    text-align: left;
+  }
+  .person__img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .posts-scheme {
+    display: none;
   }
 }
 @media (max-width: 578px) {
