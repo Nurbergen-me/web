@@ -1055,6 +1055,10 @@ section {
     background: $secondary;
     color: #fff;
     width: 202px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 46px;
+    border-radius: 6px;
   }
 }
 
@@ -1952,6 +1956,122 @@ section {
   &__text {
     margin-top: 27px;
     margin-bottom: 0;
+  }
+}
+
+.digital {
+  padding-top: 40px;
+
+  &__heading {
+    margin-bottom: 27px;
+    line-height: 1.5em;
+  }
+
+  &__title {
+    max-width: 700px;
+    margin: 60px auto;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  &__item {
+    width: 32%;
+    margin-bottom: 30px;
+
+    &_name {
+      margin-bottom: 8px;
+      color: #1E212C;
+      max-width: 80%;
+      height: 53px;
+    }
+    &_text {
+      color: #787A80;
+      line-height: 1.6em;
+      max-width: 290px;
+    }
+
+    &.box {
+      text-align: center;
+      background: #FFFFFF;
+      border: 1px solid #E5E8ED;
+      box-sizing: border-box;
+      box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+      border-radius: 4px;
+      padding: 25px 10px;
+
+      span {
+        font-size: 24px;
+        line-height: 1.5em;
+        font-weight: 700;
+        color: #00A99D;
+        max-width: 200px;
+        margin: auto;
+        display: block;
+      }
+    }
+
+    &.yellow {
+      span {
+        color: #BF9F37;
+      }
+    }
+  }
+
+  &__icon {
+    height: 47px;
+    object-fit: contain;
+    margin-bottom: 30px;
+  }
+
+  &__pros {
+    position: relative;
+    width: 32%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6em;
+    margin-bottom: 16px;
+    padding-left: 50px;
+
+    &:last-child {
+      margin-right: auto;
+      margin-left: 2%;
+    }
+
+    &:before {
+      content: '';
+      background: url('../img/check-icon.svg') no-repeat center;
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.response {
+  padding: 40px 0 60px;
+  background: rgba(248, 247, 247, 0.5);
+
+  &__wrap {
+    max-width: 530px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .form__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 15px;
   }
 }
 

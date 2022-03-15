@@ -96,6 +96,20 @@
   .offer_partners .second {
     display: none;
   }
+
+  .digital__item_name {
+    height: 75px;
+  }
+  .digital__item.box span {
+    font-size: 18px;
+  }
+  .digital__pros {
+    width: 49%;
+    font-size: 18px;
+  }
+  .digital__pros:last-child {
+    margin: 0 0 16px 0;
+  }
 }
 @media (max-width: 768px) {
   h2 {
@@ -180,6 +194,14 @@
   .posts-scheme {
     display: none;
   }
+
+  .digital__item {
+    width: 48%;
+  }
+  .digital__item.box {
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 578px) {
   h2, .pages__title {
@@ -226,6 +248,29 @@
   }
   .vacancy__text {
     font-size: 14px;
+  }
+
+  .digital__title {
+    font-size: 24px;
+    margin: 40px 0;
+  }
+  .digital__item {
+    width: 95%;
+    text-align: center;
+  }
+  .digital__item_name {
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .digital__item_text {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .digital__pros {
+    width: 90%;
+    margin: auto !important;
+    margin-bottom: 15px !important;
   }
 }
 

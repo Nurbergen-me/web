@@ -119,6 +119,27 @@
     }
   }
 
+  .digital {
+    &__item {
+      &_name {
+        height: 75px;
+      }
+
+      &.box span {
+        font-size: 18px;
+      }
+    }
+    &__pros {
+      width: 49%;
+      font-size: 18px;
+
+      &:last-child {
+        margin: 0 0 16px 0;
+      }
+    }
+  }
+
+
 }
 
 @media (max-width: 768px) {
@@ -219,6 +240,17 @@
       display: none;
     }
   }
+
+  .digital {
+    &__item {
+      width: 48%;
+
+      &.box {
+        margin: auto;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 
 @media (max-width: 578px) {
@@ -276,4 +308,34 @@
       font-size: 14px;
     }
   }
+  .digital {
+    &__title {
+      font-size: 24px;
+      margin: 40px 0;
+    }
+
+    &__item {
+      width: 95%;
+      text-align: center;
+
+      &_name {
+        height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+      &_text {
+        margin: auto;
+        margin-bottom: 15px;
+      }
+    }
+
+    &__pros {
+      width: 90%;
+      margin: auto !important;
+      margin-bottom: 15px !important;
+    }
+  }
+
+
 }
