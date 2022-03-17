@@ -220,9 +220,14 @@ $(document).ready(function(){
 
   $(document).click(function (event) {
     var $target = $(event.target);
-    if (!$target.closest('.header__form').length) {
+    if (!$target.closest('.header__form').length || $target.hasClass('close')) {
       $('.header__form').removeClass('active');
     }
+  });
+
+  $('.header__form .close').click(function() {
+    $('.header__search').val('');
+    $('.header__form').removeClass('active');
   });
 
 })

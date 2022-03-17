@@ -340,8 +340,7 @@ section {
     cursor: pointer;
     transition: 0.5s ease;
 
-    &:after {
-      content: "\00D7";
+    .close {
       position: absolute;
       right: 10px;
       top: 1px;
@@ -362,7 +361,7 @@ section {
         border: 1px solid $secondary;
       }
 
-      &:after {
+      .close {
         display: block;
       }
 
