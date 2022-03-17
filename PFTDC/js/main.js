@@ -77,8 +77,8 @@ $(document).ready(function(){
 //
 //
   $('.main__slider').slick({
-    prevArrow: '<button type="button" class="slick-prev"><img src="img/arrow-left.svg" class="projects__left"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right.svg" class="projects__right"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="img/arrow-left-icon.svg" class="projects__left"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right-icon.svg" class="projects__right"></button>',
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -89,14 +89,14 @@ $(document).ready(function(){
         breakpoint: 991,
         settings: {
           slidesToShow: 2,
-          arrows: false,
+          arrows: true,
         }
       },
       {
         breakpoint: 578,
         settings: {
           slidesToShow: 1,
-          arrows: false,
+          arrows: true,
         }
       }
     ]
@@ -106,32 +106,32 @@ $(document).ready(function(){
     // prevArrow: '<button type="button" class="slick-prev"><img src="img/arrow-left.svg" class="projects__left"></button>',
     // nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right.svg" class="projects__right"></button>',
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 1,
     arrows: false,
-    // slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
-    vertical: true,
-    verticalSwiping: true,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 991,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 1,
         }
       },
       {
         breakpoint: 578,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 1,
         }
       }
     ]
   });
 
   $('.resent__slider').slick({
+    prevArrow: '<button type="button" class="slick-prev"><img src="img/arrow-left-icon.svg" class="projects__left"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right-icon.svg" class="projects__right"></button>',
     infinite: true,
-    arrows: false,
+    arrows: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
@@ -140,12 +140,14 @@ $(document).ready(function(){
       {
         breakpoint: 991,
         settings: {
-          slidesToShow: 3,
+          arrow: true,
+          slidesToShow: 2,
         }
       },
       {
         breakpoint: 768,
         settings: {
+          arrow: true,
           slidesToShow: 1,
         }
       }

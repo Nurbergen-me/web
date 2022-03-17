@@ -138,6 +138,16 @@
       }
     }
   }
+  .slick-arrow {
+    width: 37px;
+    height: 37px;
+    left: 25px;
+  }
+
+  .slick-next {
+    left: auto;
+    right: 25px;
+  }
 
 
 }
@@ -181,6 +191,17 @@
 
     &__content p.bold {
       font-size: 16px;
+    }
+  }
+  .news {
+
+    &__name {
+      font-size: 15px;
+      white-space: initial;
+      margin-bottom: 12px;
+    }
+    &__text {
+      display: none;
     }
   }
   .release {
@@ -261,16 +282,21 @@
     font-size: 16px;
   }
   .news {
+
+    &__info {
+      padding-left: 30px;
+    }
+    &__item {
+      height: 150px !important;
+    }
     &__img {
-      width: 130px;
+      width: 120px;
     }
     &__name {
-      font-size: 15px;
-      white-space: initial;
-      margin-bottom: 12px;
+      font-size: 13px;
     }
-    &__text {
-      display: none;
+    &__btn {
+      font-size: 14px;
     }
   }
   .posts {
@@ -334,6 +360,11 @@
       width: 90%;
       margin: auto !important;
       margin-bottom: 15px !important;
+    }
+  }
+  .team {
+    .logo__img {
+      height: 70px;
     }
   }
 

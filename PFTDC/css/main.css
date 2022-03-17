@@ -498,6 +498,7 @@ section {
   color: #fff;
   text-align: left;
   display: block;
+  height: 55px;
 }
 .resent__name:hover {
   color: #fff;
@@ -574,9 +575,12 @@ section {
   padding: 20px 30px 20px 60px;
   width: 100%;
 }
+.news .slick-slide {
+  margin: 10px 10px;
+}
 .news__item {
   background: rgba(255, 255, 255, 0.9);
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
   height: 120px !important;
   display: flex !important;
   justify-content: space-between;
@@ -684,7 +688,7 @@ section {
 
 .projects__left,
 .projects__right {
-  width: 98%;
+  height: 45%;
 }
 
 .slick-list {
@@ -693,7 +697,9 @@ section {
 
 .slick-prev,
 .slick-next {
-  background: transparent;
+  background: rgba(240, 239, 245, 0.8);
+  backdrop-filter: blur(4px);
+  border-radius: 50%;
   position: absolute;
   width: 52px;
   height: 52px;

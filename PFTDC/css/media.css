@@ -110,6 +110,17 @@
   .digital__pros:last-child {
     margin: 0 0 16px 0;
   }
+
+  .slick-arrow {
+    width: 37px;
+    height: 37px;
+    left: 25px;
+  }
+
+  .slick-next {
+    left: auto;
+    right: 25px;
+  }
 }
 @media (max-width: 768px) {
   h2 {
@@ -145,6 +156,15 @@
   }
   .post__content p.bold {
     font-size: 16px;
+  }
+
+  .news__name {
+    font-size: 15px;
+    white-space: initial;
+    margin-bottom: 12px;
+  }
+  .news__text {
+    display: none;
   }
 
   .release {
@@ -212,16 +232,20 @@
     font-size: 16px;
   }
 
+  .news__info {
+    padding-left: 30px;
+  }
+  .news__item {
+    height: 150px !important;
+  }
   .news__img {
-    width: 130px;
+    width: 120px;
   }
   .news__name {
-    font-size: 15px;
-    white-space: initial;
-    margin-bottom: 12px;
+    font-size: 13px;
   }
-  .news__text {
-    display: none;
+  .news__btn {
+    font-size: 14px;
   }
 
   .posts__top .pagination {
@@ -271,6 +295,10 @@
     width: 90%;
     margin: auto !important;
     margin-bottom: 15px !important;
+  }
+
+  .team .logo__img {
+    height: 70px;
   }
 }
 
