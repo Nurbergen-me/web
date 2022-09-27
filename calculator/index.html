@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Калькулятор</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">
+            Калькулятор стоимости создания сайта
+        </h1>
+        <div class="first">
+            <div class="block">
+                <div class="block_title">
+                    Дизайн сайта
+                </div>
+                <div class="block_buttons">
+                    <div class="block_button">
+                        <input type="radio" name="radio-1">
+                        <div class="text">
+                            Шаблонный дизайн
+                        </div>
+                    </div>
+                    <div class="block_button">
+                        <input type="radio" name="radio-1">
+                        <div class="text">
+                            Индивидуальный дизайн
+                        </div>
+                    </div>
+                    <div class="block_button">
+                        <input type="radio" name="radio-1">
+                        <div class="text">
+                            Уникальный/авторский дизайн
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block_title">
+                    Кабинет администратора (CMS)
+                </div>
+                <div class="block_buttons">
+                    <div class="block_button">
+                        <input type="radio" name="radio-1">
+                        <div class="text">
+                            Без кабинета
+                        </div>
+                    </div>
+                    <div class="block_button">
+                        <input type="radio" name="radio-1">
+                        <div class="text">
+                            Стандартная CMS
+                        </div>
+                    </div>
+                    <div class="block_button">
+                        <input type="radio" name="radio-1">
+                        <div class="text">
+                            Индивидуальный личный кабинет
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block_title">
+                    Количество блоков на главной странице
+                </div>
+                <p class="block_desk">
+                    Блоки это: главный экран, о компании, услуги, контакты и т.д.
+                </p>
+                <div class="block_buttons">
+                    <input type="range" min="4" max="10">
+                </div>
+            </div>
+            <div class="block">
+                <div class="block_title">
+                    Требуемые элементы и услуги
+                </div>
+                <div class="block_buttons">
+                    <div class="block_button">
+                        <input type="checkbox" name="checkbox-1">
+                        <div class="text">
+                            Форма обратной связи
+                        </div>
+                    </div>
+                    <div class="block_button">
+                        <input type="checkbox" name="checkbox-2">
+                        <div class="text">
+                            Услуги маркетолога
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block_title">
+                    Количество разделов
+                </div>
+                <p class="block_desk">
+                   <span>Разделы</span> - это страницы у которых есть дополнительные страницы: новости, товары и т.п.
+                </p>
+                <div class="block_buttons">
+                    <input type="range" min="0" max="20">
+                </div>
+            </div>
+            <div class="block">
+                <div class="block_title">
+                    Количество страниц
+                </div>
+                <p class="block_desk">
+                    <span>Страница </span> - это одна страница, например О компании, Контакты.
+                </p>
+                <div class="block_buttons">
+                    <div class="block_buttons">
+                        <input type="range" min="0" max="20">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="totals">
+            <div class="total">
+                <div class="total_title">
+                    Итог количество разделов
+                </div>
+                <div class="total_cost">
+                    <span>0</span> тг.
+                </div>
+            </div>
+            <div class="total">
+                <div class="total_title">
+                    Итог количество страниц
+                </div>
+                <div class="total_cost">
+                    <span>0</span> тг.
+                </div>
+            </div>
+            <div class="total">
+                <div class="total_title">
+                    Итог за дизайн
+                </div>
+                <div class="total_cost">
+                    <span>0</span> тг.
+                </div>
+            </div>
+            <div class="total">
+                <div class="total_title">
+                    Админка
+                </div>
+                <div class="total_cost">
+                    <span>0</span> тг.
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="block">
+                <div class="block_title">
+                    Наполнение сайта (кол. страниц)
+                </div>
+                <div class="block_buttons">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block">
+                <div class="block_title">
+                    Копирайтинг
+                </div>
+                <div class="block_buttons">
+                    <input type="range" min="0" max="20">
+                </div>
+            </div>
+        </div>
+        <div class="modules">
+            <div class="module">
+                <div class="module_title">
+                    Модули
+                </div>
+                <div class="module_buttons">
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Мультиязычный сайт
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Калькулятор
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Онлайн оплата
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="module">
+                <div class="module_title">
+                    Модули
+                </div>
+                <div class="module_buttons">
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Мультиязычный сайт
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Калькулятор
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Онлайн оплата
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="module">
+                <div class="module_title">
+                    Модули
+                </div>
+                <div class="module_buttons">
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Мультиязычный сайт
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Калькулятор
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Онлайн оплата
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="module">
+                <div class="module_title">
+                    Дополнительные услуги
+                </div>
+                <div class="module_buttons">
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Домен и хостинг
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            SEO-Оптимизация
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Настройка контекстной рекламы
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox">
+                        <div class="text">
+                            Настройка аналитики (цели, конверсии)
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="totals">
+            <div class="total">
+                <div class="total_title">
+                    Итог наполнение, копирайтинг, модули, доп. услуги
+                </div>
+                <div class="total_cost">
+                    <span>0</span> тг.
+                </div>
+            </div>
+            <div class="total final">
+                <div class="total_title">
+                    Итог 
+                </div>
+                <div class="total_cost">
+                    <span>0</span> тг.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
