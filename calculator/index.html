@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" id="app">
         <h1 class="title">
             Калькулятор стоимости создания сайта
         </h1>
@@ -23,19 +23,19 @@
                 </div>
                 <div class="block_buttons">
                     <div class="block_button">
-                        <input type="radio" value="20" name="f1">
+                        <input type="radio" :value='20' v-model="f1">
                         <div class="text">
                             Шаблонный дизайн
                         </div>
                     </div>
                     <div class="block_button">
-                        <input type="radio" value="140" name="f1">
+                        <input type="radio" :value='140' v-model="f1">
                         <div class="text">
                             Индивидуальный дизайн
                         </div>
                     </div>
                     <div class="block_button">
-                        <input type="radio" value="300" name="f1">
+                        <input type="radio" :value="300" v-model="f1">
                         <div class="text">
                             Уникальный/авторский дизайн
                         </div>
@@ -48,19 +48,19 @@
                 </div>
                 <div class="block_buttons">
                     <div class="block_button">
-                        <input type="radio" name="f2">
+                        <input type="radio" :value="0" v-model="f2">
                         <div class="text">
                             Без кабинета
                         </div>
                     </div>
                     <div class="block_button">
-                        <input type="radio" name="f2">
+                        <input type="radio" :value="50" v-model="f2">
                         <div class="text">
                             Стандартная CMS
                         </div>
                     </div>
                     <div class="block_button">
-                        <input type="radio" name="f2">
+                        <input type="radio" :value="200" v-model="f2">
                         <div class="text">
                             Индивидуальный личный кабинет
                         </div>
@@ -75,7 +75,7 @@
                     Блоки это: главный экран, о компании, услуги, контакты и т.д.
                 </p>
                 <div class="block_buttons">
-                    <input type="range" min="4" max="10" name="h4">
+                    <input type="range" class="form-range" :min="4" :max="10" v-model="h4">
                 </div>
             </div>
             <div class="block">
@@ -84,13 +84,13 @@
                 </div>
                 <div class="block_buttons">
                     <div class="block_button">
-                        <input type="checkbox" name="c6-1">
+                        <input type="checkbox" @change="getC6(10, $event.target.checked)" :checked="c6 && c6.checked.includes(10)">
                         <div class="text">
                             Форма обратной связи
                         </div>
                     </div>
                     <div class="block_button">
-                        <input type="checkbox" name="c6-2">
+                        <input type="checkbox" @input="getC6(30, $event.target.checked)" :checked="c6 && c6.checked.includes(30)">
                         <div class="text">
                             Услуги маркетолога
                         </div>
@@ -105,7 +105,7 @@
                    <span>Разделы</span> - это страницы у которых есть дополнительные страницы: новости, товары и т.п.
                 </p>
                 <div class="block_buttons">
-                    <input type="range" min="0" max="20" name="h1">
+                    <input type="range" class="form-range" min="0" max="20" v-model="h1">
                 </div>
             </div>
             <div class="block">
@@ -117,7 +117,7 @@
                 </p>
                 <div class="block_buttons">
                     <div class="block_buttons">
-                        <input type="range" min="0" max="20" name="h2">
+                        <input type="range" class="form-range" min="0" max="20" v-model="h2">
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                     Итог количество разделов
                 </div>
                 <div class="total_cost">
-                    <span name="r1">0</span> тг.
+                    <span name="r1">{{ getR1() }}</span>
                 </div>
             </div>
             <div class="total">
@@ -136,7 +136,7 @@
                     Итог количество страниц
                 </div>
                 <div class="total_cost">
-                    <span name="r2">0</span> тг.
+                    <span name="r2">{{ getR2() }}</span>
                 </div>
             </div>
             <div class="total">
@@ -144,7 +144,7 @@
                     Итог за дизайн
                 </div>
                 <div class="total_cost">
-                    <span name="r3">0</span> тг.
+                    <span name="r3">{{ getR3() }}</span>
                 </div>
             </div>
             <div class="total">
@@ -152,7 +152,7 @@
                     Админка
                 </div>
                 <div class="total_cost">
-                    <span name="r4">0</span> тг.
+                    <span name="r4">{{ getR4() }}</span>
                 </div>
             </div>
         </div>
@@ -162,7 +162,7 @@
                     Наполнение сайта (кол. страниц)
                 </div>
                 <div class="block_buttons">
-                    <input type="text">
+                    <input type="text" v-model="d1">
                 </div>
             </div>
             <div class="block">
@@ -170,7 +170,7 @@
                     Копирайтинг
                 </div>
                 <div class="block_buttons">
-                    <input type="range" min="0" max="20">
+                    <input type="range" class="form-range" min="0" max="20" v-model="h3">
                 </div>
             </div>
         </div>
@@ -181,19 +181,19 @@
                 </div>
                 <div class="module_buttons">
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC1(20, $event.target.checked)" :checked="c1 && c1.checked.includes(20)">
                         <div class="text">
                             Мультиязычный сайт
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC1(60, $event.target.checked)" :checked="c1 && c1.checked.includes(60)">
                         <div class="text">
                             Калькулятор
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC1(80, $event.target.checked)" :checked="c1 && c1.checked.includes(80)">
                         <div class="text">
                             Онлайн оплата
                         </div>
@@ -206,19 +206,25 @@
                 </div>
                 <div class="module_buttons">
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC2(60, $event.target.checked)" :checked="c2 && c2.checked.includes(60)">
                         <div class="text">
                             Мультиязычный сайт
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC2(40, $event.target.checked)" :checked="c2 && c2.checked.includes(40)">
+                        <div class="text">
+                            Поисковые фильтры
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox" @change="getC2(60, $event.target.checked)" :checked="c2 && c2.checked.includes(60)">
                         <div class="text">
                             Калькулятор
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC2(80, $event.target.checked)" :checked="c2 && c2.checked.includes(80)">
                         <div class="text">
                             Онлайн оплата
                         </div>
@@ -231,19 +237,31 @@
                 </div>
                 <div class="module_buttons">
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC3(180, $event.target.checked)" :checked="c3 && c3.checked.includes(180)">
                         <div class="text">
                             Мультиязычный сайт
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC3(90, $event.target.checked)" :checked="c3 && c3.checked.includes(90)">
+                        <div class="text">
+                            Поисковые фильтры
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox" @change="getC3(80, $event.target.checked)" :checked="c3 && c3.checked.includes(80)">
+                        <div class="text">
+                            Подписка и рассылка
+                        </div>
+                    </label>
+                    <label class="module_button">
+                        <input type="checkbox" @change="getC3(140, $event.target.checked)" :checked="c3 && c3.checked.includes(140)">
                         <div class="text">
                             Калькулятор
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC3(160, $event.target.checked)" :checked="c3 && c3.checked.includes(160)">
                         <div class="text">
                             Онлайн оплата
                         </div>
@@ -256,25 +274,25 @@
                 </div>
                 <div class="module_buttons">
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC4(20, $event.target.checked)" :checked="c4 && c4.checked.includes(20)">
                         <div class="text">
                             Домен и хостинг
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC4(60, $event.target.checked)" :checked="c4 && c4.checked.includes(60)">
                         <div class="text">
                             SEO-Оптимизация
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC4(60, $event.target.checked)" :checked="c4 && c4.checked.includes(60)">
                         <div class="text">
                             Настройка контекстной рекламы
                         </div>
                     </label>
                     <label class="module_button">
-                        <input type="checkbox">
+                        <input type="checkbox" @change="getC4(80, $event.target.checked)" :checked="c4 && c4.checked.includes(80)">
                         <div class="text">
                             Настройка аналитики (цели, конверсии)
                         </div>
@@ -288,7 +306,7 @@
                     Итог наполнение, копирайтинг, модули, доп. услуги
                 </div>
                 <div class="total_cost">
-                    <span>0</span> тг.
+                    <span>{{ getR5() }}</span>
                 </div>
             </div>
             <div class="total final">
@@ -296,12 +314,12 @@
                     Итог 
                 </div>
                 <div class="total_cost">
-                    <span>0</span> тг.
+                    <span>{{ getR6() }}</span> тг.
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
