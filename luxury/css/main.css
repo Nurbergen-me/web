@@ -1,0 +1,191 @@
+/* ------ Спецификация ------ */
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Light';
+  src: url('../fonts/HelveticaNeueCyr-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/HelveticaNeueCyr-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/HelveticaNeueCyr-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeueCyr-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Medium';
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/HelveticaNeueCyr-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeueCyr-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  src: url('../fonts/PlayfairDisplay-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PlayfairDisplay-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PlayfairDisplay-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PlayfairDisplay-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  	background-color: #1a1a1e;
+	font-family: 'PlayfairDisplay-Bold', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: #eeeeee;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+.offer {
+	margin-top: 1%;
+	margin-left: 17%;
+}
+
+.offer__lux-dig {
+	font-size: 28.4px;
+}
+
+.offer__lux-dig span {
+	font-family: 'HelveticaNeueCyr-Light';
+	font-size: 17.4px;
+	letter-spacing: 0.08em;
+	color: rgba(255,255,255,0.3)
+}
+
+.offer__lux-dig:after {
+	content:'';
+	width: 2px;
+	height: 40px;
+	transform: rotate(25deg);
+	color: rgba(255,255,255,0.3)
+}
+
+.offer__main {
+	margin-top: 2%;
+}
+
+.offer__title {
+	font-size: 80.4px;
+	width: 500px;
+}
+
+.offer__text {
+	margin-top: 1%;
+	font-family: 'HelveticaNeueCyr-Light';
+	letter-spacing: 0.08em;
+	font-size: 22px;
+	color: rgba(255,255,255,0.3)
+}
+
+.offer__form {
+	font-family: 'HelveticaNeueCyr-Light';
+}
+
+.input {
+	padding: 12px 25px 20px 25px;
+	color: #fff;
+	background: #1e1e22;
+	border: none;
+}
+
+.form__button {
+	background: #fff;
+	color: #000;
+	border: none;
+	font-family: 'HelveticaNeueCyr-Medium';
+	letter-spacing: 0.07em;
+}
+
+.error {
+	display: block;
+}
+
+.offer__form-text {
+	margin-top: 20px;
+	width: 335px;
+	font-size: 14px;
+	color: rgba(255,255,255,0.15)
+}
+
+.credits {
+	margin-top: 5%;
+	font-family: 'HelveticaNeueCyr-Light';
+	color: rgba(255,255,255,0.3);
+	letter-spacing: 0.08em;
+}
+
+.credits__text {
+	margin-right: 55px;
+	margin-bottom: 20px;
+	font-family: 'HelveticaNeueCyr-Light';
+	color: rgba(255,255,255,0.3);
+	letter-spacing: 0.08em;
+}
+
+.pic {
+	padding-top: 5%;
+	background-color: #29292d;
+	height: 97vh;
+	width: 97vh;
+	border-radius: 50%;
+}
+
+/* Media Queries */
+
+/* 768 - 992 px */
+
+/* 576 - 768 px */
+@media screen and (max-width: 992px) {
+	.offer {
+		background: transparent url('../img/circle.png') no-repeat right center;
+	}
+	.offer__title {
+		font-size: 62px;
+		width: 55%;
+	}
+	.pic {
+		display: none;
+	}
+	.offer {
+		margin-left: 3%;
+	}
+	.offer__main {
+		margin-top: 50px;
+	}
+	.offer__form {
+		margin-top: 50px;
+	}
+	.offer__form-text {
+		width: 84%;
+	}
+	.offer__text {
+		margin-top: 15px;
+		font-size: 16px;
+	}
+	.form__button {
+		display: block;
+	}
+	.credits {
+		flex-direction: column-reverse;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.credits__link {
+		margin-bottom: 17px;
+	}
+	.credits__text {
+		margin-right: 0;
+	}
+	.input {
+		width: 90%;
+	}
+}
+/* 320 - 576 px */

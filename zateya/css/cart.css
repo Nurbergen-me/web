@@ -1,0 +1,282 @@
+@media (min-width:1000px) {
+  .accout_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width:1000px) {
+  .accout_wrapper{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  }
+}
+
+@media (min-width:1000px) {
+  .row_cart{
+    padding: 25px 40px 0 0;
+  }
+}
+
+.row_cart{
+  margin-top: -60px;
+  width:100%;
+}
+
+@media (max-width:1000px) {
+  .row_cart{
+    padding: 25px 0 0 25px;
+  }
+}
+
+@media (max-width:365px) {
+  .row_cart{
+    padding: 25px 0 0 0;
+  }
+}
+
+.d-flex{
+  display: flex;
+}
+
+
+  .m-flex{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+  }
+
+  @media (max-width:1000px) {
+    .m-flex{
+      display: flex;
+    }
+  }
+
+  @media (max-width:500px) {
+    .m-flex{
+      display: flex;
+      width:75%;
+    }
+    .min{
+      padding-right:20px
+    }
+  }
+
+  @media (max-width:364px) {
+    .m-flex{
+      width:100%;
+    }
+    .min{
+      padding-right:0;
+    }
+  }
+
+
+
+.cart_img{
+  width: 87px;
+height: 87px;
+/* Brown 70 */
+border: 1px solid #D1C0BC;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.cart_img_position{
+ padding:12px;
+}
+
+.cart_info{
+  font-family: Balsamiq Sans;
+  padding: 10px 0 0 20px;
+}
+
+.text_brown_medium{
+  font-family: Balsamiq Sans;
+  color: #A08078;
+}
+
+.text_brown_light{
+  font-family: Balsamiq Sans;
+  font-size: 15px;
+  padding-top: 7px;
+  color: #D1C0BC;
+}
+
+.up_down{
+  margin-left: -25px;
+}
+
+.account_head{
+font-family: Circe ExtraBold;
+font-style: bold;
+font-size: 40px;
+line-height: 44px;
+color: #753E31;
+}
+
+@media (max-width:1000px) {
+  .account_head{
+    text-align: center;
+    font-size: 35px;
+  }
+}
+
+.items{
+  display: flex;
+  padding: 25px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #F5EEEC;
+  align-items: center;
+}
+
+@media (max-width:1000px) {
+  .items{
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+  }
+}
+
+
+
+.card_pay{
+  width: 478px;
+height: 490px;
+font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+box-shadow: 0px 20px 45px rgba(117, 62, 49, 0.12);
+border-radius: 20px;
+}
+
+@media (max-width:1000px) {
+  .card_pay{
+    margin: 25px 0 25px 0;
+    width: 300px;
+  }
+}
+
+.card_pay_title{
+ position: relative;
+ font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+top:60px;
+left:60px;
+
+/* identical to box height, or 35px */
+
+/* Brown 30 */
+color: #753E31;
+}
+
+.card_pay_cost{
+ position: relative;
+
+font-size: 30px;
+top:60px;
+left:60px;
+color: #753E31;
+}
+
+.card_pay_skidka{
+ position: relative;
+ font-size: 16px;
+ top:80px;
+ left:60px;
+ color: #753E31;
+}
+
+.card_pay_cost_skidka{
+ position: relative;
+font-size: 26px;
+top:80px;
+left:60px;
+color: #FF4C25;
+}
+
+.card_hr{
+ position: relative;
+ border: 1px solid #F5EEEC;
+ top:100px;
+ width: 244px;
+}
+
+.card_pay_sposob{
+ position: relative;
+font-size: 16px;
+top:120px;
+left:60px;
+color: #753E31;
+}
+
+.card_pay_oplata{
+ position: relative;
+ top:130px;
+ left:60px;
+}
+
+.card_pay_zakaz{
+ position: relative;
+ top:160px;
+
+}
+
+.btn_zakaz{
+  cursor: pointer;
+  width: 257px;
+  height: 70px;
+  padding: 20px;
+  /* Orange 60 */
+  background: #FF4C25;
+  border-radius: 50px;
+  border: none;
+
+  font-family: Circe Bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 31px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+@media (max-width:1000px) {
+  .btn_zakaz{
+    width: 227px;
+    height: 70px;
+  }
+}
+
+
+
+
+.text-brown{
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-size: 18px;
+  color: #753E31;
+}
+
+.text-orange{
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-size: 18px;
+  color: #FF4C25;
+}
+
+.bold{
+  font-weight: bold;
+}

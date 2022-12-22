@@ -1,0 +1,393 @@
+.container{
+  padding: 0 calc(50% - 600px);
+}
+
+.text-center{
+  text-align: center !important;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.text-right{
+  text-align: right !important;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.d-flex{
+  display: flex;
+}
+
+
+.row{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-gap: 16px;
+}
+
+.row_form{
+  display: flex;
+}
+
+@media (max-width:1000px) {
+  .row_cat{
+  display: flex;
+  flex-direction: column;
+  }
+}
+
+
+.wrapper-general{
+  flex-direction: column;
+}
+
+.wrapper{
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 16px;
+  align-self: start;
+  justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 17px;
+  position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFF5F3;
+    border: 3px solid #FFF5F3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 40px 25px 30px 25px;
+}
+
+@media (max-width:1000px) {
+.card{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 15px 10px 15px;
+}
+.card-info{
+  padding: 0 0 0 20px;
+}
+}
+
+.cat{
+
+font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+
+}
+
+@media (max-width:1000px) {
+  .head_items{
+display: none;
+  }
+  .head_items_mobile button{
+    font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: normal;
+    width: 108px;
+height: 41px;
+background: #fff;
+/* Brown 95 */
+border: 2px solid #F5EEEC;
+box-sizing: border-box;
+border-radius: 8px;
+font-size: 16px;
+color: #A08078;
+  }
+  .head_items_mobile .show{
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+    color: #A08078;
+  }
+}
+
+.card-title{
+  font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+  color: #753E31;
+    font-size: 16px;
+}
+
+@media (min-width:1000px) {
+  .card-title{
+      margin-top:30px
+  }
+  .head_items_mobile {
+display: none;
+  }
+}
+
+.card-suptitle{
+  font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: normal;
+  color: #A08078;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new{
+  position: absolute;
+  z-index: 2;
+  top: -10px;
+  left: 25px;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #66D532;
+  box-shadow: 0px 9px 35px rgba(102, 212, 50, 0.5);
+
+    -moz-transform: rotate(-3deg); /* Для Firefox */
+    -ms-transform: rotate(3deg); /* Для IE */
+    -webkit-transform: rotate(3deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(3deg); /* Для Opera */
+    transform: rotate(-3deg);
+}
+
+.skidka{
+  position: absolute;
+  z-index: 2;
+  top: -10px;
+  left: 25px;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #FF4C25;
+  box-shadow: 0px 9px 35px rgba(255, 76, 37, 0.5);
+
+    -moz-transform: rotate(-3deg); /* Для Firefox */
+    -ms-transform: rotate(3deg); /* Для IE */
+    -webkit-transform: rotate(3deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(3deg); /* Для Opera */
+    transform: rotate(-3deg);
+}
+
+.card-suptitle{
+  font-size: 14px;
+}
+
+.card-price-new{
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+
+  /* identical to box height */
+
+  /* Orange 60 */
+  color: #FF4C25;
+}
+
+.card-price-old{
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+
+  /* identical to box height */
+
+  /* Orange 60 */
+  color: #753E31;
+}
+
+.sidebar{
+  align-self: start;
+}
+
+.sidebar_item{
+  list-style-type: none;
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 44px;
+
+  /* identical to box height */
+
+  /* Brown 30 */
+  color: #753E31;
+}
+
+
+.sidebar_filter_input{
+
+  font-family: Balsamiq Sans;
+  font-style: normal;
+font-weight: normal;
+  width:110px;
+  height: 47px;
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 5px;
+  left: 25px;
+  color: #753E31;
+  border: 2px solid #F5EEEC;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.sidebar_filter_check{
+  font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: normal;
+color: #753E31;
+}
+
+.btn{
+  cursor: pointer;
+  width: 257px;
+  height: 70px;
+  padding: 20px;
+  /* Orange 60 */
+  background: #FF4C25;
+  border-radius: 50px;
+  border: none;
+
+  font-family: Circe Bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 31px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+@media (max-width:1000px) {
+  .btn{
+    width: 320px;
+    height: 64px;
+  }
+}
+
+@media (max-width:364px) {
+  .btn{
+    width: 220px;
+    height: 64px;
+  }
+}
+
+.reset{
+  cursor: pointer;
+  width: 140px;
+  height: 60px;
+
+  background: #FF4C25;
+  border-radius: 50px;
+  border: none;
+
+  font-family: Circe Bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.catalog_head{
+font-family: Circe ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 44px;
+
+/* identical to box height */
+
+/* Brown 30 */
+color: #753E31;
+}
+
+@media (min-width: 1000px){
+.kroshki{
+  font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: normal;
+}
+}
+
+@media (max-width: 1000px){
+.kroshki{
+display: none;
+}
+}
+
+.down{
+  color: #753E31;
+transform: rotate(180deg);
+}
+
+.line{
+  transform: rotate(-5.48deg);
+  position: absolute;
+  left: 70px;
+  margin-top:8px;
+}
+
+@media (max-width:1000px) {
+  .line{
+    left: 155px;
+    margin-top:8px;
+  }
+}
+
+.bold{
+  font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+color: #753E31;
+}
+
+.banner{
+  width: 100%
+}
+
+@media (max-width:1000px) {
+  .banner{
+    height: 100%;
+  }
+}
+
+@media (min-width:1000px) {
+  .visible{
+  display: none;
+}
+}
+
+@media (max-width:1000px) {
+  .visible2{
+  display: none;
+}
+}
+
+.head_items{
+  padding-bottom: 20px
+}
+
+.kolvo{
+  margin-left:210px; font-size:18px; color: #A08078;
+}

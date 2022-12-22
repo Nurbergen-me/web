@@ -1,0 +1,310 @@
+.container {
+  padding: 0 15px;
+}
+
+body {
+  position: relative;
+}
+
+.tovar__h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.tovar__desc {
+  max-width: 630px;
+  font-size: 17px;
+  font-weight: normal;
+  color: #A08078;
+}
+
+.tovar__type {
+  margin-bottom: 40px;
+}
+
+.tovar__type-var {
+  padding: 14px 18px;
+  color: #A08078;
+  font-size: 17px;
+  font-weight: normal;
+  border: 2px solid #F5EEEC;
+  border-radius: 8px;
+}
+
+.tovar__color {
+  margin-bottom: 30px;
+}
+
+.tovar__color-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tovar__color-var {
+  margin-top: -10px;
+  border-radius: 25px;
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.tovar__price-balance {
+  color: #A08078;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.tovar__price-price {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.tovar__price-price span {
+  color: #A08078;
+  font-size: 40px;
+}
+
+.tovar__price-btn {
+  margin-top: 20px;
+}
+
+.tovar-bread {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.tovar-bread a {
+  margin: 6px;
+}
+
+.tovar-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tovar-title {
+  font-family: Circe ExtraBold;
+  font-style: normal;
+  margin: 25px 0;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.tovar-article {
+  color: #D1C0BC;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.tovar-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.var-red {
+  background: #EB5757;
+}
+
+.var-orange {
+  background: #F2994A;
+}
+
+.var-yellow {
+  background: #F2C94C;
+}
+
+.var-green {
+  background: #27AE60;
+}
+
+.var-blue {
+  background: #2F80ED;
+}
+
+.primary-btn {
+  background: #FF4C25;
+  border-radius: 50px;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 700;
+  padding: 25px 40px;
+  border: none;
+}
+
+.top-amount {
+  position: relative;
+  color: #fff;
+}
+
+.top-amount:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -42px;
+  border: 10px solid transparent;
+  border-top: 10px solid #FF4C25;
+  opacity: 0.4;
+  border-radius: 5px;
+}
+
+.bot-amount {
+  position: relative;
+  color: #fff;
+}
+
+.bot-amount:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #FF4C25;
+  border-radius: 5px;
+}
+
+.tovar__price-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tovar__price__amount {
+  margin-left: 20px;
+}
+
+.tovar__price__amount-text {
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FF4C25;
+}
+
+.tovar-footer {
+  padding-top: 100px;
+}
+
+.tovar-footer__title {
+  font-family: Circe ExtraBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tovar-footer__slider {
+  position: relative;
+}
+
+.type-active {
+  background: #753E31;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .tovar-bread {
+    display: none;
+  }
+  .tovar-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .tovar-head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  .tovar-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .tovar__desc {
+    margin-top: 30px;
+  }
+  .tovar__type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .tovar__type > a {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  .tovar__price-btn > button {
+    font-size: 12px;
+    padding: 15px 30px;
+  }
+  .tovar__price__amount-text {
+    font-size: 20px;
+  }
+  .top-amount::after {
+    bottom: -32px;
+  }
+  .bot-amount::after {
+    bottom: -5px;
+  }
+  .tovar__price-price {
+    font-size: 40px;
+  }
+  .tovar__price-price span {
+    font-size: 30px;
+  }
+  .tovar__h2 {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .container {
+    max-width: 540px;
+    margin: auto;
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 767.98px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+/*# sourceMappingURL=tovar.css.map */

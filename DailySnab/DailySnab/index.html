@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DailySnab</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+</head>
+
+<body>
+  <div class="menu-wrapper menu-hidden">
+    <nav>
+      <div class="nav-information-wrapper">
+        <div class="nav-burg-icon"><img src="image/icon/menu.png" alt="menuicon"></div>
+        <div class="nav-profile-info">
+          <!-- not-company добавляется класс, если пользователь не создал свою компанию -->
+          <div class="name-wrapper">
+            <div class="name">
+              <p class="company-name">ООО ТехСтройСнаб</p>
+              <p class="user-name">Денис</p>
+            </div>
+            <div class="navigation-wrapper">
+              <p class="changeacc">
+                <img src="image/icon/changeacc.png" alt="changeacc">
+                <a href="#">Смена аккаунта</a>
+              </p>
+              <p class="profile">
+                <img src="image/icon/profile.png" alt="profile">
+                <a href="#">Профиль</a>
+              </p>
+              <p class="exit">
+                <img src="image/icon/exit.png" alt="exit">
+                <a href="#">Выйти</a>
+              </p>
+            </div>
+          </div>
+          <img src="image/icon/userDefault.png" alt="Лого" class="user-company-logotype">
+          <p class="list"><img src="image/icon/profilemark.png" alt="list"></p>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <div class="img-wrapper">
+            <img src="image/icon/request.png" alt="nav-li-icon">
+          </div>
+          <a href="#">Заявки</a>
+        </li>
+        <li>
+          <div class="img-wrapper">
+            <img src="image/icon/sub.png" alt="nav-li-icon">
+          </div>
+          <a href="#">Подписки</a>
+        </li>
+        <li>
+          <div class="img-wrapper">
+            <img src="image/icon/skills.png" alt="nav-li-icon">
+          </div>
+          <a href="#">Навыки</a>
+        </li>
+        <li>
+          <div class="img-wrapper">
+            <img src="image/icon/help.png" alt="nav-li-icon">
+          </div>
+          <a href="#">Помощь</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <header class="header" id="header">
+    <div class="container">
+      <img src="image/logotype.png" alt="logotype" class="logo">
+      <div class="enter-btn">
+        <p>Войти</p>
+        <form action="" method="POST" class="form-wrapper d-none">
+          <input type="text" name="login" id="login" placeholder="Логин">
+          <input type="password" name="password" id="password" placeholder="Пароль">
+          <button class="form-pass">Забыли пароль?</button>
+          <button type="submit" class="login-form-button login-in">Войти</button>
+          <span class="form-text">Если у Вас нет аккаунта?</span>
+          <div class="login-form-button login-create" data-toggle="modal" data-target="#register-modal">Создать сейчас
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+  <section class="search" id="search">
+    <div class="container">
+      <div class="search-wrapper">
+        <div class="for-search">
+          <div class="btn search-main">
+            <input type="text" placeholder="Что ищите?" class="search-input" autocomplete="off">
+            <span class="after search-after" data-toggle="modal" data-target="#search-modal"></span>
+            <div class="main-search__thumb">
+            </div>
+          </div>
+        </div>
+
+        <div class="btn search-post">
+          <div class="post-btn">
+            <p>Разместить потребность</p>
+          </div>
+          <div class="post-wrap blue-buttons d-none">
+            <button class="post-request" data-toggle="modal" data-target="#needs-modal">
+              Заявка
+            </button>
+            <button class="post-post" data-toggle="modal" data-target="#needs-modal">
+              Объявление
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-wrap">
+        <a href="#" class="footer-item">
+          О DaliySnab
+        </a>
+        <a href="#" class="footer-item">
+          Условия использования
+        </a>
+        <a href="#" class="footer-item">
+          Помощь
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal Search -->
+  <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog search-dialog">
+      <div class="modal-content">
+        <div class="modal-body search-hidden">
+          <div class="btn search-main">
+            <input type="text" placeholder="Что ищите?" class="search-input" autocomplete="off">
+            <span class="after search-after" data-toggle="modal" data-target="#search-modal"></span>
+            <div class="main-search__thumb">
+            </div>
+          </div>
+          <div class="hidden-wrapper">
+            <ul class="nav nav-tabs setting-nav" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active first-link" id="home-tab" data-toggle="tab" href="#nav-first" role="tab"
+                  aria-controls="home" aria-selected="true">
+                  <img src="image/icon/add.png" alt="" class="setting-img"><span>Объявления</span>
+                  <div class="cancel-choose">x</div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link category-link" id="order-tab" data-toggle="tab" href="#nav-category" role="tab"
+                  aria-controls="category" aria-selected="false">
+                  <img src="image/icon/part.png" alt="" class="setting-img"><span>Категория</span>
+                  <div class="cancel-choose">x</div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link location-link" id="partner-tab" data-toggle="tab" href="#nav-location" role="tab"
+                  aria-controls="location" aria-selected="false">
+                  <img src="image/icon/loc.png" alt="" class="setting-img"><span>Местоположение</span>
+                  <div class="cancel-choose">x</div>
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active nav-first" id="nav-first" role="tabpanel"
+                aria-labelledby="home-tab">
+                <div class="app-wrapper blue-buttons">
+                  <button class="post-request" data-src="image/icon/request.png">Заявка</button>
+                  <button class="post-post active" data-src="image/icon/add.png">Объявление</button>
+                </div>
+              </div>
+              <div class="tab-pane fade show nav-category" id="nav-category" role="tabpanel" aria-labelledby="home-tab">
+                <div class="cat-wrapper">
+                  <div class="list-wrapper d-inline-flex">
+                    <div class="cat-changer">
+                      <p class="construction" data-block="construction">Строительство и ремонт</p>
+                      <p class="technic" data-block="technic">Техника</p>
+                      <p class="equipment" data-block="equipment">Оборудование</p>
+                      <p class="services" data-block="services">Услуги</p>
+                    </div>
+                    <div class="list-element element-1">
+                      <div class="construction">
+                        <p class="building" data-block="building">Стройматериалы</p>
+                        <p class="metal" data-block="metal">Металл</p>
+                        <p class="zhbi" data-block="zhbi">ЖБИ</p>
+                        <p class="wood" data-block="wood">Дерево</p>
+                        <p class="finishing" data-block="finishing">Отделка</p>
+                        <p class="furniture" data-block="furniture">Мебель</p>
+                        <p class="garden" data-block="garden">Сад</p>
+                        <p class="waterTreatment" data-block="waterTreatment">Водоснабждение</p>
+                        <p class="electric" data-block="electric">Электротовары</p>
+                        <p class="tooling" data-block="tooling">Инструменты</p>
+                      </div>
+                      <div class="technic">
+                        <p class="building" data-block="building">Стройматериалы</p>
+                        <p class="metal" data-block="metal">Металл</p>
+                        <p class="zhbi" data-block="zhbi">ЖБИ</p>
+                        <p class="wood" data-block="wood">Дерево</p>
+                        <p class="finishing" data-block="finishing">Отделка</p>
+                        <p class="furniture" data-block="furniture">Мебель</p>
+                        <p class="garden" data-block="garden">Сад</p>
+                        <p class="waterTreatment" data-block="waterTreatment">Водоснабждение</p>
+                        <p class="electric" data-block="electric">Электротовары</p>
+                        <p class="tooling" data-block="tooling">Инструменты</p>
+                      </div>
+                      <div class="equipment">
+                        <p class="building" data-block="building">Стройматериалы</p>
+                        <p class="metal" data-block="metal">Металл</p>
+                        <p class="zhbi" data-block="zhbi">ЖБИ</p>
+                        <p class="wood" data-block="wood">Дерево</p>
+                        <p class="finishing" data-block="finishing">Отделка</p>
+                        <p class="furniture" data-block="furniture">Мебель</p>
+                        <p class="garden" data-block="garden">Сад</p>
+                        <p class="waterTreatment" data-block="waterTreatment">Водоснабждение</p>
+                        <p class="electric" data-block="electric">Электротовары</p>
+                        <p class="tooling" data-block="tooling">Инструменты</p>
+                      </div>
+                      <div class="services">
+                        <p class="building" data-block="building">Стройматериалы</p>
+                        <p class="metal" data-block="metal">Металл</p>
+                        <p class="zhbi" data-block="zhbi">ЖБИ</p>
+                        <p class="wood" data-block="wood">Дерево</p>
+                        <p class="finishing" data-block="finishing">Отделка</p>
+                        <p class="furniture" data-block="furniture">Мебель</p>
+                        <p class="garden" data-block="garden">Сад</p>
+                        <p class="waterTreatment" data-block="waterTreatment">Водоснабждение</p>
+                        <p class="electric" data-block="electric">Электротовары</p>
+                        <p class="tooling" data-block="tooling">Инструменты</p>
+                      </div>
+                    </div>
+                    <div class="list-element element-2">
+                      <div class="zhbi">
+                        <p class="designs" data-block="designs">Конструкции и детали</p>
+                        <p class="foundations" data-block="foundations">Фундаменты стаканного типа и башмаки</p>
+                        <p class="foundation" data-block="foundation">Плиты фундаментов</p>
+                        <p class="details" data-block="details">Детали ростверков</p>
+                        <p class="piles" data-block="piles">Сваи</p>
+                        <p class="crossbars" data-block="crossbars">Ригели и прогоны</p>
+                        <p class="farms" data-block="farms">Фермы</p>
+                        <p class="frame" data-block="frame">Элементы рам</p>
+                        <p class="jumpers" data-block="jumpers">Перемычки</p>
+                      </div>
+                    </div>
+                    <div class="list-element element-3">
+                      <div class="details">
+                        <p class="panel-sn" data-block="panel-sn">Панели стеновые наружные</p>
+                        <p class="panel-sv" data-block="panel-sv">Панели стеновые внутренние</p>
+                        <p class="">Перегородки</p>
+                        <p class="">Блоки стеновые</p>
+                        <p class="">Плиты покрытий</p>
+                        <p class="">Плиты перекрытий</p>
+                        <p class="">Плиты дорожные</p>
+                        <p class="">Трубы напорные</p>
+                        <p class="">Трубы безнапорные</p>
+                        <p class="">Элементы лестниц</p>
+                        <p class="">Блоки коммуникаций</p>
+                        <p class="">Архитектурно-строительные элементы зданий и сооружений</p>
+                        <p class="">Элементы входов и приямков зданий</p>
+                        <p class="">Детали лифтовых и вентиляционных шахт</p>
+                        <p class="">Санитарно-технические кабины</p>
+                        <p class="">Элементы лоджий и балконов</p>
+                        <p class="">Трубы напорные</p>
+                        <p class="">Элементы оград</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade show nav-location" id="nav-location" role="tabpanel" aria-labelledby="home-tab">
+                <div class="city city-wrapper">
+                  <input type="text" placeholder="Введите город" class="city-input">
+                  <div class="city-thumbs">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Needs -->
+  <div class="modal fade" id="needs-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog search-dialog needs-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="app-form-wrapper btn-option">
+            <form action="" method="POST">
+              <label for="" class="app-q-wrapper">
+                <div class="app-q-wrapper-before"></div>
+                <input type="text" placeholder="Что требуется?" class="app-q">
+              </label>
+              <p class="app-changer">
+                <span class="part"> <span class="naming">Запчасти</span>
+                  <!-- <span class="cancel-choose">x</span> -->
+                </span>
+                <span class="location"> <span class="naming">Местоположение</span>
+                  <!-- <span class="cancel-choose">x</span> -->
+                </span>
+              </p>
+              <div class="cat-wrapper app-cat-wrapper d-none">
+                <div class="list-wrapper d-inline-flex">
+                  <div class="cat-changer">
+                    <p class="construction" data-block="construction">Строительство и ремонт</p>
+                    <p class="technic" data-block="technic">Техника</p>
+                    <p class="equipment" data-block="equipment">Оборудование</p>
+                    <p class="services" data-block="services">Услуги</p>
+                  </div>
+                  <div class="list-element element-1">
+                    <div class="construction">
+                      <p class="building" data-block="building">Стройматериалы</p>
+                      <p class="metal" data-block="metal">Металл</p>
+                      <p class="zhbi" data-block="zhbi">ЖБИ</p>
+                      <p class="wood" data-block="wood">Дерево</p>
+                      <p class="finishing" data-block="finishing">Отделка</p>
+                      <p class="furniture" data-block="furniture">Мебель</p>
+                      <p class="garden" data-block="garden">Сад</p>
+                      <p class="waterTreatment" data-block="waterTreatment">Водоснабждение</p>
+                      <p class="electric" data-block="electric">Электротовары</p>
+                      <p class="tooling" data-block="tooling">Инструменты</p>
+                    </div>
+                    <div class="technic">
+                      <p class="building" data-block="building">Стройматериалы</p>
+                      <p class="metal" data-block="metal">Металл</p>
+                      <p class="zhbi" data-block="zhbi">ЖБИ</p>
+                      <p class="wood" data-block="wood">Дерево</p>
+                      <p class="finishing" data-block="finishing">Отделка</p>
+                      <p class="furniture" data-block="furniture">Мебель</p>
+                      <p class="garden" data-block="garden">Сад</p>
+                      <p class="waterTreatment" data-block="waterTreatment">Водоснабждение</p>
+                      <p class="electric" data-block="electric">Электротовары</p>
+                      <p class="tooling" data-block="tooling">Инструменты</p>
+                    </div>
+                    <div class="equipment">
+                      <p class="building" data-block="building">Стройматериалы</p>
+                      <p class="metal" data-block="metal">Металл</p>
+                      <p class="zhbi" data-block="zhbi">ЖБИ</p>
+                      <p class="wood" data-block="wood">Дерево</p>
+                      <p class="finishing" data-block="finishing">Отделка</p>
+                      <p class="furniture" data-block="furniture">Мебель</p>
+                      <p class="garden" data-block="garden">Сад</p>
+                      <p class="waterTreatment" data-block="waterTreatment">Водоснабждение</p>
+                      <p class="electric" data-block="electric">Электротовары</p>
+                      <p class="tooling" data-block="tooling">Инструменты</p>
+                    </div>
+                    <div class="services">
+                      <p class="building" data-block="building">Стройматериалы</p>
+                      <p class="metal" data-block="metal">Металл</p>
+                      <p class="zhbi" data-block="zhbi">ЖБИ</p>
+                      <p class="wood" data-block="wood">Дерево</p>
+                      <p class="finishing" data-block="finishing">Отделка</p>
+                      <p class="furniture" data-block="furniture">Мебель</p>
+                      <p class="garden" data-block="garden">Сад</p>
+                      <p class="waterTreatment" data-block="waterTreatment">Водоснабждение</p>
+                      <p class="electric" data-block="electric">Электротовары</p>
+                      <p class="tooling" data-block="tooling">Инструменты</p>
+                    </div>
+                  </div>
+                  <div class="list-element element-2">
+                    <div class="zhbi">
+                      <p class="designs" data-block="designs">Конструкции и детали</p>
+                      <p class="foundations" data-block="foundations">Фундаменты стаканного типа и башмаки</p>
+                      <p class="foundation" data-block="foundation">Плиты фундаментов</p>
+                      <p class="details" data-block="details">Детали ростверков</p>
+                      <p class="piles" data-block="piles">Сваи</p>
+                      <p class="crossbars" data-block="crossbars">Ригели и прогоны</p>
+                      <p class="farms" data-block="farms">Фермы</p>
+                      <p class="frame" data-block="frame">Элементы рам</p>
+                      <p class="jumpers" data-block="jumpers">Перемычки</p>
+                    </div>
+                  </div>
+                  <div class="list-element element-3">
+                    <div class="details">
+                      <p class="panel-sn" data-block="panel-sn">Панели стеновые наружные</p>
+                      <p class="panel-sv" data-block="panel-sv">Панели стеновые внутренние</p>
+                      <p class="">Перегородки</p>
+                      <p class="">Блоки стеновые</p>
+                      <p class="">Плиты покрытий</p>
+                      <p class="">Плиты перекрытий</p>
+                      <p class="">Плиты дорожные</p>
+                      <p class="">Трубы напорные</p>
+                      <p class="">Трубы безнапорные</p>
+                      <p class="">Элементы лестниц</p>
+                      <p class="">Блоки коммуникаций</p>
+                      <p class="">Архитектурно-строительные элементы зданий и сооружений</p>
+                      <p class="">Элементы входов и приямков зданий</p>
+                      <p class="">Детали лифтовых и вентиляционных шахт</p>
+                      <p class="">Санитарно-технические кабины</p>
+                      <p class="">Элементы лоджий и балконов</p>
+                      <p class="">Трубы напорные</p>
+                      <p class="">Элементы оград</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="app-location-input d-none">
+                <input type="text" placeholder="Введите город" class="city-input">
+                <div class="city-thumbs">
+
+                </div>
+              </div>
+              <label for="" class="first-row d-none">
+                <input type="text" class="req" placeholder="Артикул">
+                <input type="text" class="req" placeholder="Кол-во">
+                <input type="text" class="req" placeholder="шт">
+                <input type="text" class="req" placeholder="Назначение">
+              </label>
+              <label for="" class="second-row align-items-center d-none">
+                <span class="before">
+                  <input type="text" placeholder="Бренд">
+                </span>
+                <span class="before before-width">
+                  <input type="text" placeholder="Состояние">
+                </span>
+                <p class="add-option">Дополнительные параметры</p>
+              </label>
+              <label for="" class="third-row">
+                <span class="before">
+                  <input type="text" class="none-req" placeholder="Срочность">
+                </span>
+                <input type="text" placeholder="Комментарий">
+                <label for="cam" class="file none-req">
+                  <input type="file" id="cam">
+                </label>
+              </label>
+              <div class="button-wrapper">
+                <p class="save d-inline-block"><a href="#"><img src="image/icon/save.png" alt="save"></a></p>
+                <button>Разместить заявку</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Registration -->
+  <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content register">
+        <div class="before-form">
+          <p class="wrapper-text">
+            <span class="pro active">Pro режим</span>
+            <span class="eff">Для максимальной эффективности</span>
+          </p>
+        </div>
+        <div class="modal-body">
+          <form action="" id="register-form">
+            <p class="form-title">ЭФФЕКТИВНО БЫСТРО УДОБНО БЕСПЛАТНО <span class="close" data-dismiss="modal"
+                aria-label="Close"></span></p>
+            <label for="email">
+              <input type="text" class="new-user-mail" name="email" placeholder="E-mail">
+            </label>
+            <label for="name">
+              <input type="text" class="new-user-name" name="name" placeholder="Имя">
+            </label>
+            <label for="phone" class="phone">
+              <input type="phone" class="new-user-phone" id="phone" name="phone">
+            </label>
+            <div class="btn-wrapper d-inline-flex">
+              <button type="submit" class="register-submit" data-toggle="modal"
+                data-target="#welcome-modal">Старт</button>
+              <p class="personal-data">Нажимая на кнопку Вы даёте согласие на обработку персональных данных</p>
+            </div>
+            <div class="reg-changer">
+              <span class="pro active"></span>
+              <span class="eff"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Welcome -->
+  <div class="modal fade" id="welcome-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content welcome">
+        <div class="modal-body">
+          <div class="wel-title">
+            <p>добро пожаловать в</p><img src="image/logotypeforwelc.png" alt="logo">
+          </div>
+          <div class="wel-content row align-items-center">
+            <div class="col-5 wel-register-wrapper">
+              <div class="register-info">
+                <p>Данные для входа в аккаунт, отправлены Вам на E-mail:</p>
+                <p>Логин: <span>d7758987@gmail.com</span></p>
+                <p>Пароль: <span>xR\184ngd</span><a href="#" class="edit">Изменить</a></p>
+              </div>
+            </div>
+            <div class="col-6 offset-1 add-company-wrapper">
+              <p class="add-company">+Зарегистрировать компанию</p>
+              <form action="" method="POST" class="add-company">
+                <div class="form-wrapper d-inline-flex">
+                  <div class="first-col">
+                    <label for="" class="before">
+                      <input type="text" placeholder="Правовая форма">
+                    </label>
+                    <label for="" class="before">
+                      <input type="text" placeholder="Категория">
+                    </label>
+                    <label for="">
+                      <input type="text" placeholder="Адрес">
+                    </label>
+                    <label for="" class="before">
+                      <input type="text" placeholder="Должность">
+                    </label>
+                  </div>
+                  <div class="second-col">
+                    <label for="">
+                      <input type="text" placeholder="Наименование">
+                    </label>
+                    <label for="" class="before">
+                      <input type="text" placeholder="Система налооблажения">
+                    </label>
+                    <label for="" class="before">
+                      <input type="text" placeholder="Продавец или покупатель">
+                    </label>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+          <div class="wel-end">
+            <p class="btn-begin">Старт</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="js/modals.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

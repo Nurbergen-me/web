@@ -1,0 +1,196 @@
+@media (min-width:1000px) {
+  .accout_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width:1000px) {
+  .accout_wrapper{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  }
+}
+
+.row_zakaz{
+  margin-top: -60px;
+  width:100%;
+  padding: 25px 40px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+  .m-flex{
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+  }
+
+  @media (max-width:1000px) {
+    .m-flex{
+      display: flex;
+      padding: 20px 0 0 0;
+      width:70%;
+    }
+  }
+
+.general{
+  justify-content: space-between;
+}
+
+@media (max-width:1000px) {
+  .general{
+    display: none;
+  }
+}
+
+.date{
+  padding-left: 30px;
+}
+
+.account_head{
+font-family: Circe ExtraBold;
+font-style: bold;
+font-size: 40px;
+line-height: 44px;
+color: #753E31;
+}
+
+@media (max-width:1000px) {
+  .account_head{
+    text-align: center;
+    font-size: 35px;
+  }
+}
+
+.items{
+  display: flex;
+  padding: 25px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #F5EEEC;
+  align-items: center;
+}
+
+@media (max-width:1000px) {
+  .items{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 45px 0 25px 0;
+  }
+}
+
+
+
+ .card_menu {
+   width: 578px;
+height: 243px;
+
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+box-shadow: 0px 20px 45px rgba(117, 62, 49, 0.12);
+border-radius: 20px;
+
+
+font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+color: #753E31;
+}
+
+@media (max-width:1000px) {
+.card_menu{
+  width: 300px;
+height: 177px;
+font-size: 16px;
+}
+}
+
+.card_menu a{
+  text-decoration: none;
+  color: #753E31;
+}
+
+.active a{
+  color: #A08078;
+}
+
+.card_menu_zakaz{
+position: relative;
+top:40px;
+left:60px;
+}
+
+@media (max-width:1000px) {
+.card_menu_zakaz{
+top:20px;
+left: 25px;
+}
+}
+
+.card_menu_mydata{
+  position: relative;
+top:60px;
+left:60px;
+}
+
+@media (max-width:1000px) {
+.card_menu_mydata{
+top:40px;
+left: 25px;
+}
+}
+
+.card_menu_adress{
+position: relative;
+top:80px;
+left:60px;
+}
+
+@media (max-width:1000px) {
+.card_menu_adress{
+top:60px;
+left: 25px;
+}
+}
+
+.card_menu_logout a{
+position: relative;
+top:100px;
+left:60px;
+color: #FF4C25;
+}
+
+@media (max-width:1000px) {
+.card_menu_logout a{
+top:80px;
+left: 25px;
+}
+}
+
+
+
+.text-brown{
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-size: 18px;
+  color: #753E31;
+}
+
+.text-orange{
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-size: 18px;
+  color: #FF4C25;
+}
+
+.bold{
+  font-weight: bold;
+}

@@ -1,0 +1,137 @@
+/* Media Queries */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	h1 {
+		font-size: 71px;
+	}
+	.desk__text {
+		width: auto;
+		margin-right: 30px;
+	}
+	.desk__link {
+		width: 210px;
+	    margin-left: -10px;
+	}
+	.logo_footer {
+		width: 225px;
+		height: 48px;
+		margin-top: 0;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 61px;
+	}
+	.logo-head {
+		width: 180px;
+		height: 39px;
+	}
+	.main-title__smeg {
+		width: 330px;
+		height: 37.5px;
+	}
+	.desk__link {
+		width: auto;
+	}
+	.order-desk {
+		width: 90%;
+	}
+	.order__dots {
+		width: 85%;
+	}
+	.deal__text {
+		width: auto;
+		width: 82%;
+	}
+	.logo_footer {
+		margin: auto;
+	}
+	.credits {
+		display: none;
+	}
+	.socials {
+		display: flex;
+	    width: 57%;
+	    margin: auto;
+	    margin-top: 20px;
+	}
+	.foot-cont__title {
+		display: none;
+	}
+	.desk__info {
+		margin: auto;
+    	width: 40%;
+	}
+	.credits-last {
+		margin-top: 25px;
+		text-transform: uppercase;
+	}
+	.footer {
+		padding-bottom: 18px;
+	}
+
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	h1 {
+		font-size: 51px;
+		text-align: center;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.offer {
+		padding: 70px 0 124px;
+	}
+	.main-title__smeg {
+		width: 264px;
+		height: 30px;
+		margin: auto;
+		margin-bottom: 44px;
+	}
+	.main-title__btn {
+		margin: auto;
+	}
+	.desk__info {
+		width: 100%;
+	}
+	.contact {
+		margin: auto;
+		width: 280px;
+	    justify-content: center;
+	    margin-top: 25px;
+	}
+	.logo-head {
+		margin: auto;
+	}
+	.pluses {
+		margin-top: 35px;
+	}
+	.hamburger {
+		display: block;
+   		margin-top: -83px;
+	}
+	.deal__text span {
+		display: inline-block;
+	}
+	.foot-cont .desk__info {
+		text-align: center;
+	}
+	.modal-body .deal__input, .modal-body .deal__btn {
+		width: 267px;
+	}
+	#thx {
+		width: 90%;
+	    margin-left: -146px;
+	    font-size: 15px;
+	}
+}

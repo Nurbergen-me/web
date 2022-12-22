@@ -1,0 +1,184 @@
+[18-May-2020 18:34:18 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/submit2.php on line 9
+[18-May-2020 18:34:18 Europe/Moscow] PHP Notice:  Undefined index: hidden in /home/bh64234/creativepage.nurbergen-yeleshov.ru/submit2.php on line 10
+[19-May-2020 20:24:01 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/submit2.php on line 9
+[19-May-2020 20:24:01 Europe/Moscow] PHP Notice:  Undefined index: hidden in /home/bh64234/creativepage.nurbergen-yeleshov.ru/submit2.php on line 10
+[19-May-2020 21:02:22 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/submit2.php on line 9
+[19-May-2020 21:07:47 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/submit2.php on line 9
+[19-May-2020 21:52:01 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[19-May-2020 21:52:01 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[19-May-2020 21:52:02 Europe/Moscow] PHP Warning:  fopen(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:52:02 Europe/Moscow] PHP Warning:  fopen(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:52:02 Europe/Moscow] PHP Warning:  fopen(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; %0A&lt;b&gt;Тариф&lt;/b&gt; Null%0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:52:40 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[19-May-2020 21:52:40 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[19-May-2020 21:52:40 Europe/Moscow] PHP Warning:  fopen(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:52:40 Europe/Moscow] PHP Warning:  fopen(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:52:40 Europe/Moscow] PHP Warning:  fopen(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; %0A&lt;b&gt;Тариф&lt;/b&gt; Null%0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:53:33 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[19-May-2020 21:53:33 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[19-May-2020 21:53:33 Europe/Moscow] PHP Warning:  fopen(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:53:33 Europe/Moscow] PHP Warning:  fopen(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:53:33 Europe/Moscow] PHP Warning:  fopen(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=-400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; nurber%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; %0A&lt;b&gt;Тариф&lt;/b&gt; Null%0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:53:49 Europe/Moscow] PHP Notice:  Undefined index: hidden in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 10
+[19-May-2020 21:53:49 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[19-May-2020 21:53:49 Europe/Moscow] PHP Warning:  fopen(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:53:49 Europe/Moscow] PHP Warning:  fopen(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:53:49 Europe/Moscow] PHP Warning:  fopen(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=-400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; asdas%0A&lt;b&gt;Тариф&lt;/b&gt; %0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 32
+[19-May-2020 21:58:47 Europe/Moscow] PHP Notice:  Undefined index: hidden in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 10
+[19-May-2020 21:58:47 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[19-May-2020 21:58:47 Europe/Moscow] PHP Warning:  fopen(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 21:58:47 Europe/Moscow] PHP Warning:  fopen(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 21:58:47 Europe/Moscow] PHP Warning:  fopen(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; sdfsd%0A&lt;b&gt;Тариф&lt;/b&gt; %0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 21:59:24 Europe/Moscow] PHP Notice:  Undefined index: hidden in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 10
+[19-May-2020 21:59:24 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[19-May-2020 21:59:24 Europe/Moscow] PHP Warning:  fopen(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 21:59:24 Europe/Moscow] PHP Warning:  fopen(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 21:59:24 Europe/Moscow] PHP Warning:  fopen(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; sdf%0A&lt;b&gt;Тариф&lt;/b&gt; %0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 22:00:43 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[19-May-2020 22:00:43 Europe/Moscow] PHP Warning:  fopen(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 22:00:43 Europe/Moscow] PHP Warning:  fopen(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 22:00:43 Europe/Moscow] PHP Warning:  fopen(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; sdf%0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[19-May-2020 22:02:18 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[19-May-2020 22:02:18 Europe/Moscow] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[20-May-2020 07:07:32 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:07:32 Europe/Moscow] PHP Warning:  fopen(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[20-May-2020 07:07:32 Europe/Moscow] PHP Warning:  fopen(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[20-May-2020 07:07:32 Europe/Moscow] PHP Warning:  fopen(https://api.telegram.org/): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 34
+[20-May-2020 07:17:18 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:17:18 Europe/Moscow] PHP Warning:  file_get_contents(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:17:18 Europe/Moscow] PHP Warning:  file_get_contents(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:17:18 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; sdadff%0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:17:18 Europe/Moscow] PHP Notice:  Undefined variable: sendToTelegram in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 40
+[20-May-2020 07:17:59 Europe/Moscow] PHP Parse error:  syntax error, unexpected '=' in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 40
+[20-May-2020 07:18:27 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:18:27 Europe/Moscow] PHP Warning:  file_get_contents(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:18:27 Europe/Moscow] PHP Warning:  file_get_contents(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:18:27 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; sdf%0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:19:02 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:19:02 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:19:02 Europe/Moscow] PHP Warning:  file_get_contents(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:19:02 Europe/Moscow] PHP Warning:  file_get_contents(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:19:02 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; %0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:19:51 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:19:51 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:19:51 Europe/Moscow] PHP Warning:  file_get_contents(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:19:51 Europe/Moscow] PHP Warning:  file_get_contents(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:19:51 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; %0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:21:19 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:21:19 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:22:12 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:24:25 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:24:54 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:24:54 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:26:00 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:26:00 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:26:39 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:26:39 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:26:49 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:27:10 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:27:10 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:27:25 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:27:25 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:27:46 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:27:46 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:28:20 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:28:20 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:28:48 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:28:48 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:28:58 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:28:58 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:29:10 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:29:10 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:29:20 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:29:55 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:29:55 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:30:08 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:30:08 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:30:21 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:30:21 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:30:50 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:30:50 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:31:04 Europe/Moscow] PHP Notice:  Undefined index: hidden in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 10
+[20-May-2020 07:31:04 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:32:35 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:32:35 Europe/Moscow] PHP Warning:  file_get_contents(): SSL: Connection reset by peer in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:32:35 Europe/Moscow] PHP Warning:  file_get_contents(): Failed to enable crypto in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:32:35 Europe/Moscow] PHP Warning:  file_get_contents(https://api.telegram.org/bot1129916003:AAFH_HPyR8XzSNxV90mbEAOpNHSEeXfPQDk/sendMessage?chat_id=400819150&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; Nurbergen Yeleshov%0A&lt;b&gt;Телефон: &lt;/b&gt; 87714839456%0A&lt;b&gt;Email&lt;/b&gt; sdfs%0A): failed to open stream: operation failed in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 37
+[20-May-2020 07:34:02 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:34:23 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:34:23 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:34:58 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:34:58 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:35:29 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:35:29 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:35:44 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:35:44 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:35:57 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:35:57 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:37:24 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:37:24 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:37:35 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:37:35 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:37:46 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:37:46 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:38:19 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:38:19 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:38:41 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:38:41 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:38:58 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:38:58 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:43:41 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:43:41 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:43:41 Europe/Moscow] PHP Warning:  array_map(): Argument #2 should be an array in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 41
+[20-May-2020 07:44:18 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:44:18 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:44:32 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:44:32 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:44:46 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:44:46 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:45:00 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:45:00 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:45:12 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:45:12 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:45:39 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:45:39 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:45:57 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:45:57 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:49:06 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:49:06 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:49:35 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:49:35 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:54:48 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:54:48 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:55:02 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:55:02 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:55:12 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:55:12 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:55:27 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:55:27 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 07:55:36 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 07:55:36 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 28
+[20-May-2020 08:06:58 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 08:06:58 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 08:08:07 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 08:08:07 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 08:08:21 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 08:08:21 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 08:09:09 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 08:09:09 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 08:13:55 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 08:13:55 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 08:14:10 Europe/Moscow] PHP Notice:  Undefined index: hidden in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 10
+[20-May-2020 08:14:10 Europe/Moscow] PHP Notice:  Undefined index: hidden-time in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 11
+[20-May-2020 08:14:10 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 08:16:07 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 08:16:07 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 08:16:41 Europe/Moscow] PHP Notice:  Undefined index: hidden in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 10
+[20-May-2020 08:16:41 Europe/Moscow] PHP Notice:  Undefined index: hidden-time in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 11
+[20-May-2020 08:16:41 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 12:54:05 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 12:54:05 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 13:26:10 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 13:26:10 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30
+[20-May-2020 13:38:10 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 9
+[20-May-2020 13:38:10 Europe/Moscow] PHP Notice:  Undefined variable: txt in /home/bh64234/creativepage.nurbergen-yeleshov.ru/telegram.php on line 30

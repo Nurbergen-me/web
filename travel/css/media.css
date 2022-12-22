@@ -1,0 +1,207 @@
+/* Media Queries */
+
+/* 992 - 1340 px */
+@media screen and (max-width: 1340px) {
+	.trip__item {
+		margin-bottom: 20px;
+	}
+	.trip__img, .about__img {
+		display: none;
+	}
+	.trip__img-md, .about__img-md {
+		display: block;
+	}
+	.trip__btn {
+		width: 200px;
+	}
+	.wrapper {
+		background: url('../img/Rectangle.png') no-repeat right top / cover;
+		margin-right: 0;
+	}
+	.wrapper section, .wrapper header {
+		margin-left: 0;
+	}
+	.desk__all-slider {
+		display: flex;
+	}
+	.desk__slider {
+		width: 69%;
+		margin-left: 5%;
+	}
+	.owl-carousel .owl-item img {
+		width: auto;
+	}
+	.desk__prev {
+		flex-direction: column;
+		height: 504px;
+	}
+	.desk__prev .url {
+		height: 33%;
+		width: auto;
+	}
+	.desk__min {
+		width: auto;
+		height: 100%;
+	}
+	.desk__title {
+		margin-top: 40px;
+	}
+}
+
+/* 769 - 992 px */
+@media screen and (max-width: 992px) {
+	.menu {
+		padding: 0;
+	}
+	.contacts {
+		display: flex;
+    	flex-direction: row-reverse;
+    	margin-top: -10px;
+	}
+	.contacts__socials {
+		margin-right: 50px;
+	}
+	.contacts__link {
+		margin-right: 5px;
+	}
+	h1 {
+		text-align: center;
+    	margin-top: 110px;
+    	font-size: 35px;
+	}
+	.form {
+		margin: auto;
+		margin-top: 30px;
+	}
+	.trip__item {
+		height: 302px;
+	}
+	.trip__title {
+		margin-top: 120px;
+	}
+	.about__img-md {
+		display: none;
+	}
+	.about__img-sm {
+		display: block;
+		margin-bottom: 25px;
+		border-radius: 5px;
+		width: 100%;
+	}
+	.about__pros {
+		font-size: 16px;
+		width: 100%;
+	}
+	.desk__all-slider {
+		flex-direction: column;
+	}
+	.desk__slider {
+		width: 100%;
+		margin-left: 0;
+	}
+	.owl-carousel .owl-item img {
+		width: 100%;
+	}
+	.desk__prev {
+		flex-direction: row;
+		height: auto;
+	}
+	.desk__prev .url {
+		height: auto;
+		width: 33%;
+	}
+	.desk__min {
+		width: 100%;
+		height: auto;
+	}
+	.desk .row {
+		flex-direction: column-reverse;
+	}
+	.desk {
+		margin-top: 46px;
+	}
+	.desk__text {
+		margin-bottom: 20px;
+	}
+	.wrapper {
+		background: url(../img/Rectangle.png) -1520px center no-repeat / cover;
+	}
+	.use {
+	    background: url(../img/Rectangle.png) no-repeat right top / cover;
+	    margin-right: 0;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.logo img {
+		width: 100%;
+		margin-top: 35px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.trip__title {
+		width: 165px;
+		font-size: 22px;
+	}
+	.trip__btn {
+		width: 165px;
+	}
+	.wrapper {
+		background: url(../img/Rectangle.png) -2000px center no-repeat / cover;
+	}
+	.use {
+	    background: url(../img/Rectangle.png) no-repeat right top / cover;
+	    margin-right: 0;
+	}
+	.use__text {
+		padding: 46px 50px 300px 60px;
+		width: 90%;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.body, p {
+		font-size: 16px;
+	}
+	.logo {
+		display: block;
+		text-align: center;
+	}
+	.logo img {
+		width: auto;
+		margin-top: 0;
+	}
+	.contacts__tel {
+		display: none;
+	}
+	.contacts__tel-sm {
+		display: block;
+	}
+	.contacts {
+		width: 170px;
+		margin: auto;
+	}
+	.menu {
+		width: 300px;
+	    margin: auto;
+	    margin-top: 25px;
+	    margin-bottom: 20px;
+	}
+	h1 {
+		margin-top: 50px;
+		font-size: 20px;
+	}
+	.about__pros {
+		font-size: 13px;
+	}
+	.time__text {
+	    padding: 46px 20px 42px 30px;
+	}
+	.use__text {
+		width: 100%;
+		padding: 46px 50px 300px 60px;
+	}
+ }

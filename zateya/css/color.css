@@ -1,0 +1,118 @@
+.round {
+  position: relative;
+  padding: 10px;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 35px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 35px;
+}
+
+.round label:after {
+  border: 3px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 11px;
+  opacity: 0;
+  position: absolute;
+  top: 12px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round_red  + label {
+  background-color: #EB5757;
+  border-color: #EB5757;
+}
+
+.round_red input[type="checkbox"]:checked + label {
+  background-color: #EB5757;
+  border-color: #EB5757;
+}
+
+.round_orange  + label {
+  background-color: #F2994A;
+  border-color: #F2994A;
+}
+
+.round_orange input[type="checkbox"]:checked + label {
+  background-color: #F2994A;
+  border-color: #F2994A;
+}
+
+.round_yellow  + label {
+  background-color: #F2C94C;
+  border-color: #F2C94C;
+}
+
+.round_yellow input[type="checkbox"]:checked + label {
+  background-color: #F2C94C;
+  border-color: #F2C94C;
+}
+
+.round_green  + label {
+  background-color: #27AE60;
+  border-color: #27AE60;
+}
+
+.round_green input[type="checkbox"]:checked + label {
+  background-color: #27AE60;
+  border-color: #27AE60;
+}
+
+.round_blue  + label {
+  background-color: #2F80ED;
+  border-color: #2F80ED;
+}
+
+.round_blue input[type="checkbox"]:checked + label {
+  background-color: #2F80ED;
+  border-color: #2F80ED;
+}
+
+.round_violet + label {
+  background-color: #BB6BD9;
+  border-color: #BB6BD9;
+}
+
+.round_violet input[type="checkbox"]:checked + label {
+  background-color: #BB6BD9;
+  border-color: #BB6BD9;
+}
+
+.round_sky + label {
+  background-color: #56CCF2;
+  border-color: #56CCF2;
+}
+
+.round_sky input[type="checkbox"]:checked + label {
+  background-color: #56CCF2;
+  border-color: #56CCF2;
+}
+
+.round_grey + label {
+  background-color: #E0E0E0;
+  border-color: #E0E0E0;
+}
+
+.round_grey input[type="checkbox"]:checked + label {
+  background-color: #E0E0E0;
+  border-color: #E0E0E0;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}

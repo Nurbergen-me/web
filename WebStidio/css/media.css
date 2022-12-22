@@ -1,0 +1,336 @@
+@media (max-width: 1300px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    max-width: 960px;
+  }
+  .services__img, .pros__img {
+    height: 260px;
+  }
+  .gift__img {
+    width: 200px;
+  }
+  .gift__img_second {
+    width: 250px;
+  }
+  .settings__img {
+    width: 40%;
+  }
+  .method__num:after {
+    right: -75px;
+  }
+  .method__text {
+    width: 94%;
+  }
+  .contact__wrap {
+    padding: 67px 55px 76px;
+  }
+  .works__name {
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+  .works__type {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  section {
+    padding-top: 80px !important;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  .offer__img {
+    width: 480px;
+  }
+  .header {
+    padding-top: 150px;
+  }
+  .header__contacts {
+    margin-left: auto;
+    /* margin-right: 40px; */
+  }
+  .menu {
+    display: none;
+  }
+  .services__item, .pros__item {
+    margin-top: 80px;
+    padding: 0;
+  }
+  .services__img, .pros__img {
+    height: 200px;
+  }
+  .pros__title {
+    margin-bottom: 0;
+  } 
+  .landing__pros {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .tarif__wrap {
+    flex-wrap: wrap;
+  }
+  .tarif__item {
+    width: 49%;
+    margin-bottom: 50px;
+  }
+  .gift__img {
+    display: none;
+  }
+  .method__num {
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+  }
+  .method__num:after {
+    right: -59px;
+  }
+  .contact {
+    margin-top: 0;
+  }
+  .contact__wrap {
+    width: 90%;
+  }
+  .contact__form {
+    margin-top: 30px;
+  }
+  .form__input {
+    width: 21%;
+  }
+  .form__btn {
+    padding: 10px;
+  }
+  .works__overlay {
+    padding: 0 20px;
+  }
+  .works__name {
+    font-size: 20px;
+  }
+  .works__type {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  .header__nav {
+    position: fixed;
+    top: 0;
+    background: rgba(18, 9, 4, 0.82);
+    width: 100%;
+    left: 0;
+    padding: 13px;
+    z-index: 1000;
+  }
+  .header__ham {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 60px;
+    margin-top: 10px;
+  }
+  
+  .header__contacts {
+    margin-left: 0;
+    font-size: 12px;
+  }
+  
+  .header__mail {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  h1   {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .contact__form {
+    flex-direction: column;
+  }
+  .form__input, .form__btn {
+    width: 100%;
+    margin: auto;
+    max-width: initial;
+    margin-bottom: 20px;
+  }
+  .works__overlay {
+    display: none;
+  }
+  .tarif__body {
+    padding-left: 15px;
+  }
+  .settings__img {
+    display: none;
+  }
+  .settings__side {
+    width: 85%;
+    margin: auto
+  }
+  .method__wrap {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+  .last-side {
+    display: none;
+  }
+  .landing__pros {
+    height: 42px;
+  }
+  .method__item {
+    height: 250px;
+  }
+  .method__num:after {
+    display: none;
+  }
+  .footer__wrap {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0;
+  }
+  .footer__item:first-child {
+    font-size: 0;
+  }
+  .footer__socials {
+    margin: 20px 0;
+  }
+  .footer__reck {
+    width: auto;
+    margin-right: 20px;
+  } 
+}
+@media (max-width: 578px) {
+  .container {
+    max-width: 90%;
+  }
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  a, button {
+    font-size: 16px;
+  }
+  .header {
+    height: 660px;
+    padding-top: 75px;
+  }
+  .header__offer {
+    margin-top: 90px;
+  }
+  .header__btn {
+    font-size: 20px;
+  }
+  .timer__text {
+    font-size: 11px;
+  }
+  .header__logo {
+    width: 60px;
+  }
+  .offer__img {
+    display: none;
+  }
+  .offer__text {
+    margin-bottom: 30px;
+  }
+  .landing__title {
+    font-size: 21px;
+  }
+  .landing__text {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .landing__pros {
+    width: 90%;
+  }
+  .services__item, .pros__item {
+    width: 80%;
+  }
+  .services__img, .pros__img {
+    height: 170px;
+  }
+  .works__item {
+    width: 90%;
+    margin: auto
+  }
+  .gift__text {
+    font-size: 20px;
+  }
+  .gift__offer {
+    margin-bottom: 0;
+  }
+  .tarif__item {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  section {
+    padding-bottom: 100px !important;
+  }
+  .method__info {
+    font-size: 11px;
+    margin-bottom: 30px;
+  }
+  .contact__wrap {
+    width: 100%;
+    padding: 30px 30px;
+  }
+  .contact__text {
+    font-size: 12px;
+  }
+  .contact__wrap {
+    margin-top: -450px;
+  }
+  .modal-dialog {
+    padding: 30px;
+  }
+  .modal-dialog {
+    padding: 15px;
+  }
+  .modal-title {
+    font-size: 18px;
+  }
+  .modal-text {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .modal-form {
+    padding: 0;
+  }
+  .form__input, .form__btn {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .form__btn {
+    font-size: 13px;
+  }
+  .modal-aftertext {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .modal-dialog {
+    min-height: 425px;
+  }
+}

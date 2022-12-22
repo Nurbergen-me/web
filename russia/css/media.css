@@ -1,0 +1,140 @@
+/* Media Queries */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	.slider__video {
+		width: 500px;
+	}
+	.slider__video img:first-child {
+		width: 100%;
+	}
+	.slider__author {
+		right: 255px;
+	}
+	.slider__item {
+		height: 285px;
+	}
+	.if__img {
+		height: 145px;
+		width: 145px;
+	}
+	.news__item {
+		min-height: 310px;
+	}
+	.menu {
+		margin-right: -35px;
+    	margin-left: -20px;
+	}
+}
+
+/* 769 - 992 px */
+@media screen and (max-width: 992px) {
+	.menu__btn {
+		display: none;
+	}
+	.comp__wrap {
+		flex-wrap: wrap;
+	}
+	.comp__item {
+		width: 33%;
+	}
+	.slider__item {
+		height: 600px;
+		flex-direction: column;
+	}
+	.slider__video {
+		margin: auto;
+		margin-top: 55px;
+		margin-bottom: 0;
+	}
+	.slider__left {
+		width: 500px;
+		margin: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.slider__video img {
+		margin-left: 0;
+	}
+	.post__wrap {
+		flex-direction: column-reverse;
+	}
+	.post__img {
+		width: 90%;
+	}
+	.winners__pic {
+		padding: 15px;
+	}
+	.cab__person {
+		border-right: none;
+		margin-bottom: 40px;
+	}
+
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.comp__stage {
+		font-size: 16px;
+	}
+	.ready__box {
+		width: 100%;
+	}
+	.credits {
+		margin-top: 40px;
+	}
+	.winners__wrap {
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
+	.winners__item {
+		width: 28%;
+		margin: 0 10px;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.menu {
+		margin-top: 30px;
+	}
+	.comp__item {
+		width: 50%;
+	}
+	.slider__video, .slider__left {
+		width: 100%;
+	}
+	.slider__video img:last-child {
+		height: 70%;
+	}
+	.slider__text {
+		margin-left: 10px;
+		font-size: 17px;
+	}
+	.slider__item {
+		height: 470px;
+	}
+	.slider__author {
+		right: 210px;
+	}
+	.slider__person {
+		right: 20px;
+	}
+	.if__img {
+		height: 135px;
+		width: 135px;
+	}
+	.post__img {
+		width: 100%;
+	}
+	.winners__item {
+		width: 40%;
+	}
+	.menu {
+		margin-right: 0px;
+    	margin-left: 0px;
+	}
+	.cab__type {
+		line-height: 1.25;
+	}
+ }

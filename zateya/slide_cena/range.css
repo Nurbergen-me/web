@@ -1,0 +1,30 @@
+
+.range-widget .noUi-horizontal {
+  width:221px;
+height: 4px;
+border-radius: 2px;
+border: 0 none;
+box-shadow: 0 1px 0 #fff, inset 0 1px 1px rgba(0,0,0,0.15);
+}
+.range-widget .noUi-connect {
+border-radius: 2px;
+background: #FF4C25;
+box-shadow: 0 1px 0 #fff, inset 0 1px 1px rgba(121,139,81,0.49);
+}
+.range-widget .noUi-horizontal .noUi-handle {
+left: -7px;
+
+width: 14px;
+height: 14px;
+border-radius: 50%;
+outline: 0 none;
+border: 0 none;
+background-color: #FF4C25;
+background-image: -webkit-linear-gradient(bottom, rgba(121,139,81,0.09) 0%, rgba(121,139,81,0) 100%);
+background-image: linear-gradient(to top, rgba(121,139,81,0.09) 0%, rgba(121,139,81,0) 100%);
+box-shadow: 0 1px 3px rgba(121,139,81,0.61);
+}
+.range-widget .noUi-horizontal .noUi-handle:before,
+.range-widget .noUi-horizontal .noUi-handle:after {
+display: none;
+}

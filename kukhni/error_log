@@ -1,0 +1,147 @@
+[16-Jun-2019 07:45:53 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[16-Jun-2019 07:45:53 Europe/Moscow] PHP Notice:  Undefined index: texta in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 9
+[16-Jun-2019 07:47:57 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 8
+[16-Jun-2019 07:52:12 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[16-Jun-2019 07:54:34 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 4
+[16-Jun-2019 07:54:46 Europe/Moscow] PHP Notice:  Undefined index: name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 5
+[16-Jun-2019 07:54:46 Europe/Moscow] PHP Notice:  Undefined index: email in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 6
+[17-Jun-2019 12:38:54 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 4
+[19-Jun-2019 05:29:19 Europe/Moscow] PHP Notice:  Undefined index: name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 5
+[19-Jun-2019 05:29:19 Europe/Moscow] PHP Notice:  Undefined index: email in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 6
+[19-Jun-2019 10:01:42 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 27
+[19-Jun-2019 10:11:14 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 27
+[19-Jun-2019 10:17:45 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 27
+[19-Jun-2019 10:29:04 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[19-Jun-2019 10:31:36 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[19-Jun-2019 10:33:50 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[19-Jun-2019 10:33:50 Europe/Moscow] PHP Notice:  Undefined index: file in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 12
+[19-Jun-2019 10:33:50 Europe/Moscow] PHP Notice:  Undefined index: file in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 14
+[19-Jun-2019 10:37:06 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[19-Jun-2019 10:37:06 Europe/Moscow] PHP Notice:  Undefined index: file in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[19-Jun-2019 10:37:06 Europe/Moscow] PHP Notice:  Undefined index: file in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 14
+[19-Jun-2019 10:37:06 Europe/Moscow] PHP Notice:  Undefined index: file in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 16
+[20-Jun-2019 07:44:33 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 34
+[20-Jun-2019 07:46:16 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 34
+[20-Jun-2019 07:47:45 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 34
+[20-Jun-2019 07:47:54 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 34
+[20-Jun-2019 07:49:56 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 34
+[20-Jun-2019 07:50:29 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 34
+[20-Jun-2019 07:51:08 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 33
+[20-Jun-2019 07:54:38 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 20
+[20-Jun-2019 07:55:34 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 20
+[20-Jun-2019 07:57:28 Europe/Moscow] PHP Notice:  Undefined index: texta in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 9
+[20-Jun-2019 07:57:34 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[20-Jun-2019 07:57:34 Europe/Moscow] PHP Notice:  Undefined index: texta in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 9
+[20-Jun-2019 07:59:18 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[20-Jun-2019 08:01:18 Europe/Moscow] PHP Notice:  Undefined variable: html in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 12
+[20-Jun-2019 08:01:18 Europe/Moscow] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 12
+[20-Jun-2019 08:01:18 Europe/Moscow] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 25
+[20-Jun-2019 08:20:10 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[20-Jun-2019 08:20:10 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function AddAttachment() on string in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 20
+[20-Jun-2019 08:22:18 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 7
+[20-Jun-2019 08:22:18 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function AddAttachment() on string in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 20
+[20-Jun-2019 08:36:00 Europe/Moscow] PHP Notice:  Undefined index: email in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 8
+[20-Jun-2019 08:36:52 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[20-Jun-2019 08:36:52 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 11
+[20-Jun-2019 08:36:52 Europe/Moscow] PHP Notice:  Undefined index: file in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 36
+[20-Jun-2019 08:36:52 Europe/Moscow] PHP Notice:  Undefined index: file in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 36
+[20-Jun-2019 20:02:16 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$email' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 4
+[21-Jun-2019 08:14:31 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 9
+[21-Jun-2019 08:14:31 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 46
+[21-Jun-2019 08:14:31 Europe/Moscow] PHP Notice:  Undefined index: mail in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 08:14:31 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 68
+[21-Jun-2019 08:17:07 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 9
+[21-Jun-2019 08:17:07 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 46
+[21-Jun-2019 08:17:07 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 68
+[21-Jun-2019 08:42:59 Europe/Moscow] PHP Parse error:  syntax error, unexpected ',' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 76
+[21-Jun-2019 08:43:58 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 76
+[21-Jun-2019 08:52:06 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:10 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:13 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:14 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:15 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:15 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:15 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:16 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:16 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:40 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 08:52:41 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/text.php on line 6
+[21-Jun-2019 11:39:00 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 76
+[21-Jun-2019 11:40:14 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 11:40:14 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 11:40:14 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 69
+[21-Jun-2019 11:40:44 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 11:40:44 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 11:40:44 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 69
+[21-Jun-2019 12:02:40 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:02:40 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:02:40 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 70
+[21-Jun-2019 12:02:40 Europe/Moscow] PHP Notice:  Undefined variable: sum in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 75
+[21-Jun-2019 12:03:43 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:03:43 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:03:43 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 70
+[21-Jun-2019 12:03:43 Europe/Moscow] PHP Notice:  Undefined variable: sum in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 75
+[21-Jun-2019 12:05:25 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:05:25 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:05:25 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 70
+[21-Jun-2019 12:08:40 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:08:40 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:08:40 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 70
+[21-Jun-2019 12:12:41 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:12:41 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:12:41 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 72
+[21-Jun-2019 12:13:26 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:13:26 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:13:26 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 72
+[21-Jun-2019 12:17:28 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:17:28 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:17:28 Europe/Moscow] PHP Notice:  Undefined index: sum in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 49
+[21-Jun-2019 12:17:28 Europe/Moscow] PHP Notice:  Undefined index: sum2 in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 50
+[21-Jun-2019 12:17:28 Europe/Moscow] PHP Notice:  Undefined index: sum3 in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 51
+[21-Jun-2019 12:17:28 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 72
+[21-Jun-2019 12:30:55 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:30:55 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:30:55 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 72
+[21-Jun-2019 12:33:47 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:33:47 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:33:47 Europe/Moscow] PHP Notice:  Undefined index: sum in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 49
+[21-Jun-2019 12:33:47 Europe/Moscow] PHP Notice:  Undefined index: sum2 in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 50
+[21-Jun-2019 12:33:47 Europe/Moscow] PHP Notice:  Undefined index: sum3 in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 51
+[21-Jun-2019 12:33:47 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 72
+[21-Jun-2019 12:53:37 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 12:53:37 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 12:53:37 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 72
+[21-Jun-2019 13:34:46 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 62
+[21-Jun-2019 13:36:49 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 13:36:49 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 13:36:49 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87
+[21-Jun-2019 13:38:18 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 13:38:18 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 13:38:18 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87
+[21-Jun-2019 13:38:19 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 13:38:19 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 13:38:19 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87
+[21-Jun-2019 13:40:10 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 13:40:10 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 13:40:10 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87
+[21-Jun-2019 13:40:11 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 13:40:11 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 13:40:11 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87
+[21-Jun-2019 13:44:04 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 13:44:04 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 13:44:04 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87
+[21-Jun-2019 13:44:37 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[21-Jun-2019 13:44:37 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[21-Jun-2019 13:44:37 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87
+[24-Jun-2019 10:05:48 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[24-Jun-2019 10:05:48 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[24-Jun-2019 10:05:48 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87
+[24-Jun-2019 14:44:48 Europe/Moscow] PHP Notice:  Undefined index: my_upload in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 10
+[24-Jun-2019 14:44:48 Europe/Moscow] PHP Notice:  Undefined index: tel in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 47
+[24-Jun-2019 14:44:48 Europe/Moscow] PHP Notice:  Undefined variable: upload_file_name in /home/bh64234/kitchen.nurbergen-yeleshov.ru/submit2.php on line 87

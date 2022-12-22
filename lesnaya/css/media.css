@@ -1,0 +1,330 @@
+/* Media Queries */
+
+/* 1500 - 1800 px */
+@media screen and (max-width: 1800px) {
+    
+}
+
+/* 1400 - 1660 px */
+@media screen and (max-width: 1660px) {
+	.container {
+		max-width: 1340px;
+	}
+	.side__item a {
+		margin-left: 50px;
+	}
+}
+
+/* 1200 - 1400 px */
+@media screen and (max-width: 1400px) {
+	.header {
+	    background: url(../img/bg-main.jpg) no-repeat left top;
+	}
+	.container {
+		max-width: 1140px;
+	}
+	.contacts {
+		flex-direction: row-reverse;
+		margin: auto;
+		margin-top: 15px;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.contacts__btn {
+		margin-left: 0;
+	}
+	.offer__text {
+		margin-top: 80px;
+	}
+	.slider__wrapper {
+		width: 100%;
+	}
+	.slider__wrapper .owl-nav {
+		position: static;
+		margin-top: 25px;
+	}
+	.owl-prev {
+		left: 0;
+	}
+	.owl-next {
+		right: 0;
+	}
+	.test .row {
+		margin-left: 0;
+	}
+	.plan__item {
+		width: 100%;
+	}
+	.plan__img {
+		width: 80% !important;
+		margin: auto;
+	}
+	.plan__input {
+		width: 70%;
+		display: inline;
+	}
+	.why {
+		padding-bottom: 0;
+	}
+	.footer {
+		text-align: center;
+		padding: 50px 0 95px;
+	}
+	.partner__logo {
+		margin: auto;
+		width: 180px;
+	}
+	.footer .contacts {
+		flex-direction: column-reverse;
+	}
+	.footer__credits {
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 25px;
+		font-size: 17px;
+		width: 570px;
+	}
+	.footer__contacts_btn {
+		margin-bottom: 20px;
+	}
+	.side__item a {
+		margin-left: 30px;
+	}
+
+}
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+	.pros__item {
+		width: 50%;
+		margin-top: 30px;
+	}
+	.birds {
+		display: none;
+	}
+	.book {
+		background: url('../img/journal-2.png') no-repeat center / contain;
+		height: 920px;
+		margin-top: 100px;
+		padding-top: 0;
+	}
+	.side__item a {
+		margin-left: 17px;
+		font-size: 26px;
+	}
+}
+
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+	h1 {
+		font-size: 77px;
+	}
+	.offer__text {
+		font-size: 56px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	.pros__item {
+		width: 100%;
+	}
+	.plan__types {
+		width: 100%;
+	}
+	.plan__item {
+		width: 65%;
+		margin: auto;
+		margin-top: 50px;
+	}
+	.plan__wrap {
+		padding: 0 69px;
+	}
+	.plan__wrap .owl-nav {
+		width: 80%;
+	}
+	.side {
+		width: 45%;
+		right: -45%;
+	}
+	.side_slide {
+		right: 0;
+	}
+}   
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+    .container {
+		max-width: 540px;
+	}
+	.contacts__btn {
+		width: 260px;
+		margin-right: 0;
+		z-index: 10;
+	}
+	.tel__number {
+		font-size: 27px;
+	}
+	h1 {
+		font-size: 65px;
+	}
+	.offer__text {
+		font-size: 43px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	h3 {
+		font-size: 27px;
+	}
+	.plan__room {
+		font-size: 16px;
+	}
+	.plan__wrap .owl-nav {
+		width: 86%;
+		margin-left: -33px;
+	}
+	.test__title {
+		font-size: 40px;
+	}
+	.book__add {
+		font-size: 32px;
+	}
+	.sub__form {
+		flex-direction: column;
+		align-items: center;
+	}
+	.sub__input {
+		margin-bottom: 15px;
+	}
+	.footer__credits {
+		width: 90%;
+	}
+	.side {
+		width: 55%;
+		right: -55%;
+	}
+	.side_slide {
+		right: 0;
+	}
+	.side__item a {
+		font-size: 22px;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.container {
+		max-width: 100%;
+	}
+	.main-btn {
+		width: 250px;
+		height: 60px;
+		border-radius: 30px;
+		font-size: 16px;
+	}
+	.offer__btn {
+		margin-top: 45px;
+	}
+	.partner__img {
+		max-height: 23px;
+	}
+	.partner__text {
+		font-size: 10px;
+	}
+	.contacts {
+		flex-direction: column;
+	}
+	.contacts__btn {
+		width: 230px;
+		height: 63px;
+		margin-top: 10px;
+	}
+	.contacts__call {
+		width: 50px;
+		height: 50px;
+	}
+	.contacts__text {
+		font-size: 15px;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	.offer__text {
+		font-size: 27px;
+	}
+	.owl-dot {
+		font-size: 49px;
+		margin-left: -38px;
+	}
+	.owl-dot:after {
+		right: -40px;
+		font-size: 26px;
+		bottom: 8px
+	}
+	.test__title {
+		font-size: 23px;
+	}
+	.test__number {
+		font-size: 80px;
+	}
+	.test__text {
+		font-size: 18px;
+	}
+	.pros__img {
+		width: 100%;
+	}
+	.pros__text {
+		width: 90%;
+	}
+	.plan__types {
+		flex-direction: column;
+		height: auto;
+	}
+	.plan__wrap {
+		padding: 0;
+	}
+	.plan__wrap .owl-nav {
+		width: 110%;
+		margin-left: -5%;
+	}
+	.book__add {
+		font-size: 26px;
+	}
+	.plan__size {
+		font-size: 18px;
+		margin-bottom: 19px;
+	}
+	.plan__input {
+		margin-bottom: 20px;
+	}
+	.plan__btn {
+		padding: 17px 0;
+		font-size: 14px;
+	}
+	.plan__item {
+		padding-top: 15px;
+	}
+	.side {
+		width: 85%;
+		right: -85%;
+	}
+	.side_slide {
+		right: 0;
+	}
+	.side__item a {
+		font-size: 20px;
+	}
+ }

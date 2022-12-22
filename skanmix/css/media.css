@@ -1,0 +1,289 @@
+/* Media Queries */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	h1 {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.menu {
+		margin: 0 10px;
+	}
+	.menu__item a {
+		width: 88px;
+	}
+	.user__id {
+		margin-left: 3px;
+	}
+	.set {
+		padding: 54px 0 50px;
+	}
+	.set__min-btn {
+		width: 140px;
+		padding: 7px 0;
+	}
+	.set__big-btn {
+		width: 230px;
+		margin-bottom: 0;
+	}
+	.offer__img {
+		width: 110%;
+		margin-left: -10%;
+	}
+	.robot__img {
+		width: 100%;
+	}
+	.offer__desk {
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+	.offer__btn {
+		width: 270px;
+		height: 50px;
+		font-size: 16px;
+	}
+	.offer__text {
+		margin-top: 30px;
+	}
+
+}
+
+/* 769 - 992 px */
+@media screen and (max-width: 992px) {
+	.reg:before {
+		width: 220px;
+	}
+	.reg:after {
+		width: 250px;
+	}
+	.tarifs__wrap {
+		flex-direction: column;
+	}
+	.tarifs__tarif {
+		border-right: none;
+		border-bottom: 1px solid rgba(106, 154, 210, 0.72);
+		padding: 40px 47px 40px !important;
+	}
+	.tarif__head {
+		display: flex;
+		align-items: center;
+	}
+	.tarif__img {
+		display: block;
+		margin-right: 30px;
+	}
+	.tarif__name {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.tarif__price span {
+		font-size: 30px;
+	}
+	.tarif__price {
+		font-size: 16px;
+	}
+	.tarif__min-wrap {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.tarif__more {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 35px;
+	}
+	.tarif__btn {
+		margin-bottom: 0;
+	}
+	.inst__prof {
+		width: 100%;
+	}
+	.robot__row {
+		flex-direction: column;
+	}
+	.robot__fact_second {
+		margin-top: 0;
+	}
+	.robot__number {
+		font-size: 35px;
+	}
+	.robot__text {
+		font-size: 18px;
+	}
+
+	.tarif__main-img {
+		background: url(../img/tarif-bg.png) no-repeat left top;
+		margin-left: 10px;
+	}
+
+	.tarif__main-img img {
+		margin-left: 28px;
+		margin-right: 66px;
+	}
+	.tarif__main-name {
+		margin-top: 10px;	
+	}
+	.tarif__main-img .tarif__price {
+		margin-bottom: 20px;
+	}
+	.tarifs__main {
+		margin-bottom: 30px;
+		border-bottom: none !important;
+	}
+	.tarif__main-btn {
+		width: 330px;
+	}
+	.footer__right {
+		margin-top: 40px;
+	}
+	.pros .row {
+		flex-direction: column-reverse;
+	}
+	.pros {
+    background: url(../img/bg-2.png) no-repeat left top / cover;
+	}
+	.pros__main-title {
+		width: 60%;
+	}
+	.pros__idea {
+		width: 86%;
+	}
+	.pros__side {
+		display: flex;
+		margin-top: 40px;
+	}
+	.bonus__title {
+		text-align: left;
+	}
+	.bonus .container {
+		padding: 95px 0 105px;
+	}
+	.bonus {
+	    background: url(../img/bg-3.png) no-repeat left top / cover;
+	}
+
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.logo-wrap {
+		text-align: center;
+	}
+	.set__item, .set__line {
+		flex-direction: column;
+	}
+	.set__status {
+		margin-left: 0;
+		margin-bottom: 17px;
+    	margin-top: 10px;
+	}
+	.set__status:before {
+		left: auto;
+		right: 0;
+	}
+	.set__input {
+		margin-left: 0;
+	}
+	.sub-item__second {
+		text-align: left;
+	}
+	.set__btn {
+		margin-bottom: 10px;
+	}
+	.reg input, .reg button {
+		width: 330px;
+	}
+	.reg:before {
+		width: 144px;
+	}
+	.reg:after {
+		width: 160px;
+	}
+	.set__part-wrap, .set__stat, .set__point, .set__main-text {
+		font-size: 16px;
+	}
+	.stat-tarif {
+		width: 180px;
+	}
+	.set__item_change {
+		flex-direction: row;
+	}
+	.set__min-btn {
+		margin-top: 0;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	.set__big-btn {	
+		margin-bottom: 0;
+		width: 170px;
+	}
+	.span-main {
+		width: 150px;
+	}
+	.offer .row {
+		flex-direction: column-reverse;
+	}
+	.offer__img {
+		width: 90%;
+		margin: auto;
+		display: block;
+	}
+	.pros__main-title {
+		width: 80%;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	h4 {
+		font-size: 25px;
+	}
+	h6 {
+		font-size: 22px;
+	}
+	.set__name {
+		font-size: 20px;
+	}
+	.set__wrap {
+		padding: 0;
+	}
+	.stat-tarif {
+		width: 116px;
+	}
+	.reg input, .reg button {
+		width: 300px;
+		padding: 10px 0 10px 25px;
+	}
+	.reg:before {
+		background: url('../img/form-img-1-1.png') no-repeat left top / contain;
+	}
+	.reg:after {
+		background: url('../img/form-img-2-1.png') no-repeat right bottom / contain;
+	}
+	.set__big-btn {	
+		margin-bottom: 0;
+		width: 130px;
+		font-size: 14px;
+		padding: 11px 0;
+	}
+	.span-main {
+		width: 120px;
+		font-size: 22px;
+	}
+	.span-main span {
+		font-size: 22px;
+	}
+	.set__pass-btn {
+		width: 100%;
+	}
+	.tarif__head, .tarif__more {
+		flex-direction: column;
+	}
+	.tarif__name {
+		text-align: center;
+	}
+	.inst__prof {
+	    flex-direction: column;
+	    height: 150px;
+	    border-radius: 30px;
+	}
+ }

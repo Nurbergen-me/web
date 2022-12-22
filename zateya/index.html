@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link href="../font/circe.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-curve"></div>
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="" class="header__logo">
+          <img src="img/Лого.png" alt="Логотип">
+        </a>
+        <div class="header__info">
+          <div class="header__phone">
+            <a href="tel:88007750775" class="header__phone-text">8 800 775 07 75</a>
+            <i class="fa fa-instagram header__inst-icon" aria-hidden="true"></i>
+
+          </div>
+          <a href="#" class="header__callback">
+            Заказать звонок
+          </a>
+
+
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav__wrapper">
+            <li class="header-nav__item">
+              <a href="#">Каталог</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#">Доставка</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#">О нас</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-btns">
+          <div class="header-btns__account">
+            <svg class="header-btns__icon" width="26" height="25" viewBox="0 0 26 25" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24.0116 15.8697C23.183 15.1417 22.1782 14.5126 21.0248 14.0001C20.5318 13.7812 19.9548 14.0032 19.7359 14.496C19.5169 14.9889 19.7389 15.5659 20.2318 15.785C21.2043 16.2172 22.0424 16.7393 22.7224 17.3368C23.5607 18.0735 24.0415 19.1401 24.0415 20.2637V22.0703C24.0415 22.6088 23.6034 23.0469 23.0649 23.0469H3.92432C3.38587 23.0469 2.94775 22.6088 2.94775 22.0703V20.2637C2.94775 19.1401 3.4286 18.0735 4.26688 17.3368C5.25355 16.4698 8.1283 14.4531 13.4946 14.4531C17.4793 14.4531 20.7212 11.2112 20.7212 7.22656C20.7212 3.24192 17.4793 0 13.4946 0C9.50999 0 6.26807 3.24192 6.26807 7.22656C6.26807 9.55601 7.37624 11.6312 9.09285 12.9536C5.95183 13.644 3.99794 14.9731 2.9777 15.8697C1.71751 16.9769 0.994629 18.5783 0.994629 20.2637V22.0703C0.994629 23.6858 2.30879 25 3.92432 25H23.0649C24.6805 25 25.9946 23.6858 25.9946 22.0703V20.2637C25.9946 18.5783 25.2717 16.9769 24.0116 15.8697ZM8.22119 7.22656C8.22119 4.31881 10.5869 1.95312 13.4946 1.95312C16.4024 1.95312 18.7681 4.31881 18.7681 7.22656C18.7681 10.1343 16.4024 12.5 13.4946 12.5C10.5869 12.5 8.22119 10.1343 8.22119 7.22656Z"
+                fill="#753E31" />
+            </svg>
+            Мой Кабинет
+          </div>
+          <div class="header-btns__cart">
+            <svg class="header-btns__icon" width="26" height="25" viewBox="0 0 26 25" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.7758 5.68281C25.5904 5.45469 25.3121 5.32227 25.0181 5.32227H7.32939L7.25693 4.65664L7.25435 4.63525C6.90767 1.99277 4.63638 0 1.97119 0C1.43184 0 0.994629 0.437207 0.994629 0.976562C0.994629 1.51592 1.43184 1.95312 1.97119 1.95312C3.65605 1.95312 5.09243 3.2104 5.3165 4.8793L6.47729 15.5434C5.46216 16.0042 4.75439 17.0274 4.75439 18.2129C4.75439 18.221 4.75449 18.2292 4.75469 18.2373C4.75449 18.2454 4.75439 18.2536 4.75439 18.2617C4.75439 19.8771 6.06865 21.1914 7.68408 21.1914H8.08145C7.98213 21.4826 7.92822 21.7947 7.92822 22.1191C7.92822 23.7076 9.22056 25 10.8091 25C12.3976 25 13.6899 23.7076 13.6899 22.1191C13.6899 21.7947 13.636 21.4826 13.5367 21.1914H17.7495C17.6501 21.4826 17.5962 21.7947 17.5962 22.1191C17.5962 23.7076 18.8886 25 20.4771 25C22.0656 25 23.358 23.7076 23.358 22.1191C23.358 20.5307 22.0656 19.2383 20.4771 19.2383H7.68408C7.14561 19.2383 6.70752 18.8002 6.70752 18.2617C6.70752 18.2536 6.70742 18.2454 6.70723 18.2373C6.70742 18.2292 6.70752 18.221 6.70752 18.2129C6.70752 17.6744 7.14561 17.2363 7.68408 17.2363H20.1514C21.885 17.2363 23.4758 16.1638 24.2044 14.5038C24.4212 14.01 24.1966 13.4339 23.7027 13.2171C23.2089 13.0003 22.6328 13.225 22.416 13.7188C22.0053 14.6545 21.0953 15.2832 20.1514 15.2832H8.41362L7.54199 7.27539H23.8168L23.339 9.56621C23.2289 10.0942 23.5676 10.6115 24.0956 10.7216C24.1628 10.7356 24.2298 10.7424 24.2959 10.7424C24.7487 10.7424 25.1548 10.4258 25.2509 9.96504L25.974 6.49824C26.0341 6.21045 25.9613 5.91094 25.7758 5.68281ZM20.4771 21.1914C20.9886 21.1914 21.4048 21.6076 21.4048 22.1191C21.4048 22.6307 20.9886 23.0469 20.4771 23.0469C19.9655 23.0469 19.5493 22.6307 19.5493 22.1191C19.5493 21.6076 19.9655 21.1914 20.4771 21.1914ZM10.8091 21.1914C11.3207 21.1914 11.7368 21.6076 11.7368 22.1191C11.7368 22.6307 11.3207 23.0469 10.8091 23.0469C10.2975 23.0469 9.88135 22.6307 9.88135 22.1191C9.88135 21.6076 10.2975 21.1914 10.8091 21.1914Z"
+                fill="#FF4C25" />
+            </svg>
+
+            1200Р
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <header class="header-mobile">
+    <div class="container">
+      <div class="header-mobile__body">
+        <div class="header-mobile__burger">
+          <span>
+
+          </span>
+        </div>
+        <nav class="header-mobile__menu">
+          <ul class="header-mobile__list">
+            <li>
+              <a href="" class="header-mobile__link">Каталог</a>
+            </li>
+            <li>
+              <a href="" class="header-mobile__link">Доставка</a>
+            </li>
+            <li>
+              <a href="" class="header-mobile__link">О нас</a>
+            </li>
+            <li>
+              <a href="" class="header-mobile__link">Контакты</a>
+            </li>
+          </ul>
+          <div class="header-mobile__info">
+            <div class="header__phone">
+              <a href="tel:88007750775" class="header__phone-text">8 800 775 07 75</a>
+              <svg class="header__inst-icon" width="20" height="21" viewBox="0 0 20 21" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                  <path
+                    d="M14.0419 0.115067H5.95811C2.67279 0.115067 0 2.78786 0 6.07317V14.157C0 17.4423 2.67279 20.1151 5.95811 20.1151H14.0419C17.3272 20.1151 20 17.4423 20 14.157V6.07317C20 2.78786 17.3272 0.115067 14.0419 0.115067ZM17.988 14.157C17.988 16.3363 16.2213 18.1031 14.0419 18.1031H5.95811C3.77875 18.1031 2.012 16.3363 2.012 14.157V6.07317C2.012 3.89378 3.77875 2.12707 5.95811 2.12707H14.0419C16.2213 2.12707 17.988 3.89378 17.988 6.07317V14.157Z"
+                    fill="#753E31" />
+                  <path
+                    d="M9.99998 4.94237C7.14775 4.94237 4.82727 7.26284 4.82727 10.115C4.82727 12.9672 7.14775 15.2878 9.99998 15.2878C12.8522 15.2878 15.1727 12.9673 15.1727 10.115C15.1727 7.26281 12.8522 4.94237 9.99998 4.94237ZM9.99998 13.2758C8.25436 13.2758 6.83927 11.8607 6.83927 10.1151C6.83927 8.36945 8.25439 6.95437 9.99998 6.95437C11.7456 6.95437 13.1607 8.36945 13.1607 10.1151C13.1607 11.8607 11.7456 13.2758 9.99998 13.2758Z"
+                    fill="#753E31" />
+                  <path
+                    d="M15.1828 6.22067C15.8673 6.22067 16.4223 5.66573 16.4223 4.98118C16.4223 4.29663 15.8673 3.74169 15.1828 3.74169C14.4982 3.74169 13.9433 4.29663 13.9433 4.98118C13.9433 5.66573 14.4982 6.22067 15.1828 6.22067Z"
+                    fill="#753E31" />
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect width="20" height="20" fill="white" transform="translate(0 0.115067)" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+            </div>
+            <a href="#" class="header__callback">
+              Заказать звонок
+            </a>
+          </div>
+          <div class="header-btns__account">
+            <svg class="header-btns__icon" width="26" height="25" viewBox="0 0 26 25" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24.0116 15.8697C23.183 15.1417 22.1782 14.5126 21.0248 14.0001C20.5318 13.7812 19.9548 14.0032 19.7359 14.496C19.5169 14.9889 19.7389 15.5659 20.2318 15.785C21.2043 16.2172 22.0424 16.7393 22.7224 17.3368C23.5607 18.0735 24.0415 19.1401 24.0415 20.2637V22.0703C24.0415 22.6088 23.6034 23.0469 23.0649 23.0469H3.92432C3.38587 23.0469 2.94775 22.6088 2.94775 22.0703V20.2637C2.94775 19.1401 3.4286 18.0735 4.26688 17.3368C5.25355 16.4698 8.1283 14.4531 13.4946 14.4531C17.4793 14.4531 20.7212 11.2112 20.7212 7.22656C20.7212 3.24192 17.4793 0 13.4946 0C9.50999 0 6.26807 3.24192 6.26807 7.22656C6.26807 9.55601 7.37624 11.6312 9.09285 12.9536C5.95183 13.644 3.99794 14.9731 2.9777 15.8697C1.71751 16.9769 0.994629 18.5783 0.994629 20.2637V22.0703C0.994629 23.6858 2.30879 25 3.92432 25H23.0649C24.6805 25 25.9946 23.6858 25.9946 22.0703V20.2637C25.9946 18.5783 25.2717 16.9769 24.0116 15.8697ZM8.22119 7.22656C8.22119 4.31881 10.5869 1.95312 13.4946 1.95312C16.4024 1.95312 18.7681 4.31881 18.7681 7.22656C18.7681 10.1343 16.4024 12.5 13.4946 12.5C10.5869 12.5 8.22119 10.1343 8.22119 7.22656Z"
+                fill="#753E31" />
+            </svg>
+            Мой Кабинет
+          </div>
+        </nav>
+        <a href="#" class="header-mobile__logo"><img src="img/Лого.png" alt=""></a>
+        <div class="header-mobile__cart">
+          <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M25.7758 5.68281C25.5904 5.45469 25.3121 5.32227 25.0181 5.32227H7.32939L7.25693 4.65664L7.25435 4.63525C6.90767 1.99277 4.63638 0 1.97119 0C1.43184 0 0.994629 0.437207 0.994629 0.976562C0.994629 1.51592 1.43184 1.95312 1.97119 1.95312C3.65605 1.95312 5.09243 3.2104 5.3165 4.8793L6.47729 15.5434C5.46216 16.0042 4.75439 17.0274 4.75439 18.2129C4.75439 18.221 4.75449 18.2292 4.75469 18.2373C4.75449 18.2454 4.75439 18.2536 4.75439 18.2617C4.75439 19.8771 6.06865 21.1914 7.68408 21.1914H8.08145C7.98213 21.4826 7.92822 21.7947 7.92822 22.1191C7.92822 23.7076 9.22056 25 10.8091 25C12.3976 25 13.6899 23.7076 13.6899 22.1191C13.6899 21.7947 13.636 21.4826 13.5367 21.1914H17.7495C17.6501 21.4826 17.5962 21.7947 17.5962 22.1191C17.5962 23.7076 18.8886 25 20.4771 25C22.0656 25 23.358 23.7076 23.358 22.1191C23.358 20.5307 22.0656 19.2383 20.4771 19.2383H7.68408C7.14561 19.2383 6.70752 18.8002 6.70752 18.2617C6.70752 18.2536 6.70742 18.2454 6.70723 18.2373C6.70742 18.2292 6.70752 18.221 6.70752 18.2129C6.70752 17.6744 7.14561 17.2363 7.68408 17.2363H20.1514C21.885 17.2363 23.4758 16.1638 24.2044 14.5038C24.4212 14.01 24.1966 13.4339 23.7027 13.2171C23.2089 13.0003 22.6328 13.225 22.416 13.7188C22.0053 14.6545 21.0953 15.2832 20.1514 15.2832H8.41362L7.54199 7.27539H23.8168L23.339 9.56621C23.2289 10.0942 23.5676 10.6115 24.0956 10.7216C24.1628 10.7356 24.2298 10.7424 24.2959 10.7424C24.7487 10.7424 25.1548 10.4258 25.2509 9.96504L25.974 6.49824C26.0341 6.21045 25.9613 5.91094 25.7758 5.68281ZM20.4771 21.1914C20.9886 21.1914 21.4048 21.6076 21.4048 22.1191C21.4048 22.6307 20.9886 23.0469 20.4771 23.0469C19.9655 23.0469 19.5493 22.6307 19.5493 22.1191C19.5493 21.6076 19.9655 21.1914 20.4771 21.1914ZM10.8091 21.1914C11.3207 21.1914 11.7368 21.6076 11.7368 22.1191C11.7368 22.6307 11.3207 23.0469 10.8091 23.0469C10.2975 23.0469 9.88135 22.6307 9.88135 22.1191C9.88135 21.6076 10.2975 21.1914 10.8091 21.1914Z"
+              fill="#FF4C25" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <ul id="scene-1" class="layer">
+      <li class="layer" data-depth="0.4">
+        <img src="img/hero-bg.png" class="hero__cicle-bg" alt="">
+      </li>
+      <li class="layer" data-depth="0.8">
+        <img src="img/party.png" class="hero__party-bg" alt="">
+      </li>
+      <li class="layer bottomcloud" data-depth="4">
+      </li>
+    </ul>
+    <!-- <div class="hero__party"></div> -->
+    <div class="container">
+      <h1 class="hero__title">
+        Всё для вашего праздника!
+      </h1>
+      <div class="hero__desc">Лучшие цены и новые акции каждую неделю</div>
+    </div>
+  </section>
+  <section class="cat">
+    <div class="cat-curve"></div>
+    <div class="container">
+      <div class="cat__wrapper">
+        <div class="cat-item wow fadeInUp">
+          <div class="cat-item__bg cat-item-1">
+
+          </div>
+          <div class="cat-item__img cat-img-1">
+            <img src="img/cat1.png" alt="">
+          </div>
+          <h3 class="cat-item__title">Воздушные шары</h3>
+          <div class="cat-item__desc" style="color: #C88484;">
+            ВСЕГО ОТ 50 РУБЛЕЙ
+          </div>
+        </div>
+        <div class="cat-item wow fadeInUp">
+          <div class="cat-item__bg cat-item-2">
+
+          </div>
+          <div class="cat-item__img cat-img-2">
+            <img src="img/cat2.png" alt="">
+          </div>
+          <h3 class="cat-item__title" style="color: #3B105A;">Воздушные шары</h3>
+          <div class="cat-item__desc" style="color: #AB84C8;">
+            ВСЕГО ОТ 50 РУБЛЕЙ
+          </div>
+        </div>
+        <div class="cat-item wow fadeInUp">
+          <div class="cat-item__bg cat-item-3">
+
+          </div>
+          <div class="cat-item__img cat-img-3">
+            <img src="img/cat3.png" alt="">
+          </div>
+          <h3 class="cat-item__title" style="color: #10325A;">Воздушные шары</h3>
+          <div class="cat-item__desc" style="color: #849FC8;">
+            ВСЕГО ОТ 50 РУБЛЕЙ
+          </div>
+        </div>
+        <div class="cat-item wow fadeInUp">
+          <div class="cat-item__bg cat-item-4">
+
+          </div>
+          <div class="cat-item__img cat-img-4">
+            <img src="img/cat4.png" alt="">
+          </div>
+          <h3 class="cat-item__title" style="color: #104D5A;">Воздушные шары</h3>
+          <div class="cat-item__desc" style="color: #78ADBE;">
+            ВСЕГО ОТ 50 РУБЛЕЙ
+          </div>
+        </div>
+        <div class="cat-item wow fadeInUp">
+          <div class="cat-item__bg cat-item-5">
+
+          </div>
+          <div class="cat-item__img cat-img-5">
+            <img src="img/cat5.png" alt="">
+          </div>
+          <h3 class="cat-item__title" style="color: #5A2F10;">Воздушные шары</h3>
+          <div class="cat-item__desc" style="color: #C8A884;">
+            ВСЕГО ОТ 50 РУБЛЕЙ
+          </div>
+        </div>
+        <div class="cat-item wow fadeInUp">
+          <div class="cat-item__bg cat-item-6">
+
+          </div>
+          <div class="cat-item__img cat-img-6">
+            <img src="img/cat6.png" alt="">
+          </div>
+          <h3 class="cat-item__title" style="color: #1F5A10;">Воздушные шары</h3>
+          <div class="cat-item__desc" style="color: #76B56C;">
+            ВСЕГО ОТ 50 РУБЛЕЙ
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="features">
+    <div class="container">
+      <h2 class="features__title wow fadeInUp">
+        Почему выбирают <span style="color:#FF4C25">именно нас</span> <img class="features__smile" src="img/smile.png"
+          alt="Smile">
+      </h2>
+      <div class="features__wrapper">
+        <div class="features-item  wow fadeInLeft">
+          <img class="features-item__img" src="img/features-icon1.png" alt="">
+          <h4 class="features-item__title features-item__title1">Выбор готовых композиций</h4>
+          <p class="features-item__text">Разнообразный и богатый опыт постоянный количественный рост и сфера нашей
+            активности требует определения</p>
+        </div>
+        <div class="features-item wow fadeInRight">
+          <img class="features-item__img" src="img/feat2.png" alt="">
+          <h4 class="features-item__title features-item__title2">Только лучшие материалы</h4>
+          <p class="features-item__text">Разнообразный и богатый опыт постоянный количественный рост и сфера нашей
+            активности требует определения</p>
+        </div>
+        <div class="features-item wow fadeInLeft">
+          <img class="features-item__img" src="img/feat3.png" alt="">
+          <h4 class="features-item__title features-item__title3">Гарантия полёта от 3 дней</h4>
+          <p class="features-item__text">Разнообразный и богатый опыт постоянный количественный рост и сфера нашей
+            активности требует определения</p>
+        </div>
+        <div class="features-item wow fadeInRight">
+          <img class="features-item__img" src="img/feat4.png" alt="">
+          <h4 class="features-item__title features-item__title4">Оперативная доставка</h4>
+          <p class="features-item__text">Разнообразный и богатый опыт постоянный количественный рост и сфера нашей
+            активности требует определения</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="banner">
+    <div class="container">
+      <div class="banner__wrapper  wow zoomIn">
+        <h5 class="banner__title">Воздушные шары всего от 50₽</h5>
+        <a href="#" class="banner__btn">Смотреть каталог</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="new-slider">
+    <div class="container">
+      <h2 class="new-slider__title wow fadeInUp"><span>Новое</span> поступление</h2>
+      <div class="new-slider__slider">
+        <div class="main-slider">
+          <div class="main-slider__slide wow fadeInRight">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line"> 40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--green">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInRight delay-0.2s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--orange">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInRight delay-0.5s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--orange">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInRight delay-0.8s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInRight delay-1.2s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--green">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInRight delay-1.5s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--green">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__btns"></div>
+      </div>
+      <div class="" style="text-align:center">
+        <a href="#" class="new-slider__btn main-slider-btn">Перейти в каталог</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="banner2">
+    <div class="container">
+      <div class="banner2__wrapper wow zoomIn">
+        <h5 class="banner2__title">Воздушные шары всего от 50₽</h5>
+        <a href="#" class="banner2__btn">Смотреть каталог</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sale-slider">
+    <div class="container">
+      <h2 class="sale-slider__title wow fadeInUp">Товары <span>со скидкой!</span></h2>
+      <div class="sale-slider__slider">
+        <div class="main-slider">
+          <div class="main-slider__slide wow fadeInLeft delay-0.2s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--green">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInLeft delay-0.2s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--orange">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInLeft delay-0.5s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--orange">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInLeft delay-0.8s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInLeft delay-1.2s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--green">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__slide wow fadeInLeft delay-1.5s">
+            <div class="card">
+              <div class="card__image">
+                <img src="img/card-image.png" alt="">
+              </div>
+              <div class="card__main">
+                <div class="card__title">
+                  <h4>Шарик розовый</h4>
+                </div>
+                <div class="card__desc">
+                  Разнообразный и богатый опыт постоя..
+                </div>
+                <div class="card__footer">
+                  <div class="card__price">
+                    25 ₽ <span><img src="../img/catalog/line.png" alt="" class="line">40 ₽</span>
+                  </div>
+                  <div class="card__cart">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card__label card__label--green">
+                НОВИНКА
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__btns"></div>
+      </div>
+      <div style="text-align:center">
+        <a href="#" class="sale-slider__btn main-slider-btn">Перейти в каталог</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="map">
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40326.513849536714!2d29.238319826381463!3d59.9081046656031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1593797819367!5m2!1sru!2sru"
+      width="100%" height="700" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__first">
+          <div class="footer__logo">
+            <img src="img/footer-logo.png" alt="">
+          </div>
+          <div class="footer__desc">
+            © 2020 Веселая Затея, <br>
+            все права защищены <br>
+            Политика конфиденциальности
+          </div>
+        </div>
+        <div class="footer__second">
+          <div class="footer__call">
+            <div class="footer__phone">
+              <a href="tel:88007750775" class="footer__phone-text">8 800 775 07 75</a>
+            </div>
+            <a href="#" class="footer__callback">
+              Заказать звонок
+            </a>
+          </div>
+          <div class="footer__adress">
+            Москва, ул. Листопадная, 12
+          </div>
+          <div class="footer__mail">
+            veselo@zateilivo.ru
+          </div>
+          <div class="footer__inst">
+            <i class="fa fa-instagram" aria-hidden="true"></i>veselo.zateilivo
+          </div>
+        </div>
+        <div class="ft-w">
+          <div class="footer__third">
+            <nav>
+              <ul class="footer__note">
+                <li>
+                  <a href="#" class="footer__note-link">Все для праздника</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__note-link">Воздушные шары</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__note-link">Салюты</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__note-link">Свечи</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__note-link">Коллекции</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__fourth">
+            <nav>
+              <ul class="footer__pages">
+                <li>
+                  <a href="#" class="footer__pages-link">Главная</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Каталог</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Доставка</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">О нас</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__pages-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.parallax.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <script src="https://use.fontawesome.com/d333b5643e.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

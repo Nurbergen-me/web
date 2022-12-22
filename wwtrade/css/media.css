@@ -1,0 +1,39 @@
+/* Media Queries */
+
+/* 1500 - 1800 px */
+@media screen and (max-width: 1800px) {
+    
+}
+
+/* 1200 - 1500 px */
+@media screen and (max-width: 1500px) {
+	
+}
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+
+}
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}   
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+    .container {
+		max-width: 720px;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+ }

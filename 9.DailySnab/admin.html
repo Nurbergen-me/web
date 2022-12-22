@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AdminPanel</title>
+	<link rel="stylesheet" href="css/admin.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="menu-wrapper">
+		<nav>
+			<div class="nav-information-wrapper">
+				<div class="nav-burg-icon"><img src="image/icon/menu.png" alt="menuicon"></div>
+			</div>
+			<ul>
+				<li class="active">
+					<div class="img-wrapper">
+						<img src="image/adminpanel/users.png" alt="nav-li-icon">	
+					</div>
+					<a href="admin.html">Пользователи</a>
+				</li>
+				<li>
+					<div class="img-wrapper">
+						<img src="image/adminpanel/violations.png" alt="nav-li-icon">	
+					</div>
+					<a href="#">Нарушения</a>
+				</li>
+				<li>
+					<div class="img-wrapper">
+						<img src="image/adminpanel/options.png" alt="nav-li-icon">	
+					</div>
+					<a href="category.html">Настройки</a>
+				</li>
+				<li>
+					<div class="img-wrapper">	
+						<img src="image/adminpanel/help.png" alt="nav-li-icon">	
+					</div>
+					<a href="admin-help.html">Подсказки</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<section class="admin-header">
+		<div class="container">
+			<div class="wrapper">
+				<img src="image/adminpanel/adminlogo.png" alt="adminLogo">
+			</div>
+		</div>
+	</section>
+	<section class="admin-sort">
+		<div class="container">
+			<div class="wrapper">
+				<form action="#" method="POST" class="sort d-inline-flex j-space-between">
+					<div class="label-wrapper">
+						<label for="user">
+							<input type="checkbox" id="user" checked>
+							<span>Пользователи</span>
+						</label>
+						<label for="company">
+							<input type="checkbox" id="company">
+							<span>Компании</span>
+						</label>
+						<label for="">
+							<span>Период от</span>
+							<input type="text">
+						</label>
+						<label for="">
+							<span>до</span>
+							<input type="text">
+						</label>
+						<label for="" class="category">
+							<span>Категория</span>
+							<input type="text">
+						</label>
+						<label for="" class="status">
+							<span>Статус</span>
+							<input type="text">
+						</label>	
+					</div>
+					<div class="button-wrapper">
+						<button>Показать</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section class="users">
+		<div class="container">
+			<div class="wrapper">
+				<ul class="total-wrapper d-inline-flex align-items-center">
+					<li class="total d-inline-flex align-items-center">
+						<p>Итого</p>
+						<p class="total-result">
+							<span>560 пользователей</span>
+							<span>67 активных</span>
+						</p>
+					</li>
+					<li class="other-list-elem active-users">
+						<p class="title">Активных</p>
+						<p class="value">15</p>
+					</li>
+					<li class="other-list-elem published">
+						<p class="title">Опубликованных</p>
+						<p class="value">1561</p>
+					</li>
+					<li class="other-list-elem views">
+						<p class="title">Просмотров</p>
+						<p class="value">178987</p>
+					</li>
+					<li class="other-list-elem click">
+						<p class="title">Кликов</p>
+						<p class="value">23464</p>
+					</li>
+					<li class="other-list-elem openPhone">
+						<p class="title">Откр.телеф</p>
+						<p class="value">7</p>
+					</li>
+					<li class="other-list-elem offers">
+						<p class="title">Прежложений</p>
+						<p class="value">11892/131971</p>
+					</li>
+					<li class="other-list-elem close">
+						<p class="title">Не откр.</p>
+						<p class="value">44</p>
+					</li>
+					<li class="other-list-elem request">
+						<p class="title">Предложил</p>
+						<p class="value">115</p>
+					</li>
+					<li class="other-list-elem bought">
+						<p class="title">Куплено</p>
+						<p class="value">1470</p>
+					</li>
+					<li class="other-list-elem executed">
+						<p class="title">Исполнено</p>
+						<p class="value">1430</p>
+					</li>
+					<li class="second-info other-list-elem active-users">
+						<p class="title">Активных</p>
+						<p class="value">15</p>
+					</li>
+					<li class="other-list-elem published">
+						<p class="title">Опубликованных</p>
+						<p class="value">1561</p>
+					</li>
+					<li class="other-list-elem views">
+						<p class="title">Просмотров</p>
+						<p class="value">178987</p>
+					</li>
+					<li class="other-list-elem click">
+						<p class="title">Кликов</p>
+						<p class="value">23464</p>
+					</li>
+					<li class="other-list-elem openPhone">
+						<p class="title">Откр.телеф</p>
+						<p class="value">7</p>
+					</li>
+					<li class="other-list-elem offers">
+						<p class="title">Прежложений</p>
+						<p class="value">11892/131971</p>
+					</li>
+					<li class="other-list-elem close">
+						<p class="title">Не откр.</p>
+						<p class="value">44</p>
+					</li>
+					<li class="other-list-elem request">
+						<p class="title">Предложил</p>
+						<p class="value">115</p>
+					</li>
+					<li class="other-list-elem bought">
+						<p class="title">Куплено</p>
+						<p class="value">1470</p>
+					</li>
+					<li class="other-list-elem executed">
+						<p class="title">Исполнено</p>
+						<p class="value">1430</p>
+					</li>
+					<li class="other-list-elem result-info">
+						<p class="title">Подключено на сумму</p>
+						<p class="value">19950</p>
+					</li>
+					<li class="other-list-elem result-info-last">
+						<p class="title">Денег получено</p>
+						<p class="value">15960</p>
+					</li>
+				</ul>
+				<div class="users-wrapper">
+					<ul class="user d-inline-flex align-items-center">
+						<li class="user-info d-inline-flex align-items-center">
+							<p class="date">15 дек</p>
+							<img src="" alt="" class="avatar">
+							<p class="userName">Вадим<span class="company">1 компания</span></p>
+						</li>
+						<li class="category">
+							<p>Основные категории</p>
+						</li>
+						<li class="other-list-elem active-users">
+							<p class="value">1</p>
+						</li>
+						<li class="other-list-elem published">
+							<p class="value"></p>
+						</li>
+						<li class="other-list-elem views">
+							<p class="value"></p>
+						</li>
+						<li class="other-list-elem click">
+							<p class="value">12</p>
+						</li>
+						<li class="other-list-elem openPhone">
+							<p class="value"></p>
+						</li>
+						<li class="other-list-elem offers">
+							<p class="value">0/0</p>
+						</li>
+						<li class="other-list-elem close">
+							<p class="value"></p>
+						</li>
+						<li class="other-list-elem request">
+							<p class="value">0</p>
+						</li>
+						<li class="other-list-elem bought">
+							<p class="value"></p>
+						</li>
+						<li class="other-list-elem executed">
+							<p class="value"></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

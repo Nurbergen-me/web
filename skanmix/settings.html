@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SkanMix</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-3">
+					<div class="logo-wrap">
+						<img src="img/logo.png" alt="" class="logo">
+					</div>
+				</div>
+				<div class="col-md-7 d-none d-md-block">
+					<div class="menu d-flex justify-content-between">
+						<li class="menu__item">
+							<a href="#">
+								Live-Vilki
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								Тарифы
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								История
+							</a>
+						</li>
+						<li class="menu__item beta">
+							<a href="#">
+								Академия
+							</a>
+						</li>
+					</div>
+				</div>
+				<div class="col-md-2 d-none d-md-block">
+					<div class="user d-flex ml-auto">
+						<div class="user__text">
+							ID
+						</div>
+						<a href="#" class="user__id">
+							123123
+							<img src="img/arrow-down.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-2 ml-auto d-md-none">
+					<div class="ham">
+						<div class="ham__item"></div>
+						<div class="ham__item"></div>
+						<div class="ham__item"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="set" id="set">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 d-none d-lg-block">
+					<div class="set__left">
+						<h3>
+							Настройки профиля
+						</h3>
+						<div class="nav flex-column nav-pills set__map" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+							<div class="active tech__point" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-home" aria-selected="true">
+								<h5 class="set__page">
+									Редактирование
+								</h5>
+							</div>
+							<div class="tech__point" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-home" aria-selected="true">
+								<h5 class="set__page">
+									Партнерская програма
+								</h5>
+							</div>
+							<div class="tech__point" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-home" aria-selected="true">
+								<h5 class="set__page">
+									Безопасность
+								</h5>
+							</div>
+							<div class="tech__point" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-home" aria-selected="true">
+								<h5 class="set__page">
+									Оплата
+								</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<div class="set__wrap tab-content" id="v-pills-tabContent">
+						<div class="set__box tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+							<h5 class="set__title">
+								Редактирование
+							</h5>
+							<div class="set__item">
+								<h6 class="set__name">
+									Статус аккаунта
+								</h6>
+								<div class="set__line d-flex justify-content-between">
+									<div class="set__status">
+										Bussines office
+									</div>
+									<div class="set__status-date d-flex justify-content-between">
+										<div class="status-date__text">
+											Дата завершение:
+										</div>
+										<div class="status-date__time">
+											12.12.2200
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="set__item">
+								<h6 class="set__name">
+									Часовой пояс
+								</h6>
+								<input type="text" class="set__input" value="Автоматичиски">
+							</div>
+							<div class="set__item">
+								<h6 class="set__name">
+									Язык 
+								</h6>
+								<input type="text" class="set__input" value="Русский">
+							</div>
+							<div class="set__item d-flex justify-content-between">
+								<div class="set__sub-item">
+									<h6 class="set__name">
+										Валюта аккаунта
+									</h6>
+									<input type="text" class="set__input" value="Рубли">	
+								</div>
+								<div class="set__sub-item sub-item__second">
+									<h6 class="set__name">
+										Заморозти свой аккаунт
+									</h6>
+									<button class="set__btn">
+										Заморозить
+									</button>	
+								</div>
+							</div>
+							<div class="set__end">
+								<button class="set__end-btn">
+									Cохранить изменение
+								</button>
+							</div>
+						</div>
+						<div class="set__box tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-1-tab">
+							<h5 class="set__title title-with">
+								Партнерская програма
+							</h5>
+							<div class="set__item set__main-text">
+								Какой-то краткой текст. На даную тематику. Может быть в 2 или в 3 строки не больше
+							</div>
+							<div class="set__item item-first">
+								<h6 class="set__name">
+									Денег с партнерки
+								</h6>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__span span-main">
+										<span class="set__money">
+											2800 
+										</span>
+										 руб
+									</div>
+									<button class="set__btn set__end-btn set__big-btn">
+										Вивести деньги
+									</button>
+								</div>
+							</div>
+							<div class="set__item">
+								<h6 class="set__name">
+									Ваша реферальная ссылка
+								</h6>
+								<p class="set__text">
+									Какой-то краткой текст. На даную тематику. Может быть в 2 или в 3 строки не больше
+								</p>
+								<input type="text" class="set__input" value="https://skanmix.com/p/TuHcG">
+							</div>
+							<div class="set__item partners">
+								<h6 class="set__name">
+									Статистика партнерки первого уровня
+								</h6>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Количество партнеров
+									</div>
+									<div class="set__span">
+										<span class="set__money">
+											0
+										</span>
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Какой то текст
+									</div>
+									<div class="set__span">
+										<span class="set__money">
+											0
+										</span>
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Заработано
+									</div>
+									<div class="set__span">
+										<span class="set__money">
+											0 руб
+										</span>
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Выплачено
+									</div>
+									<div class="set__span">
+										<span class="set__money">
+											0 руб
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="set__item partners">
+								<h6 class="set__name">
+									Статистика партнерки первого уровня
+								</h6>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Количество партнеров
+									</div>
+									<div class="set__span">
+										<span class="set__money">
+											0
+										</span>
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Какой то текст
+									</div>
+									<div class="set__span">
+										<span class="set__money">
+											0
+										</span>
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Заработано
+									</div>
+									<div class="set__span">
+										<span class="set__money">
+											0 руб
+										</span>
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Выплачено
+									</div>
+									<div class="set__span">
+										<span class="set__money">
+											0 руб
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="set__item">
+								<p class="set__last-text">
+									Какой-то краткой текст. На даную тематику. Может быть в 2 или в 3 строки 
+									не больше.Какой-то краткой текст. На даную тематику. Может быть в 2 или в 3 строки не больше
+								</p>
+							</div>
+						</div>
+						<div class="set__box tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-1-tab">
+							<h5 class="set__title">
+								Безопасность
+							</h5>
+							<div class="set__item set__main-text">
+								Какой-то краткой текст. На даную тематику. Может быть в 2 или в 3 строки не больше
+							</div>
+							<div class="set__item">
+								<h6 class="set__name name-twenty">
+									Изменить пароль
+								</h6>
+								<div class="set__pass-type">
+									Текущий пароль
+								</div>
+								<input type="text" class="set__input">
+								<div class="set__pass-type">
+									Новый пароль
+								</div>
+								<input type="text" class="set__input">
+								<div class="set__pass-type">
+									Подтвердите пароль
+								</div>
+								<input type="text" class="set__input">
+								<button class="set__end-btn set__pass-btn">
+									Изменить пароль
+								</button>
+							</div>
+							<div class="set__item">
+								<h6 class="set__name name-twenty">
+									Двухфакторная авторизация
+								</h6>
+								<p class="set__text">
+									Идейные соображения высшего порядка, а также начало повседневной работы 
+									по формированию позиции позволяет оценить значение новых предложений. 
+								</p>
+								<button class="set__end-btn set__pass-btn">
+									Подключить систему
+								</button>
+							</div>
+						</div>
+						<div class="set__box tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-1-tab">
+							<h5 class="set__title">
+								Оплата
+							</h5>
+							<div class="set__item set__main-text">
+								Какой-то краткой текст. На даную тематику. Может быть в 2 или в 3 строки не больше
+							</div>
+							<div class="set__item set__item_change d-flex justify-content-between">
+								<h6 class="set__name name-twenty">
+									Ваш тарифный план
+								</h6>
+								<a href="#" class="set__blue">
+									Изменить план
+								</a>
+							</div>
+							<div class="set__item">
+								<div class="set__part-wrap d-flex">
+									<div class="set__stat stat-tarif">
+										Название плана:
+									</div>
+									<div class="set__point">
+										Bussiness office
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex">
+									<div class="set__stat stat-tarif">
+										Дата завершение:
+									</div>
+									<div class="set__point">
+										01 марта 2019 в 20:00
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex">
+									<div class="set__stat stat-tarif">
+										Аккаунов привязано:
+									</div>
+									<div class="set__point">
+										0/10
+									</div>
+								</div>
+							</div>
+							<div class="set__item d-flex justify-content-between">
+								<button class="set__min-btn">
+									Додать акаунт
+								</button>
+								<button class="set__min-btn">
+									Продлить
+								</button>
+								<button class="set__min-btn">
+									Заморозить
+								</button>
+							</div>
+							<div class="set__item">
+								<h6 class="set__name">
+									Промо-код
+								</h6>
+								<p class="set__text">
+									Какой-то краткой текст. На даную тематику. 
+								</p>
+								<input type="text" class="set__input input-blue" placeholder="Введите промо-код здесь">
+							</div>
+							<div class="set__item">
+								<h6 class="set__name">
+									История оплат
+								</h6>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Bussiness office
+									</div>
+									<div class="set__stat">
+										Время и дата оплаты
+									</div>
+									<div class="set__stat">
+										Способ оплаты
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Bussiness office
+									</div>
+									<div class="set__stat">
+										Время и дата оплаты
+									</div>
+									<div class="set__stat">
+										Способ оплаты
+									</div>
+								</div>
+								<div class="set__part-wrap d-flex justify-content-between">
+									<div class="set__stat">
+										Bussiness office
+									</div>
+									<div class="set__stat">
+										Время и дата оплаты
+									</div>
+									<div class="set__stat">
+										Способ оплаты
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* Media Queries */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+    .offer__title {
+        width: 880px;
+    }
+    .bonus .container:after {
+        display: none;
+    }
+    .menu__item {
+        font-size: 14px;
+    }
+    .phone {
+        font-size: 17px;
+    }
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+   .header {
+        padding-top: 25%;
+   }
+   .offer__img {
+        display: none;
+   }
+   .offer__title {
+        width: 100%;
+   }
+   .offer__btn {
+        margin-top: 20px;
+   }
+   .main-form input {
+         width: 212px;
+   }
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 38px;
+    }
+    .steps_second:after {
+        display: none;
+    }
+    .steps__text {
+        width: 100%;
+    }
+    .contacts {
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+    }
+    .contacts__item {
+        margin-bottom: 15px;
+    }
+    .main-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-form input {
+        width: 270px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .main-form button {
+        width: 270px;
+    }
+    .credits {
+        text-align: center;
+    }
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 27px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .header {
+        padding-top: 65%;
+    }
+    .offer__text {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 18px 0;
+    }
+    .pros__img span {
+        margin-left: 44%;
+    }
+    .pros__text {
+        width: 80%;
+        margin: auto;
+    }
+    .steps_arrow:after {
+        display: none;
+    }
+    .modal-body {
+        padding: 0px 12px 46px;
+    }
+    #thx {
+        left: 14%;
+        margin-left: 0;
+        top: 20%;
+        margin-top: 0;
+        width: 300px;
+    }
+    .thx__bottom {
+        padding: 45px 21px 49px;
+    }
+    .footer {
+        text-align: center !important;
+    }
+    .footer .col-12 {
+        margin-bottom: 20px;
+    }
+    .hamburger {
+        margin-left: 0;
+    }
+    .ham-menu {
+        top: 76px;
+    }
+    .slick-prev {
+        left: -20px;
+    }
+    .slick-next {
+        right: -20px;
+    }
+    .tell {
+        text-align: center;
+    }
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+}

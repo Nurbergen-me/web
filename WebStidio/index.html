@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebStudio</title>
+  <!-- Yandex.Metrika counter -->
+  <script
+    type="text/javascript"> (function (m, e, t, r, i, k, a) {m[i] = m[i] || function () {(m[i].a = m[i].a || []).push(arguments)}; m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(63012652, "init", {clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true}); </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/63012652" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript> <!-- /Yandex.Metrika counter -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <ul class="side-menu">
+    <li>
+      <a href="#services" class="side-menu__item">
+        Услуги
+      </a>
+    </li>
+    <li>
+      <a href="#works" class="side-menu__item">
+        Потрфолио
+      </a>
+    </li>
+    <li>
+      <a href="#gift" class="side-menu__item">
+        Акция
+      </a>
+    </li>
+    <li>
+      <a href="#tarif" class="side-menu__item">
+        Цены
+      </a>
+    </li>
+    <li>
+      <a href="#pros" class="side-menu__item">
+        Преимущества
+      </a>
+    </li>
+  </ul>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__nav d-flex align-center justify-content-between">
+        <div class="header__ham">
+          <div class="ham__line"></div>
+          <div class="ham__line"></div>
+          <div class="ham__line"></div>
+          <div class="ham__line"></div>
+        </div>
+        <img src="img/logo.png" alt="Creative Page" class="header__logo">
+        <ul class="menu align-center justify-content-between">
+          <li>
+            <a href="#services" class="menu__item">
+              Услуги
+            </a>
+          </li>
+          <li>
+            <a href="#works" class="menu__item">
+              Потрфолио
+            </a>
+          </li>
+          <li>
+            <a href="#gift" class="menu__item menu-active">
+              Акция
+            </a>
+          </li>
+          <li>
+            <a href="#tarif" class="menu__item">
+              Цены
+            </a>
+          </li>
+          <li>
+            <a href="#pros" class="menu__item">
+              Преимущества
+            </a>
+          </li>
+        </ul>
+        <div class="header__contacts">
+          <a href="tel:+79581117259" class="header__tel">
+            +7 958 111 7259
+          </a>
+          <a href="mailto:admin@creativepage.ru" class="header__mail">
+            admin@creativepage.ru
+          </a>
+        </div>
+      </div>
+      <div class="header__offer">
+        <!-- <div class="timer__text">
+          Оставьте заявку в течении 4 минут и мы сделаем лэндинг БЕЗ ПРЕДОПЛАТЫ
+        </div> -->
+        <h1 class="offer__title">
+          Разработка Landing Page
+        </h1>
+        <p class="offer__text">
+          Проведем посетителей от знакомства с продуктом до заполнения формы
+          заявки с конверсией от 9%!
+          <button class="btn header__btn btn-yellow" onclick="ym(63012652, 'reachGoal', 'order'); return true;"
+            data-toggle="modal" data-target="#myModal">
+            Рассчитать стоимость
+          </button>
+        </p>
+      </div>
+      <img src="img/offer-img.png" alt="work" class="offer__img">
+    </div>
+  </header>
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="services__title">
+        Услуги
+      </h2>
+      <p class="services__text">
+        Мы работаем над лендингом от его идеи до монетизации, полностью погружаясь в проект. Выполняем проектирование,
+        дизайн, техническую разработку, настраиваем рекламную кампанию в Яндекс.Директ и Google Adsense и прочее.
+        Работаем по всей России и СНГ.
+      </p>
+      <div class="services__wrap d-flex">
+        <div class="services__item  wow fadeInUp">
+          <img src="img/service-1.png" alt="Service" class="services__img">
+          <h3 class="services__name">
+            Анализ ниши и конкурентов
+          </h3>
+          <div class="services__desk">
+            Изучим вашу тематику, проанализируем рынок и ваших конкурентов, разработаем продающую структуру лендинга.
+          </div>
+        </div>
+        <div class="services__item  wow fadeInUp">
+          <img src="img/service-2.png" alt="Service" class="services__img">
+          <h3 class="services__name">
+            Правильный копирайтинг
+          </h3>
+          <div class="services__desk">
+            Так как лендинг - это одна страница, то каждое слово на вес золота, а каждый экран - смысловая пуля.
+          </div>
+        </div>
+        <div class="services__item  wow fadeInUp">
+          <img src="img/service-3.png" alt="Service" class="services__img">
+          <h3 class="services__name">
+            Уникальный вебдизайн
+          </h3>
+          <div class="services__desk">
+            Сделаем шикарную визуальную упаковку вашего бизнеса, что однозначно не останется без внимания.
+          </div>
+        </div>
+        <div class="services__item  wow fadeInUp">
+          <img src="img/service-4.png" alt="Service" class="services__img">
+          <h3 class="services__name">
+            Качественная верстка
+          </h3>
+          <div class="services__desk">
+            Адаптация под мобильные устройства, высокое качество кода, быстрая загрузка и корректная работа сайта.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="landing" id="landing">
+    <div class="container">
+      <h2 class="landing__title wow fadeInLeft">
+        Хотите увеличить прибыль <br>
+        от продаж через интернет?
+      </h2>
+      <div class="landing__wrap d-flex">
+        <div class="landing__side first-side wow fadeInLeft">
+          <p class="landing__text">
+            Бесплатный экспресс-аудит сайта
+          </p>
+          <div class="landing__pros">
+            <div class="landing__name">
+              <span></span>
+              Общая оценка
+            </div>
+            <div class="pros__text">
+              - Анализ целевой аудитории сайта, чтобы понимать,
+              какой контент закрывает боли посетителей.
+              - Анализ логики построения сайта: навигация, ранжированность
+              страниц по приоритетам
+              - Комплексное изучение блоков: главная страница, основные и
+              вспомогательные разделы. Изучается путь, который преодолевают
+              посетители и выявляются основные ошибки
+            </div>
+          </div>
+          <div class="landing__pros active">
+            <div class="landing__name">
+              <span></span>
+              Оценка копирайта
+            </div>
+            <div class="pros__text">
+              - Анализ контента: как он закрывает боли ЦА, демонстрирует
+              ценность и полезность продукта/услуг
+              - Диагностика смысловой нагрузки: определение целевого и
+              нецелевого контента из общего объёма текстовых символов
+              - Анализ текста, как элемента работы с возражениями и опасениями
+              - Оценка приоритетности контентных блок и составление рекомендаций по их исправлению
+            </div>
+          </div>
+          <div class="landing__pros">
+            <div class="landing__name">
+              <span></span>
+              Общая оценка
+            </div>
+            <div class="pros__text">
+              - Анализ контента: как он закрывает боли ЦА, демонстрирует
+              ценность и полезность продукта/услуг
+              - Диагностика смысловой нагрузки: определение целевого и
+              нецелевого контента из общего объёма текстовых символов
+              - Анализ текста, как элемента работы с возражениями и опасениями
+              - Оценка приоритетности контентных блок и составление рекомендаций по их исправлению
+            </div>
+          </div>
+          <button class="btn header__btn landing__btn btn-yellow" data-toggle="modal" data-target="#myModal">
+            Рассчитать стоимость
+          </button>
+        </div>
+        <div class="landing__side last-side wow fadeInRight">
+          <img src="img/landing-img.png" alt="" class="landing__img">
+        </div>
+  </section>
+  <section class="works" id="works">
+    <div class="container">
+      <h2 class="works__title">
+        Примеры наших работ
+      </h2>
+      <div class="works__wrap d-flex">
+      </div>
+      <button class="btn works__btn">
+        Показать больше работ
+      </button>
+    </div>
+  </section>
+  <section class="gift" id="gift">
+    <div class="container">
+      <div class="gift__wrap d-flex">
+        <img src="img/gift-1.png" alt="Gift" class="gift__img">
+        <div class="gift__offer">
+          <h2 class="gift__title">
+            У нас для вас подарок!
+          </h2>
+          <div class="offer__timer">
+            <span class="timer__m">
+            </span> :
+            <span class="timer__s">
+            </span>
+          </div>
+          <div class="gift__text">
+            При заказе лендинга вы получаете БЕСПЛАТНО логотип для сайта от нашего дизайнера.
+          </div>
+          <button class="btn gift__btn" data-toggle="modal" data-target="#myModal">
+            Получить подарок
+          </button>
+        </div>
+        <img src="img/gift-2.png" alt="Gift" class="gift__img gift__img_second">
+      </div>
+    </div>
+  </section>
+  <section class="pros" id="pros">
+    <div class="container">
+      <h2 class="pros__title">
+        Наши преимущества
+      </h2>
+      <div class="pros__wrap d-flex">
+        <div class="pros__item wow fadeInLeft">
+          <img src="img/pros-1.png" alt="Pros" class="pros__img">
+          <h3 class="pros__name">
+            Выгодная стоимость услуг
+          </h3>
+          <p class="pros__desk">
+            Подберем оптимальное решение для вашего бюджета, найдем наиболее дешевый и эффективный источник трафика.
+          </p>
+        </div>
+        <div class="pros__item wow fadeInRight">
+          <img src="img/pros-2.png" alt="Pros" class="pros__img">
+          <h3 class="pros__name">
+            Высокая скорость разработки
+          </h3>
+          <p class="pros__desk">
+            Выстроенный алгоритм работы позволяет нам в кратчайшие сроки получить нужный результат.
+          </p>
+        </div>
+        <div class="pros__item wow fadeInLeft">
+          <img src="img/pros-3.png" alt="Pros" class="pros__img">
+          <h3 class="pros__name">
+            Высокая квалификация сотрудников
+          </h3>
+          <p class="pros__desk">
+            Профессионально занимаемся разработкой лендингов с 2015 года. Делаем сайты, которые приносят прибыль нашим
+            клиентам.
+          </p>
+        </div>
+        <div class="pros__item wow fadeInRight">
+          <img src="img/pros-4.png" alt="Pros" class="pros__img">
+          <h3 class="pros__name">
+            Уникальный дизайн без шаблонов
+          </h3>
+          <p class="pros__desk">
+            Разрабатываем идивидуальные решения исходя из ваших потребностей и решаемой задачи на основе анализа ниши.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="tarif" id="tarif">
+    <div class="container">
+      <h2 class="tarif__title">
+        Выберите свой тариф
+      </h2>
+      <div class="tarif__wrap d-flex">
+        <div class="tarif__item">
+          <div class="tarif__name" value="Start">
+            Старт
+          </div>
+          <div class="tarif__body">
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Прототип и текста
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Уникальный дизайн
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              До 6-ти блоков
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Домен и хостинг (1 год)
+            </div>
+          </div>
+          <div class="tarif__footer">
+            <div class="tarif__timing">
+              Средние сроки – 10 дней
+            </div>
+            <div class="tarif__price">
+              15 000 руб.
+            </div>
+            <button class="tarif__btn btn" data-toggle="modal" data-target="#myModal">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+        <div class="tarif__item">
+          <div class="tarif__name" value="Middle">
+            Оптимальный
+          </div>
+          <div class="tarif__body">
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Прототип и текста
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Уникальный дизайн
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              До 6-ти блоков
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Домен и хостинг (1 год)
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Настройка и ведение рекламы в Яндекс.Директ
+            </div>
+          </div>
+          <div class="tarif__footer">
+            <div class="tarif__timing">
+              Средние сроки – 10 дней
+            </div>
+            <div class="tarif__price">
+              15 000 руб.
+            </div>
+            <button class="tarif__btn btn" data-toggle="modal" data-target="#myModal">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+        <div class="tarif__item">
+          <div class="tarif__name" value="Lider">
+            Лидер
+          </div>
+          <div class="tarif__body">
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Прототип и текста
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Уникальный дизайн
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              До 6-ти блоков
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Домен и хостинг (1 год)
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Техническая поддержка
+            </div>
+          </div>
+          <div class="tarif__footer">
+            <div class="tarif__timing">
+              Средние сроки – 10 дней
+            </div>
+            <div class="tarif__price">
+              15 000 руб.
+            </div>
+            <button class="tarif__btn btn" data-toggle="modal" data-target="#myModal">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+        <div class="tarif__item">
+          <div class="tarif__name" value="Vip">
+            VIP-пакет
+          </div>
+          <div class="tarif__body">
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Прототип и текста
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Уникальный дизайн
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              До 6-ти блоков
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Домен и хостинг (1 год)
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              SPLIT-тестирование
+            </div>
+            <div class="tarif__point">
+              <img src="img/checked.png" alt="Checked" class="tarif__icon">
+              Техническая <br> поддержка
+            </div>
+          </div>
+          <div class="tarif__footer">
+            <div class="tarif__timing">
+              Средние сроки – 10 дней
+            </div>
+            <div class="tarif__price">
+              15 000 руб.
+            </div>
+            <button class="tarif__btn btn" data-toggle="modal" data-target="#myModal">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="settings" id="settings">
+    <div class="container">
+      <h2 class="settings__title">
+        Настройка рекламных компаний
+      </h2>
+      <div class="settings__wrap d-flex">
+        <div class="settings__side wow fadeInLeft">
+          <p class="settings__text">
+            Контекстная и таргетированная реклама - один из самых эффективных и мощных инструментов для привлечения
+            покупателей на ваш сайт. Предлагаем услуги по профессиональной настройке рекламы в Google Adsense,
+            Яндекс.Директ, таргетированной рекламы в Instagram и Facebook. <br><br>
+
+            Грамотно настроим вашу рекламную кампанию и вы получите первые заявки уже в первый день запуска рекламы.
+            После
+            настройки вам останется всего лишь пополнять баланс и получать целевых клиентов по минимальной цене.
+          </p>
+          <button class="btn settings__btn btn-yellow" data-toggle="modal" data-target="#myModal">
+            Оставить заявку
+          </button>
+        </div>
+        <img src="img/hosting.png" alt="Hosting" class="settings__img wow fadeInRight">
+      </div>
+    </div>
+  </section>
+  <section class="method">
+    <div class="container">
+      <h2 class="method__title">
+        Как мы работаем
+      </h2>
+      <div class="method__wrap d-flex">
+        <div class="method__item">
+          <div class="method__num">
+            01
+          </div>
+          <div class="method__text">
+            Вы оставляете заявку
+            у нас на сайте и заполняете бриф для точной оценки сроков работ
+          </div>
+        </div>
+        <div class="method__item">
+          <div class="method__num">
+            02
+          </div>
+          <div class="method__text">
+            Мы разрабатываем интерактивный прототип сайта. После согласования вносите часть оплаты*
+          </div>
+        </div>
+        <div class="method__item">
+          <div class="method__num">
+            03
+          </div>
+          <div class="method__text">
+            Делаем дизайн, верстку, программируем страницу, настраиваем рекламу
+          </div>
+        </div>
+        <div class="method__item">
+          <div class="method__num num-last">
+            04
+          </div>
+          <div class="method__text">
+            Вы принимаете и проверяете результат. Ваш сайт готов к привлечению клиентов
+          </div>
+        </div>
+      </div>
+      <div class="method__info">
+        * Оплата работы происходит поэтапно. Первая часть оплаты вносится клиентом после согласования прототипа.
+        Следующие - после каждого этапа работы.
+      </div>
+      <button class="btn method__btn" data-toggle="modal" data-target="#myModal">
+        Оставить заявку
+      </button>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="contact__title">
+        Остались вопросы?
+      </h2>
+
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="contact__wrap">
+        <div class="contact__text">
+          Оставьте заявку на консультацию, наш специалист свяжется с вами и ответит на любые ваши вопросы в доступной
+          форме
+        </div>
+        <form action="telegram.php" class="contact__form js-form" id="popupResult">
+          <input name="name" type="text" class="form__input" placeholder="Ваше имя" required>
+          <input name="tel" type="tel" class="form__input" placeholder="Телефон" required>
+          <input name="mail" type="mail" class="form__input" placeholder="Ваш e-mail" required>
+          <button type="submit" class="form__btn" data-submit>
+            Оставить заявку
+          </button>
+        </form>
+      </div>
+      <div class="footer__wrap d-flex">
+        <div class="footer__item">
+          <img src="img/logo.png" alt="Logo" class="footer__logo">
+          Разработка Landing Page "под ключ"
+        </div>
+        <div class="footer__socials">
+          Свяжитесь с нами
+          <div class="socials__icons d-flex">
+            <img src="img/skype.png" alt="Skype" class="socials__icon">
+            <img src="img/whatsapp.png" alt="whatsapp" class="socials__icon">
+            <img src="img/insta.png" alt="Insta" class="socials__icon">
+          </div>
+        </div>
+        <div class="footer__item">
+          <a href="tel:+79581117259" class="footer__link">
+            +7 958 111 7259
+          </a>
+          <a href="mailto:admin@creativepage.ru" class="footer__link">
+            admin@creativepage.ru
+          </a>
+          <div class="footer__link">
+            123112 г. Москва
+            Пресненская набережная 8
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <div class="bottom__wrap d-flex">
+          <div class="footer__credits">
+            © 2020 Все права защищены
+          </div>
+          <a href="#" class="footer__reck">
+            Реквизиты
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-close" data-dismiss="modal" aria-label="Close"></div>
+      <h3 class="modal-title">
+        Заказать бесплатную консультацию специалиста
+      </h3>
+      <p class="modal-text">
+        Введите свои контактные данные и мы свяжемся с Вами в ближайшее время
+      </p>
+      <form action="telegram.php" class="modal-form js-form" id="popupResult">
+        <input type="text" name="name" class="form__input modal-input" placeholder="Ваше имя" required>
+        <input type="tel" name="tel" class="form__input modal-input" placeholder="Телефон" required>
+        <!-- <input type="mail" name="mail" class="form__input modal-input" placeholder="Ваш e-mail" required> -->
+        <input type="hidden" name="hidden" value="Null" class="form__input modal-input hidden-input">
+        <input type="hidden" name="hidden-time" value="" class="form__input modal-input hidden-time">
+        <button class="modal-btn form__btn" data-submit>
+          Получить бесплатную консультацию
+        </button>
+        <div class="modal-aftertext">
+          или позвоните нам по телефону <br>
+          <b>+7 958 111 7259</b>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Индикация процесса отправки формы -->
+  <div id="loader">
+    <img src="img/ripple.svg">
+  </div>
+
+  <!-- Сообщение "спасибо" после отправки формы -->
+  <div id="overlay">
+    <div id="thx">
+      Спасибо! Мы обязательно вам перезвоним
+    </div>
+  </div>
+
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script type="text/javascript"
+    src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/modalform.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

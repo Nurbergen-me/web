@@ -1,0 +1,269 @@
+/* Media Queries */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+
+    }
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+    .bg-small {
+        background: url('../img/mobileBackGround.png') no-repeat top right / cover;
+        height: 70%;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        bottom: 0px;
+    }
+    .header {
+        height: 730px;
+    }
+    .services {
+        background-color: #fff;
+        margin-top: 40px;
+    }
+   h1 {
+       width: 100%;
+       font-size: 46px;
+   }
+   .offer__text {
+       margin-top: 100px;
+       margin-left: 60px;
+   }
+   .offer__btn {
+    margin-left: 16px;
+   }
+   .points_last {
+        margin: auto;
+        margin-bottom: 40px;
+        width: 70%;
+        height: 305px;
+   }
+   .links {
+        display: inline-block;
+        margin-top: 20px;
+   }
+   .why_part {
+        width: 95%;
+   }
+   .works__img {
+        margin-left: 0;
+        height: 115px;
+        width: 115px;
+   }
+   .works__text {
+        width: 69%;
+   }
+   .audit h2 {
+        font-size: 54px;
+   }
+   .audit__desk {
+        width: 90%;
+   }
+   .free, .free__title {
+        width: 96%;
+   }
+   .free__title {
+        font-size: 40px;
+   }
+   .free__btn {
+        width: 60%;
+        font-size: 35px;
+   }
+   .form {
+        padding: 10px 30px 35px 50px;
+        width: 490px;
+   }
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+    .bg-small {
+        height: 70%;
+    }
+    .header {
+        height: 818px;
+    }
+    .map__main {
+        margin-top: 500px;
+        z-index: -5;
+    }
+   h1 {
+        width: 83%;
+   }
+   .offer__text {
+        font-size: 22px;
+   }
+   .offer__btn {
+        width: 312px;
+        font-size: 19px;
+        padding: 20px 0;
+   }
+   .points {
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        height: 374px;
+        font-size: 17px;
+        margin-bottom: 20px;
+   }
+   h2 {
+        font-size: 44px;
+   }
+   .why__part {
+        width: 80%;
+        margin: auto;
+   }
+   .why__text {
+        font-size: 23px;
+   }
+   .why__black, .why__blue {
+    margin-top: 43px;
+   }
+   .works__img {
+        height: 100px;
+        width: 100px;
+   }
+   .works__text {
+        font-size: 17px;
+   }
+   .audit {
+    padding: 100px 0;
+   }
+   .audit__desk {
+        font-size: 19px;
+   }
+   .free__title {
+        font-size: 32px;
+        margin: auto;
+        margin-top: 70px;
+        width: 85%;
+        border: 2px solid #ffffff;
+        border-radius: 20px;
+        width: 81%;
+   }
+   .free__btn {
+        width: 62%;
+        font-size: 25px;
+        border: 2px solid #ffffff;
+        border-radius: 15px;
+   }
+   .form {
+        padding: 10px 30px 10px 50px;
+        text-align: center;
+   }
+   input {
+        margin: auto;
+        margin-bottom: 15px;
+   }
+   textarea, .form__btn {
+        margin: auto;
+   }
+   .footer__text {
+        margin-top: 20px;
+   }
+   .footer {
+        margin-top: 530px;
+   }
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+    .header {
+        height: 623px;
+    }
+    .bg-small {
+        height: 300px;
+    }
+     .map__main {
+        margin-top: 250px;
+    }
+    .footer {
+        margin-top: 420px;
+   }
+    .services {
+        background-color: #fff;
+        margin-top: 40px;
+    }
+   h1 {
+        font-size: 26px;
+        margin-top: 55px;
+   }
+   h2 {
+        font-size: 38px;
+   }
+   .offer__text {
+        font-size: 15px;
+        margin-top: 50px;
+   }
+   .offer__btn {
+        width: 78%;
+        font-size: 14px;
+        padding: 24px 0;
+   }
+   .points {
+        width: 95%;
+        height: 332px;
+        font-size: 15px;
+        padding-top: 30px;
+   }
+   .why__text {
+        font-size: 16px;
+   }
+   .why__icon {
+        height: 120px;
+        width: 120px;
+    }
+    .why__desk {
+        font-size: 14px;
+    }
+    .about__desk {
+        font-size: 21px;
+    }
+    .works__item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .works__text {
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .audit h2 {
+        font-size: 34px;
+    }
+    .audit__desk {
+        font-size: 17px;
+    }
+    .free__title {
+        border: none;
+        font-size: 25px;
+    }
+    .free__btn {
+        width: 85%;
+        font-size: 21px;
+        border-radius: 10px;
+        margin-top: -3px;
+    }
+    .form {
+        width: 95%;
+        padding: 0;
+    }
+    .form__number {
+        font-size: 23px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    input, textarea {
+        font-size: 20px;
+        padding: 3px 0 3px 10px;
+        border: 2px solid #bcbcbc;
+        border-radius: 7px;
+    }
+
+    .form__btn {
+        padding: 3px 0 3px 10px;
+        border-radius: 7px;
+        font-size: 27px;
+    }
+}

@@ -1,0 +1,235 @@
+
+@media (min-width:1000px) {
+  .row_zakaz{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1000px){
+.row_zakaz{
+  display: flex;
+flex-direction: column-reverse;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+align-content: stretch;
+}
+}
+
+@media (max-width: 1000px){
+.center_mobile{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+align-content: stretch;
+padding: 45px 40px;
+}
+}
+
+.zakaz_head{
+font-family: Circe ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+color: #753E31;
+}
+
+@media (max-width:1000px) {
+  .zakaz_head{
+    text-align: center;
+    font-size: 35px;
+  }
+}
+
+
+
+input[type="text"]{
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: normal;
+width: 576px;
+height: 65px; box-sizing: border-box; letter-spacing: 1px; border: none; padding-left: 25px; color: #753E31; }
+:focus{outline: none;}
+
+@media (max-width:1000px) {
+  input[type="text"]{
+
+    width:300px; }
+}
+
+
+.input{height: 75px;  position: relative; font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: normal;}
+
+.inputAnimation{border: 1px solid; padding: 4px 0; border-bottom: 1px solid #ccc; background: #F5EEEC;
+opacity: 0.7;
+border-radius: 10px;}
+
+.inputAnimation ~ label{position: absolute; left:25px; top: 25px; transition: 0.3s; letter-spacing: 0.5px; color: #753E31;
+opacity: 0.5; font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: normal;}
+.inputAnimation:focus ~ label, .has-content.inputAnimation ~ label{top: 8px; left:20px; font-size: 12px; color: #753E31; transition: 0.3s; font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: normal;}
+
+.btn_position{
+  padding: 10px 0 10px 0;
+}
+
+@media (max-width:1000px) {
+  .btn_position{
+    padding: 10px 0 10px 0;
+  }
+}
+
+
+.hr{
+  width: 576px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width:1000px) {
+  .hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 280px;
+  }
+}
+
+.btn_zakaz{
+  cursor: pointer;
+  width: 257px;
+  height: 70px;
+  padding: 20px;
+  /* Orange 60 */
+  background: #FF4C25;
+  border-radius: 50px;
+  border: none;
+
+  font-family: Circe Bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 31px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+ .card_pay{
+   width: 378px;
+height: 320px;
+
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+box-shadow: 0px 20px 45px rgba(117, 62, 49, 0.12);
+border-radius: 20px;
+}
+
+@media (max-width:1000px) {
+.card_pay{
+  width: 300px;
+height: 300px;
+font-size: 16px;
+}
+}
+
+.card_pay_title{
+  position: relative;
+  font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+top:60px;
+left:60px;
+color: #753E31;
+}
+
+@media (max-width:1000px) {
+.card_pay_title{
+  left:25px;
+}
+}
+
+
+.card_pay_cost{
+  position: relative;
+  font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+top:60px;
+left:60px;
+color: #753E31;
+}
+
+@media (max-width:1000px) {
+.card_pay_cost{
+  left:25px;
+}
+}
+
+.card_pay_skidka{
+  position: relative;
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  top:80px;
+  left:60px;
+  color: #753E31;
+}
+
+@media (max-width:1000px) {
+.card_pay_skidka{
+  left:25px;
+}
+}
+
+.card_pay_cost_skidka{
+  position: relative;
+  font-family: Balsamiq Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+top:80px;
+left:60px;
+color: #FF4C25;
+}
+
+@media (max-width:1000px) {
+.card_pay_cost_skidka{
+  left:25px;
+}
+}
+
+.card_hr{
+  position: relative;
+  border: 1px solid #F5EEEC;
+  top:100px;
+  width: 244px;
+}
+
+.card_pay_oplata{
+  position: relative;
+  top:120px;
+  left:60px;
+}
+
+@media (max-width:1000px) {
+.card_pay_oplata{
+  left:25px;
+}
+}
+
+.check_mobile{
+  margin-top:20px;
+}

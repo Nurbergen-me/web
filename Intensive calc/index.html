@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calc</title>
+    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="tabs">
+            <div class="tabs__item active" id="blocks-block">
+                Лэндинг
+            </div>
+            <div class="tabs__item" id="pages-block">
+                Многостраничник
+            </div>
+        </div>
+        <div class="prices blocks-block">
+            <div class="prices__item">
+                <div class="prices__title">
+                    Количество блоков
+                </div>
+                <input type="number" class="counter" id="counter-block">
+            </div>
+            <div class="prices__item" id="count-pages">
+                <div class="prices__title">
+                    Количество страниц
+                </div>
+                <input type="number" class="counter" id="counter-block">
+            </div>
+            <div class="prices__item">
+                <div class="prices__title">
+                    Сколько часов на проект
+                </div>
+                <input type="number" class="counter" id="counter-hour">
+            </div>
+            <div class="prices__item">
+                <div class="prices__title">
+                    Стоимость вашего часа
+                </div>
+                <input type="number" class="counter" id="counter-time">
+            </div>
+        </div>
+        <div class="more">
+            <h2 class="more__title">
+                Дополнительно
+            </h2>
+            <div class="more__check">
+                <div class="more__item">
+                    <input type="checkbox" class="checkbox" id="changes-checkbox">
+                    <div class="more__name">
+                        Возможность редактировать текст на сайте
+                    </div>
+                </div>
+                <div class="more__item">
+                    <input type="checkbox" class="checkbox" id="changes-checkbox">
+                    <div class="more__name">
+                        Установка на CMS
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="total">
+            <div class="total__text">
+                Общая стоимость
+            </div>
+            <input type="number" class="total__input" id="total-value" value="5000">
+        </div>
+    </div>
+</body>
+</html>

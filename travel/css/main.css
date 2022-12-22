@@ -1,0 +1,403 @@
+@font-face {
+  font-family: 'AvertaCY-Regular';
+  src: url('../fonts/AvertaCY-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvertaCY-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvertaCY-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AvertaCY-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvertaCY-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'AvertaCY-Thin';
+  src: url('../fonts/AvertaCY-Thin.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvertaCY-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvertaCY-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AvertaCY-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvertaCY-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'AvertaCY-Bold';
+  src: url('../fonts/AvertaCY-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvertaCY-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvertaCY-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AvertaCY-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvertaCY-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'AvertaCY-Extrabold';
+  src: url('../fonts/AvertaCY-Extrabold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvertaCY-Extrabold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvertaCY-Extrabold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AvertaCY-Extrabold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvertaCY-Extrabold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'AvertaCY-Black';
+  src: url('../fonts/AvertaCY-Black.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvertaCY-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvertaCY-Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AvertaCY-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvertaCY-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+	font-family: 'AvertaCY-Regular', sans-serif;
+	color: #0B2A5A;
+	line-height: 1.25em;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'AvertaCY-Extrabold';
+	color: #fff;
+}
+
+h2 {
+	font-family: 'AvertaCY-Bold';
+	font-size: 35px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'AvertaCY-Bold';
+	margin-top: 88px;
+	margin-bottom: 55px;
+	font-size: 30px;
+}
+
+h4 {
+	font-family: 'AvertaCY-Black';
+	font-size: 25px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.25em;
+}
+
+a {
+	font-size: 20px;
+	font-family: 'AvertaCY-Bold';
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+::selection {
+    background: #9c27b0;
+    color: #fff;
+}
+
+
+/*   --------------        header       -----------------------  */
+
+.header-main {
+	background: url('../img/bg-main.png') no-repeat center bottom / cover;
+	padding-top: 19px;
+	padding-bottom: 196px;
+}
+
+.menu {
+	margin: auto;
+	margin-top: 7px;
+	max-width: 450px;
+}
+
+a {
+	transition: 0.5s ease;
+}
+
+.contacts {
+	text-align: right;
+	margin-top: 27px;
+}
+
+.contacts__tel {
+	position: relative;
+	margin-bottom: 7px;
+	display: inline-block;
+}
+
+.contacts__tel-sm {
+	display: none;
+}
+
+.contacts__tel:before {
+	content: '';
+	background: url('../img/tel.png') no-repeat center;
+	height: 32px;
+	width: 32px;
+	position: absolute;
+	left: -40px;
+}
+
+.form {
+	margin-top: 82px;
+	background: rgba(255, 255, 255, 0.2);
+	/*filter: blur(5px);*/
+	border-radius: 5px;
+	color: #fff;
+	padding: 33px 40px 30px;
+	text-align: center;
+	width: 300px;
+	transition: 0.5s ease;
+}
+
+.form__title {
+	opacity: 0.8;
+	margin-bottom: 7px;
+	font-family: 'AvertaCY-Bold';
+}
+
+.form__text {
+	opacity: 0.7;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.form__input, .form__area {
+	display: block;
+	color: #fff;
+	margin: auto;
+	background: transparent;
+	width: 217px;
+	height: 43px;
+	border: 1px solid #fff;
+	padding: 13px 16px;
+	font-size: 12px;
+	margin-bottom: 13px;
+	outline: none;
+}
+
+.form__input::placeholder, .form__area::placeholder {
+	color: rgba(255,255,255,0.4);
+}
+
+.form__area {
+	height: 97px;
+	resize: none;
+}
+
+.main-btn {
+	width: 217px;
+	background: #F44444;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-family: 'AvertaCY-Bold';
+	padding: 11px 0;
+	display: block;
+	margin: auto;
+	transition: 0.5s ease;
+}
+
+.main-btn:hover {
+	background: #d14040;
+	color: #fff;
+}
+
+.form__safe {
+	font-size: 10px;
+	opacity: 0.6;
+	margin-top: 10px;
+}
+
+.trip__item {
+	position: relative;
+	overflow: hidden;
+	height: 402px;
+}
+
+.trip__img-md {
+	display: none;
+}
+
+.trip__about {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	transition: 0.5s ease;
+}
+
+.trip__about:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.trip__title {
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #FFFFFF;
+	border-left: 3px solid #fff;
+	padding: 5px;
+	color: #fff;
+	width: 190px;
+}
+
+.trip__btn {
+	text-align: center;
+}
+
+.about__wrap {
+	overflow: hidden;
+	height: 100%;
+}
+
+.about__img {
+	height: 100%;
+}
+
+.about__img-md, .about__img-sm {
+	display: none;
+}
+
+.about__text {
+	line-height: 1.25em;
+}
+
+.about__text span {
+	font-family: 'AvertaCY-Bold';
+}
+
+.about__item {
+	margin-top: 66px;
+	text-align: center;
+}
+.about__pros {
+	line-height: 1.25em;
+	width: 235px;
+	margin: auto;
+	margin-top: 7px;
+	font-family: 'AvertaCY-Bold';
+}
+
+.posts {
+	padding-bottom: 88px;
+}
+
+.posts__item {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.posts__img {
+	width: 100%;
+}
+
+.posts__text {
+	padding: 15px 20px;
+	font-size: 16px;
+}
+
+.posts__last {
+	background: #0B2A5A;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 12px;
+}
+
+.posts__from {
+	font-family: 'AvertaCY-Bold';
+	font-size: 12px;
+}
+
+.footer {
+	background: #1E0D1C;
+	padding: 84px 0 104px;
+}
+
+
+/*   --------------        desk       -----------------------  */
+
+.wrapper {
+	background: url('../img/Rectangle.png') no-repeat center top / cover;
+	margin-right: 120px;
+}
+
+.wrapper h4 {
+	font-family: 'AvertaCY-Bold';
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.wrapper section, .wrapper header {
+	margin-left: 120px;
+}
+
+.wrapper a {
+	color: #0B2A5A;
+}
+
+.desk__img {
+	width: 100%;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.desk {
+	margin-top: 94px;
+}
+
+.desk__prev {
+	width: 100%;
+}
+
+.desk__prev .url {
+	width: 33%;
+	display: inline-block;
+	margin-top: 3px;
+}
+
+.desk__min {
+	width: 100%;
+}
+
+.owl-dots {
+	display: none;
+}
+
+.tips {
+	padding-bottom: 90px;
+}
+
+.tips h4 {
+	margin-bottom: 24px;
+	margin-top: 50px;
+}
+
+.time__text {
+	background-color: #fff;
+	padding: 46px 50px 42px 60px;
+}
+
+.time__text span {
+	font-family: 'AvertaCY-Bold';
+}
+
+.contacts__post:before {
+	background: url('../img/phone-post.png') no-repeat center;
+}
+
+.use__text {
+	padding: 70px 85px 580px 100px;
+	width: 90%;
+	margin: auto;
+}

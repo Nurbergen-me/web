@@ -1,0 +1,49 @@
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.item {
+	position: relative;
+	transition: all 0.5s ease; 
+	width: 19%;
+	cursor: pointer;
+}
+
+.item-img {
+	width: 100%;
+	height: 100%;
+}
+
+.item-overlay {
+	background: rgba(0,0,0,0.64);
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.5s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item:hover .item-overlay {
+	opacity: 1;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.d-none {
+  display: none;
+}

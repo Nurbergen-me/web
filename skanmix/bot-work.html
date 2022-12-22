@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SkanMix</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-3">
+					<div class="logo-wrap">
+						<img src="img/logo.png" alt="" class="logo">
+					</div>
+				</div>
+				<div class="col-md-7 d-none d-md-block">
+					<div class="menu d-flex justify-content-between">
+						<li class="menu__item">
+							<a href="#">
+								Live-Vilki
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								BOT 1.0
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								История
+							</a>
+						</li>
+						<li class="menu__item beta">
+							<a href="#">
+								Академия
+							</a>
+						</li>
+					</div>
+				</div>
+				<div class="col-md-2 d-none d-md-block">
+					<div class="user d-flex ml-auto">
+						<div class="user__text">
+							ID
+						</div>
+						<a href="#" class="user__id">
+							123123
+							<img src="img/arrow-down.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-2 ml-auto d-md-none">
+					<div class="ham">
+						<div class="ham__item"></div>
+						<div class="ham__item"></div>
+						<div class="ham__item"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="inst inst_source" id="inst">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="inst__prof">
+						<div class="prof__name">
+							Инструкция
+						</div>
+						<div class="prof__act">
+							Сменить профиль
+							<img src="img/arrow-down.png" alt="">
+						</div>
+						<div class="prof__status">
+							Бот:  <span>Активен</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="source" id="source">
+		<div class="filter">
+			<div class="filter__body">
+				
+			</div>
+			<a href="#" class="filter__fham">
+				<div class="fham__line"></div>
+				<div class="fham__line"></div>
+				<div class="fham__line"></div>
+			</a>
+		</div>
+		<div class="container">
+			<div class="row justify-content-around">
+				<div class="col-md-6">
+					<div class="source__type">
+						<h2 class="source__name">
+							Бет 365
+						</h2>
+						<div class="source__info">
+							<div class="source__item">
+								<div class="source__text">
+									Баланс
+								</div>
+								<div class="source__number">
+									12312 руб.
+								</div>
+							</div>
+							<div class="source__item">
+								<div class="source__text">
+									Статус
+								</div>
+								<div class="source__status">
+									Активен
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="source__type">
+						<h2 class="source__name">
+							Марафон бет
+						</h2>
+						<div class="source__info">
+							<div class="source__item">
+								<div class="source__text">
+									Баланс
+								</div>
+								<div class="source__number">
+									12312 руб.
+								</div>
+							</div>
+							<div class="source__item">
+								<div class="source__text">
+									Статус
+								</div>
+								<div class="source__status">
+									Активен
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="tools" id="tools">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="tools__item">
+						<h4 class="tools__title">
+							Фильтр
+						</h4>
+						<div class="tools__row d-flex align-items-center justify-content-between">
+							<div class="tools__side">
+								<select name="day[]" class="tools__select">
+									<option value="Сегодня">Сегодня</option>
+									<option value="Завтра">Завтра</option>
+									<option value="Послезавтра">Послезавтра</option>
+								</select>
+								<select name="type[]" class="tools__select">
+									<option value="Футбол">Футбол</option>
+									<option value="Хоккей">Хоккей</option>
+								</select>
+							</div>
+							<div class="tools__side">
+								<div class="tools__date">
+									<span>С</span>
+									<input type="text" class="tools__input" placeholder="22.02.22">
+								</div>
+								<div class="tools__date">
+									<span>До</span>
+									<input type="text" class="tools__input" placeholder="22.02.22">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tools__item tools-income">
+						<h4 class="tools__title">
+							Доходы
+						</h4>
+						<div class="tools__row d-flex justify-content-between">
+							<div class="tools__side">
+								<div class="tools__income">
+									Всево заработано:
+								</div>
+								<span>140 034 руб</span>
+							</div>
+							<div class="tools__side">
+								<div class="tools__income">
+									Средний % дохода:
+								</div>
+								<span>3.45%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
